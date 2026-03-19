@@ -1,0 +1,49 @@
+---
+title: "Červené víno pro začátečníky"
+description: "Nevíte, kde začít s červeným vínem? Přinášíme průvodce odrůdami, chutěmi a základy degustace pro nováčky."
+date: 2026-03-17
+category: "cervene-vino"
+categoryLabel: "Červené víno"
+tags: ["červené víno", "začátečníci", "průvodce", "degustace"]
+productLinks:
+  - title: "Modrý Portugal 2024"
+    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2023"
+    url: "https://www.ustipcaku.cz"
+---
+
+Červené víno může být na první ochutnání trochu záhadné. Taniny, tělo, délka — co to všechno znamená? Nebojte se, projdeme si to krok za krokem.
+
+## Začněte lehkými víny
+
+Pokud s červeným vínem teprve začínáte, nesahejte hned po těžkém Cabernetu. Začněte s lehčími odrůdami:
+
+- **Modrý Portugal** — lehké, ovocné, nenáročné
+- **Zweigeltrebe** — středně plné, s tóny třešní
+- **Svatovavřinecké** — klasika českého vinařství
+
+## Co jsou taniny?
+
+Taniny jsou přírodní látky obsažené ve slupkách hroznů. Způsobují ten svíravý, sušící pocit v ústech. Čím víc taninů, tím „tvrdší" víno působí.
+
+### Škála taninů
+
+1. **Nízké taniny:** Modrý Portugal, Gamay
+2. **Střední taniny:** Frankovka, Zweigeltrebe
+3. **Vysoké taniny:** Cabernet Sauvignon, Tannat
+
+## Správná teplota servírování
+
+Červené víno se nepije při pokojové teplotě! To je mýtus ze středověku, kdy pokojová teplota byla 16 °C.
+
+- **Lehká červená:** 14–16 °C
+- **Střední červená:** 16–18 °C
+- **Plná červená:** 17–19 °C
+
+## Dekantace — kdy ano a kdy ne
+
+Mladá, ovocná vína dekantovat nemusíte. Starší ročníky nebo tanická vína ale z dekantace profitují — vzduch zjemní taniny a otevře aroma.
+
+> Pravidlo: Pokud víno stojí přes 300 Kč, dejte mu alespoň 30 minut v dekantéru.
+
+Přijďte ochutnat naše červená vína U Štipčáků a najděte svého favorita!

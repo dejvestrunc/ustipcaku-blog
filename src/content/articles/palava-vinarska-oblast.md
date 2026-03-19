@@ -1,0 +1,46 @@
+---
+title: "Pálava — kde se rodí nejlepší moravská vína"
+description: "Pálavská podoblast je klenotem českého vinařství. Objevte, co dělá zdejší vína tak výjimečnými."
+date: 2026-03-08
+category: "vinarske-regiony"
+categoryLabel: "Vinařské regiony"
+tags: ["pálava", "vinařské regiony", "morava", "terroir"]
+productLinks:
+  - title: "Vína z Pálavské podoblasti"
+    url: "https://www.ustipcaku.cz"
+---
+
+Pálavské kopce jsou ikonickou siluetou moravského vinařství. Pod vápencovými útesy se rozprostírají vinice, které dávají jedny z nejcennějších českých vín.
+
+## Geografie a klima
+
+Pálava je nejvýchodnějším výběžkem Alp v České republice. Vápencové kopce (Děvín 554 m) vytvářejí unikátní mikroklima:
+
+- **Teplé jižní svahy** — ideální pro zrání hroznů
+- **Vápencové půdy** — dodávají vínům mineralitu
+- **Chladné noci** — zachovávají kyselinku
+- **Nízké srážky** — koncentrovanější hrozny
+
+## Odrůdy, kterým se tu daří
+
+### Ryzlink rýnský
+Král Pálavy. Vápencové půdy mu dodávají komplexní mineralitu, kterou jinde nenajdete.
+
+### Pálava (odrůda)
+Pojmenovaná přímo po kopci. Kříženec Mülleru Thurgau a Gewürztramineru. Aromatická, s vůní růží.
+
+### Rulandské šedé
+Na jižních svazích dosahuje plného těla a bohaté chuti s tóny medu a oříšků.
+
+## Vinařská města
+
+- **Mikulov** — historické centrum vinařství, zámek, náměstí plné sklepů
+- **Pavlov** — malebná vesnička pod Děvínem
+- **Dolní Dunajovice** — rodinná vinařství s osobním přístupem
+- **Perná** — klidná obec s výhledem na Novomlýnské nádrže
+
+## UNESCO
+
+Krajina Lednicko-valtického areálu, která s Pálavou sousedí, je zapsána na seznamu UNESCO. Kombinace přírodní a kulturní krajiny dělá z tohoto regionu jedno z nejkrásnějších míst pro vinařskou turistiku v Evropě.
+
+Poznejte vína z Pálavy v nabídce U Štipčáků!
