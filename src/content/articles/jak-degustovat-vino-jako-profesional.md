@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-2022/"
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"
-image: "/images/articles/jak-degustovat-vino-jako-profesional.svg"
+image: "https://images.unsplash.com/photo-1772891753024-5d78af4ff483?w=1200&h=720&fit=crop&q=80"
 ---
 
 Profesionální degustace není žádná věda — je to dovednost, kterou se může naučit každý. Stačí vědět, na co se zaměřit.

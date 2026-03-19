@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/palava-2024/"
   - title: "Rulandské bílé 2024"
     url: "https://www.ustipcaku.cz/rulandske-bile-2024/"
-image: "/images/articles/pruvodce-moravskymi-bilymi-viny.svg"
+image: "https://images.unsplash.com/photo-1656235123277-9ac111857004?w=1200&h=720&fit=crop&q=80"
 ---
 
 Jižní Morava je rájem bílých vín. Teplé klima, vápenité půdy a staletá tradice vinařství dávají zdejším bílým odrůdám nezaměnitelný charakter. Pojďme se podívat na ty nejzajímavější.

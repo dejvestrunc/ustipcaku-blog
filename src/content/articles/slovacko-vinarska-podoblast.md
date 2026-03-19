@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
   - title: "Tramín červený KRYO 2024"
     url: "https://www.ustipcaku.cz/tramin-cerveny-2024/"
-image: "/images/articles/slovacko-vinarska-podoblast.svg"
+image: "https://images.unsplash.com/photo-1755770746864-f33478c30afd?w=1200&h=720&fit=crop&q=80"
 ---
 
 Slovácko je největší vinařská podoblast České republiky. Rozkládá se od Uherského Hradiště po Strážnici a nabízí pestrou paletu vín.

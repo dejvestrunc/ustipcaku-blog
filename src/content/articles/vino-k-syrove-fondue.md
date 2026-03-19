@@ -10,7 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"
   - title: "Ryzlink Vlašský 2024"
     url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
-image: "/images/articles/vino-k-syrove-fondue.svg"
+image: "https://images.unsplash.com/photo-1512594282804-b5f400408c9d?w=1200&h=720&fit=crop&q=80"
 ---
 
 Sýrové fondue je zimní klasika. A správné víno k němu udělá z dobrého jídla nezapomenutelný zážitek.

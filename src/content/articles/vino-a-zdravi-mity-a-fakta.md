@@ -10,7 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-2022/"
   - title: "Merlot 2022"
     url: "https://www.ustipcaku.cz/merlot-2022/"
-image: "/images/articles/vino-a-zdravi-mity-a-fakta.svg"
+image: "https://images.unsplash.com/photo-1588585902923-7a6e2c392912?w=1200&h=720&fit=crop&q=80"
 ---
 
 „Sklenka červeného denně je zdravá." Slyšeli jste to mnohokrát. Ale co na to říká současná věda?
