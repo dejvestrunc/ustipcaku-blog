@@ -13,13 +13,11 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 
-const allArticles = await getCollection('articles');
-const relatedArticles = allArticles
-  .filter(a => a.id !== article.id && a.data.category === article.data.category)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+const allArticles = (await getCollection('articles'))
+  .filter(a => a.id !== article.id)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<ArticleLayout article={article} relatedArticles={relatedArticles}>
+<ArticleLayout article={article} remainingArticles={allArticles}>
   <Content />
 </ArticleLayout>

@@ -1,0 +1,142 @@
+---
+interface Props {
+  batchSize?: number;
+}
+
+const { batchSize = 12 } = Astro.props;
+---
+
+<div class="infinite-scroll-wrapper" data-batch-size={batchSize}>
+  <slot />
+  <div class="infinite-scroll-sentinel" aria-hidden="true"></div>
+  <div class="infinite-scroll-loader" aria-hidden="true">
+    <div class="spinner"></div>
+  </div>
+  <div class="infinite-scroll-end" aria-hidden="true">
+    <p>Žádné další články</p>
+  </div>
+</div>
+
+<script>
+  function initInfiniteScroll() {
+    const wrappers = document.querySelectorAll('.infinite-scroll-wrapper');
+
+    wrappers.forEach(wrapper => {
+      const batchSize = parseInt(wrapper.getAttribute('data-batch-size') || '12', 10);
+      const items = wrapper.querySelectorAll(':scope > .card, :scope > .articles-grid > .card');
+      const sentinel = wrapper.querySelector('.infinite-scroll-sentinel');
+      const loader = wrapper.querySelector('.infinite-scroll-loader');
+      const end = wrapper.querySelector('.infinite-scroll-end');
+
+      if (!sentinel || !loader || !end) return;
+
+      // If using a grid container, get items from there
+      const grid = wrapper.querySelector('.articles-grid');
+      const allItems = grid
+        ? Array.from(grid.children).filter(el => el.classList.contains('card'))
+        : Array.from(items);
+
+      if (allItems.length === 0) return;
+
+      let shown = 0;
+
+      // Hide all items initially
+      allItems.forEach(item => {
+        (item as HTMLElement).style.display = 'none';
+      });
+
+      function showNextBatch() {
+        const nextBatch = allItems.slice(shown, shown + batchSize);
+        if (nextBatch.length === 0) {
+          (loader as HTMLElement).style.display = 'none';
+          (end as HTMLElement).style.display = 'block';
+          observer.disconnect();
+          return;
+        }
+
+        nextBatch.forEach(item => {
+          (item as HTMLElement).style.display = '';
+          (item as HTMLElement).style.animation = 'fadeInUp 0.3s ease forwards';
+        });
+
+        shown += nextBatch.length;
+
+        if (shown >= allItems.length) {
+          (loader as HTMLElement).style.display = 'none';
+          (end as HTMLElement).style.display = 'block';
+          observer.disconnect();
+        }
+      }
+
+      // Show first batch immediately
+      showNextBatch();
+
+      const observer = new IntersectionObserver(
+        entries => {
+          if (entries[0].isIntersecting) {
+            (loader as HTMLElement).style.display = 'flex';
+            // Small delay for visual feedback
+            setTimeout(() => {
+              showNextBatch();
+              if (shown < allItems.length) {
+                (loader as HTMLElement).style.display = 'none';
+              }
+            }, 200);
+          }
+        },
+        { rootMargin: '200px' }
+      );
+
+      observer.observe(sentinel);
+    });
+  }
+
+  // Run on initial load and on Astro page transitions
+  initInfiniteScroll();
+  document.addEventListener('astro:after-swap', initInfiniteScroll);
+</script>
+
+<style>
+  .infinite-scroll-sentinel {
+    height: 1px;
+    width: 100%;
+  }
+
+  .infinite-scroll-loader {
+    display: none;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--color-border);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  .infinite-scroll-end {
+    display: none;
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import InfiniteScroll from '../../components/InfiniteScroll.astro';
 import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
@@ -37,19 +38,21 @@ const articles = (await getCollection('articles'))
 
   <section class="articles container">
     {articles.length > 0 ? (
-      <div class="articles-grid">
-        {articles.map(article => (
-          <ArticleCard
-            title={article.data.title}
-            description={article.data.description}
-            date={article.data.date}
-            category={article.data.category}
-            categoryLabel={article.data.categoryLabel}
-            slug={article.id}
-            image={article.data.image}
-          />
-        ))}
-      </div>
+      <InfiniteScroll batchSize={12}>
+        <div class="articles-grid">
+          {articles.map(article => (
+            <ArticleCard
+              title={article.data.title}
+              description={article.data.description}
+              date={article.data.date}
+              category={article.data.category}
+              categoryLabel={article.data.categoryLabel}
+              slug={article.id}
+              image={article.data.image}
+            />
+          ))}
+        </div>
+      </InfiniteScroll>
     ) : (
       <p class="no-articles">V této kategorii zatím nejsou žádné články.</p>
     )}

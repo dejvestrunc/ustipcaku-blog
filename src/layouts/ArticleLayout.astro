@@ -3,14 +3,15 @@ import BaseLayout from './BaseLayout.astro';
 import CategoryBadge from '../components/CategoryBadge.astro';
 import ProductCTA from '../components/ProductCTA.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import InfiniteScroll from '../components/InfiniteScroll.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   article: CollectionEntry<'articles'>;
-  relatedArticles: CollectionEntry<'articles'>[];
+  remainingArticles: CollectionEntry<'articles'>[];
 }
 
-const { article, relatedArticles } = Astro.props;
+const { article, remainingArticles } = Astro.props;
 const { title, description, date, category, categoryLabel, tags, productLinks, image } = article.data;
 
 const formattedDate = date.toLocaleDateString('cs-CZ', {
@@ -32,7 +33,7 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     </header>
 
     {image && (
-      <img src={image} alt={title} class="article-hero" />
+      <img src={image} alt={title} class="article-hero" loading="eager" />
     )}
 
     <div class="article-content">
@@ -52,22 +53,24 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     )}
   </article>
 
-  {relatedArticles.length > 0 && (
-    <section class="related container">
+  {remainingArticles.length > 0 && (
+    <section class="more-articles container">
       <h2>Další články</h2>
-      <div class="related-grid">
-        {relatedArticles.map(related => (
-          <ArticleCard
-            title={related.data.title}
-            description={related.data.description}
-            date={related.data.date}
-            category={related.data.category}
-            categoryLabel={related.data.categoryLabel}
-            slug={related.id}
-            image={related.data.image}
-          />
-        ))}
-      </div>
+      <InfiniteScroll batchSize={6}>
+        <div class="articles-grid">
+          {remainingArticles.map(a => (
+            <ArticleCard
+              title={a.data.title}
+              description={a.data.description}
+              date={a.data.date}
+              category={a.data.category}
+              categoryLabel={a.data.categoryLabel}
+              slug={a.id}
+              image={a.data.image}
+            />
+          ))}
+        </div>
+      </InfiniteScroll>
     </section>
   )}
 </BaseLayout>
@@ -168,18 +171,20 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     color: var(--color-text-light);
   }
 
-  .related {
-    max-width: 1000px;
+  .more-articles {
+    max-width: var(--max-width);
+    padding-top: 2rem;
     padding-bottom: 2rem;
+    border-top: 2px solid var(--color-border);
   }
 
-  .related h2 {
+  .more-articles h2 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     color: var(--color-primary);
   }
 
-  .related-grid {
+  .articles-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
@@ -188,6 +193,10 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
   @media (max-width: 600px) {
     .article-header h1 {
       font-size: 1.75rem;
+    }
+
+    .articles-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
