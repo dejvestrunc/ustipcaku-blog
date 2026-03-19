@@ -1,0 +1,45 @@
+name: Publish Wine Article
+
+on:
+  schedule:
+    # Every 3 days at 8:00 UTC (10:00 CET)
+    - cron: '0 8 */3 * *'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-article.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Lumír (AI Wine Blogger)"
+          git config user.email "lumir@ustipcaku.cz"
+          git add src/content/articles/
+          NEW_FILE=$(git diff --cached --name-only | head -1 | xargs basename 2>/dev/null || echo "new-article")
+          git commit -m "feat: new wine article - $NEW_FILE" || echo "No changes to commit"
+          git push
+
+      - name: Trigger Coolify redeploy
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ secrets.COOLIFY_API_KEY }}" \
+            "https://coolify.galadriel.mdfx.cz/api/v1/applications/f10jbwbdup4npj720gmnyg9p/restart"
