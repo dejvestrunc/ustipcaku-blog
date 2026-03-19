@@ -6,8 +6,10 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["terroir", "vinařství", "vzdělávání", "morava"]
 productLinks:
-  - title: "Ryzlink rýnský — pozdní sběr 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+  - title: "Ryzlink Rýnský 2021"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2021/"
 ---
 
 Slovo „terroir" (čtěte terroár) slyšíte u vína neustále. Ale co to vlastně znamená?

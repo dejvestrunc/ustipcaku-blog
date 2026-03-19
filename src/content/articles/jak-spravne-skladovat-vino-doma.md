@@ -6,8 +6,12 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["skladování", "tipy", "teplota", "domácnost"]
 productLinks:
-  - title: "Vína k založení domácí sbírky"
-    url: "https://www.ustipcaku.cz"
+  - title: "Ryzlink Rýnský 2021"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2021/"
+  - title: "Cabernet Moravia 2022"
+    url: "https://www.ustipcaku.cz/cabernet-moravia-2022/"
+  - title: "Hibernal Slámovka 2021"
+    url: "https://www.ustipcaku.cz/hibernal-slamovka-2021/"
 ---
 
 Koupili jste si pár lahví dobrého vína a chcete ho uschovat na správný moment? Správné skladování je klíč.

@@ -6,10 +6,10 @@ category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "začátečníci", "průvodce", "degustace"]
 productLinks:
-  - title: "Modrý Portugal 2024"
-    url: "https://www.ustipcaku.cz"
-  - title: "Frankovka 2023"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Dornfelder 2022+2023"
+    url: "https://www.ustipcaku.cz/dornfelder-2022-2023/"
 ---
 
 Červené víno může být na první ochutnání trochu záhadné. Taniny, tělo, délka — co to všechno znamená? Nebojte se, projdeme si to krok za krokem.

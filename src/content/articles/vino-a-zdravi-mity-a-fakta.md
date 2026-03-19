@@ -6,8 +6,10 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["zdraví", "resveratrol", "mýty", "věda"]
 productLinks:
-  - title: "Červená vína bohatá na antioxidanty"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Merlot 2022"
+    url: "https://www.ustipcaku.cz/merlot-2022/"
 ---
 
 „Sklenka červeného denně je zdravá." Slyšeli jste to mnohokrát. Ale co na to říká současná věda?

@@ -6,10 +6,10 @@ category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["fondue", "sýr", "párování", "zima"]
 productLinks:
-  - title: "Veltlínské zelené 2024"
-    url: "https://www.ustipcaku.cz"
-  - title: "Ryzlink vlašský 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Veltlínské zelené 2022"
+    url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"
+  - title: "Ryzlink Vlašský 2024"
+    url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
 ---
 
 Sýrové fondue je zimní klasika. A správné víno k němu udělá z dobrého jídla nezapomenutelný zážitek.

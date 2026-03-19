@@ -6,8 +6,12 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["tipy", "nákup", "chyby", "výběr"]
 productLinks:
-  - title: "Kvalitní vína za rozumnou cenu"
-    url: "https://www.ustipcaku.cz"
+  - title: "Neuburské & Aurelius 2024"
+    url: "https://www.ustipcaku.cz/neuburske-aurelius-2024/"
+  - title: "Sylvánské zelené 2024"
+    url: "https://www.ustipcaku.cz/sylvanske-zelene-2024/"
+  - title: "Děvín 2024"
+    url: "https://www.ustipcaku.cz/devin/"
 ---
 
 Výběr vína nemusí být stresující. Stačí se vyhnout pár klasickým chybám.

@@ -6,8 +6,10 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["bio", "přírodní víno", "ekologie", "vinařství"]
 productLinks:
-  - title: "Naše přírodní vína"
-    url: "https://www.ustipcaku.cz"
+  - title: "Noria 2024"
+    url: "https://www.ustipcaku.cz/noria-2024/"
+  - title: "Bayas 2024"
+    url: "https://www.ustipcaku.cz/bayas-2024/"
 ---
 
 „Bio" a „natural" jsou dnes módní slova ve světě vína. Ale znamenají totéž? Rozhodně ne.

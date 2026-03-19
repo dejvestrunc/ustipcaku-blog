@@ -6,10 +6,10 @@ category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["grilování", "maso", "párování", "léto"]
 productLinks:
-  - title: "Frankovka 2023"
-    url: "https://www.ustipcaku.cz"
-  - title: "Ryzlink rýnský 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
 ---
 
 Grilujete a nevíte, jaké víno otevřít? Záleží hlavně na tom, co je na roštu.

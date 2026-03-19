@@ -6,10 +6,12 @@ category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["bílé víno", "morava", "odrůdy", "průvodce"]
 productLinks:
-  - title: "Veltlínské zelené 2024"
-    url: "https://www.ustipcaku.cz"
-  - title: "Muškát moravský 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Veltlínské zelené 2022"
+    url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
+  - title: "Rulandské bílé 2024"
+    url: "https://www.ustipcaku.cz/rulandske-bile-2024/"
 ---
 
 Jižní Morava je rájem bílých vín. Teplé klima, vápenité půdy a staletá tradice vinařství dávají zdejším bílým odrůdám nezaměnitelný charakter. Pojďme se podívat na ty nejzajímavější.

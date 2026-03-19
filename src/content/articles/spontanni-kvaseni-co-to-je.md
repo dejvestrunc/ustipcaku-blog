@@ -6,8 +6,10 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["spontánní kvašení", "přírodní víno", "výroba", "kvasinky"]
 productLinks:
-  - title: "Spontánně kvašená vína"
-    url: "https://www.ustipcaku.cz"
+  - title: "Noria 2024"
+    url: "https://www.ustipcaku.cz/noria-2024/"
+  - title: "Bayas 2024"
+    url: "https://www.ustipcaku.cz/bayas-2024/"
 ---
 
 U Štipčáků se specializujeme na spontánně kvašená vína. Co to vlastně znamená a proč věříme, že je to ta správná cesta?

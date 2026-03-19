@@ -6,8 +6,12 @@ category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé", "sekt", "prosecco", "metody výroby"]
 productLinks:
-  - title: "Frizzante bílé"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frizzante 2024"
+    url: "https://www.ustipcaku.cz/frizzante-2024/"
+  - title: "Frizzante 2023 polosuché"
+    url: "https://www.ustipcaku.cz/frizzante-2023/"
+  - title: "PET-NAT Ryzlink Vlašský 2020"
+    url: "https://www.ustipcaku.cz/pet-nat/"
 ---
 
 Všechno bublá, ale ne všechno je šampaňské. Pojďme si ujasnit pojmy.

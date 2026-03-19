@@ -6,8 +6,12 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["degustace", "vzdělávání", "techniky", "sommelier"]
 productLinks:
-  - title: "Degustační sety"
-    url: "https://www.ustipcaku.cz"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
 ---
 
 Profesionální degustace není žádná věda — je to dovednost, kterou se může naučit každý. Stačí vědět, na co se zaměřit.

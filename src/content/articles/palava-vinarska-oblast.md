@@ -6,8 +6,12 @@ category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["pálava", "vinařské regiony", "morava", "terroir"]
 productLinks:
-  - title: "Vína z Pálavské podoblasti"
-    url: "https://www.ustipcaku.cz"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+  - title: "Rulandské šedé 2024"
+    url: "https://www.ustipcaku.cz/rulandske-sede-2024/"
 ---
 
 Pálavské kopce jsou ikonickou siluetou moravského vinařství. Pod vápencovými útesy se rozprostírají vinice, které dávají jedny z nejcennějších českých vín.

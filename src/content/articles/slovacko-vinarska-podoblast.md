@@ -6,8 +6,12 @@ category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["slovácko", "vinařské regiony", "morava", "tradice"]
 productLinks:
-  - title: "Slovácká vína"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Ryzlink Vlašský 2024"
+    url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
+  - title: "Tramín červený KRYO 2024"
+    url: "https://www.ustipcaku.cz/tramin-cerveny-2024/"
 ---
 
 Slovácko je největší vinařská podoblast České republiky. Rozkládá se od Uherského Hradiště po Strážnici a nabízí pestrou paletu vín.

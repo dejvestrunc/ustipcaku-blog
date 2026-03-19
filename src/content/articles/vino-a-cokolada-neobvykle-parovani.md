@@ -6,8 +6,10 @@ category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["párování", "čokoláda", "dezerty", "tipy"]
 productLinks:
-  - title: "Modrý Portugal 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
+  - title: "Merlot 2022"
+    url: "https://www.ustipcaku.cz/merlot-2022/"
 ---
 
 Čokoláda a víno — dva životní požitky, které se mohou buď úžasně doplňovat, nebo vzájemně ničit. Záleží na tom, jak je spárujete.

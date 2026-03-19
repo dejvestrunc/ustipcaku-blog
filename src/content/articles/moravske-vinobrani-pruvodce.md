@@ -6,8 +6,12 @@ category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["vinobraní", "festivaly", "morava", "tradice"]
 productLinks:
-  - title: "Vína z letošní sklizně"
-    url: "https://www.ustipcaku.cz"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
+  - title: "Frizzante 2024"
+    url: "https://www.ustipcaku.cz/frizzante-2024/"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
 ---
 
 Vinobraní patří k největším slavnostem jižní Moravy. Každý rok v září a říjnu se vinařské obce promění v jeden velký festival vína, jídla a hudby.

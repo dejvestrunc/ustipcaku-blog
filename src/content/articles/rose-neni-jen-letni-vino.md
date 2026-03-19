@@ -6,8 +6,10 @@ category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé", "celoroční", "párování", "trendy"]
 productLinks:
-  - title: "Rosé cuvée 2024"
-    url: "https://www.ustipcaku.cz"
+  - title: "Frankovka Rosé 2019"
+    url: "https://www.ustipcaku.cz/frankovka-rose-2019/"
+  - title: "Frizzante 2023 polosuché"
+    url: "https://www.ustipcaku.cz/frizzante-2023/"
 ---
 
 Rosé má nálepku letního vína na terasu. Je to nespravedlivé — kvalitní rosé je univerzální víno, které zvládne i těžší pokrmy a chladnější měsíce.

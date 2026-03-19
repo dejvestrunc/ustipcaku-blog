@@ -6,8 +6,12 @@ category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["etiketa", "vzdělávání", "kategorie", "tipy"]
 productLinks:
-  - title: "Prohlédněte si naše vína"
-    url: "https://www.ustipcaku.cz"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
+  - title: "Chardonnay 2023"
+    url: "https://www.ustipcaku.cz/chardonnay-2023/"
 ---
 
 Stojíte v obchodě před regálem vín a nevíte, co si vybrat. Etiketa vám napoví víc, než si myslíte.

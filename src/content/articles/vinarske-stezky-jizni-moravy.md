@@ -6,8 +6,12 @@ category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["vinařské stezky", "morava", "výlety", "cyklistika"]
 productLinks:
-  - title: "Ochutnejte naše vína"
-    url: "https://www.ustipcaku.cz"
+  - title: "Pálava 2024"
+    url: "https://www.ustipcaku.cz/palava-2024/"
+  - title: "Ryzlink Rýnský 2023"
+    url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+  - title: "Frankovka 2022+2023"
+    url: "https://www.ustipcaku.cz/frankovka-2022/"
 ---
 
 Jižní Morava nabízí přes 1 200 km značených vinařských stezek. Ať už jste cyklista nebo pěšák, čeká vás krajina plná vinic, sklípků a nezapomenutelných zážitků.
