@@ -10,6 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-2022/"
   - title: "Ryzlink Rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
+image: "/images/articles/vino-k-grilovanemu-masu.svg"
 ---
 
 Grilujete a nevíte, jaké víno otevřít? Záleží hlavně na tom, co je na roštu.

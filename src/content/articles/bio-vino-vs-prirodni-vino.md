@@ -10,6 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/noria-2024/"
   - title: "Bayas 2024"
     url: "https://www.ustipcaku.cz/bayas-2024/"
+image: "/images/articles/bio-vino-vs-prirodni-vino.svg"
 ---
 
 „Bio" a „natural" jsou dnes módní slova ve světě vína. Ale znamenají totéž? Rozhodně ne.

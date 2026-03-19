@@ -12,6 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/palava-2024/"
   - title: "Chardonnay 2023"
     url: "https://www.ustipcaku.cz/chardonnay-2023/"
+image: "/images/articles/jak-cist-etiketu-na-vinu.svg"
 ---
 
 Stojíte v obchodě před regálem vín a nevíte, co si vybrat. Etiketa vám napoví víc, než si myslíte.

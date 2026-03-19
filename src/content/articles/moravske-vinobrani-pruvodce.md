@@ -12,6 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frizzante-2024/"
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"
+image: "/images/articles/moravske-vinobrani-pruvodce.svg"
 ---
 
 Vinobraní patří k největším slavnostem jižní Moravy. Každý rok v září a říjnu se vinařské obce promění v jeden velký festival vína, jídla a hudby.

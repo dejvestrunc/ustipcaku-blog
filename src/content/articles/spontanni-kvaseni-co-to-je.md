@@ -10,6 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/noria-2024/"
   - title: "Bayas 2024"
     url: "https://www.ustipcaku.cz/bayas-2024/"
+image: "/images/articles/spontanni-kvaseni-co-to-je.svg"
 ---
 
 U Štipčáků se specializujeme na spontánně kvašená vína. Co to vlastně znamená a proč věříme, že je to ta správná cesta?

@@ -10,6 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
   - title: "Ryzlink Rýnský 2021"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2021/"
+image: "/images/articles/co-je-to-terroir.svg"
 ---
 
 Slovo „terroir" (čtěte terroár) slyšíte u vína neustále. Ale co to vlastně znamená?

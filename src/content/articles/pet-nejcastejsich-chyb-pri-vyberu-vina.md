@@ -12,6 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/sylvanske-zelene-2024/"
   - title: "Děvín 2024"
     url: "https://www.ustipcaku.cz/devin/"
+image: "/images/articles/pet-nejcastejsich-chyb-pri-vyberu-vina.svg"
 ---
 
 Výběr vína nemusí být stresující. Stačí se vyhnout pár klasickým chybám.

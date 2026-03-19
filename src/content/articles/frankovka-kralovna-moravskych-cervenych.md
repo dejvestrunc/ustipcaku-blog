@@ -12,6 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-merlot--cabernet-moravia/"
   - title: "Frankovka Rosé 2019"
     url: "https://www.ustipcaku.cz/frankovka-rose-2019/"
+image: "/images/articles/frankovka-kralovna-moravskych-cervenych.svg"
 ---
 
 Frankovka (Blaufränkisch) je odrůda, která na Moravě dává jedny z nejlepších červených vín střední Evropy. Přesto ji mnoho lidí přehlíží ve prospěch zahraničních odrůd.
