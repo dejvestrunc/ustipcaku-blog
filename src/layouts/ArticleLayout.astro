@@ -21,7 +21,7 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
 });
 ---
 
-<BaseLayout title={title} description={description} image={image}>
+<BaseLayout title={title} description={description} image={image} article={{ publishedDate: date.toISOString(), category, tags }}>
   <article class="article container">
     <header class="article-header">
       <div class="article-meta">
