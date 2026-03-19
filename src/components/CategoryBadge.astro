@@ -1,0 +1,29 @@
+---
+interface Props {
+  category: string;
+  label: string;
+}
+
+const { category, label } = Astro.props;
+---
+
+<a href={`/kategorie/${category}`} class="badge">{label}</a>
+
+<style>
+  .badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .badge:hover {
+    background: var(--color-primary-hover);
+    color: #fff;
+  }
+</style>

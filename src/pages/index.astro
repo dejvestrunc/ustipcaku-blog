@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="Blog o víně">
+  <section class="hero">
+    <div class="container">
+      <h1>Blog o víně</h1>
+      <p>Tipy, zajímavosti a příběhy ze světa moravského vinařství</p>
+    </div>
+  </section>
+
+  <section class="articles container">
+    <div class="category-filters">
+      <a href="/" class="filter active">Vše</a>
+      <a href="/kategorie/bile-vino" class="filter">Bílé víno</a>
+      <a href="/kategorie/cervene-vino" class="filter">Červené víno</a>
+      <a href="/kategorie/rose" class="filter">Rosé</a>
+      <a href="/kategorie/sumive" class="filter">Šumivé</a>
+      <a href="/kategorie/parovani-s-jidlem" class="filter">Párování s jídlem</a>
+      <a href="/kategorie/vinarske-regiony" class="filter">Vinařské regiony</a>
+      <a href="/kategorie/tipy-a-triky" class="filter">Tipy a triky</a>
+    </div>
+
+    {articles.length > 0 ? (
+      <div class="articles-grid">
+        {articles.map(article => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            date={article.data.date}
+            category={article.data.category}
+            categoryLabel={article.data.categoryLabel}
+            slug={article.id}
+            image={article.data.image}
+          />
+        ))}
+      </div>
+    ) : (
+      <p class="no-articles">Zatím tu nejsou žádné články. Brzy přidáme první!</p>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+    opacity: 0.9;
+  }
+
+  .articles {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .category-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .filter {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+    background: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    transition: all 0.2s;
+  }
+
+  .filter:hover,
+  .filter.active {
+    background: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .no-articles {
+    text-align: center;
+    color: var(--color-text-light);
+    padding: 4rem 0;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 1.75rem;
+    }
+
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

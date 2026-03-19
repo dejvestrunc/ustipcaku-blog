@@ -1,0 +1,163 @@
+---
+const categories = [
+  { label: 'Všechny články', href: '/' },
+  { label: 'Bílé víno', href: '/kategorie/bile-vino' },
+  { label: 'Červené víno', href: '/kategorie/cervene-vino' },
+  { label: 'Rosé', href: '/kategorie/rose' },
+  { label: 'Šumivé', href: '/kategorie/sumive' },
+  { label: 'Párování s jídlem', href: '/kategorie/parovani-s-jidlem' },
+  { label: 'Vinařské regiony', href: '/kategorie/vinarske-regiony' },
+  { label: 'Tipy a triky', href: '/kategorie/tipy-a-triky' },
+];
+---
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="https://www.ustipcaku.cz" class="logo" title="U Štipčáků — e-shop">
+      <img src="https://cdn.myshoptet.com/usr/www.ustipcaku.cz/user/logos/logo-ustipcaku-web-1.png" alt="U Štipčáků" height="50" />
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        {categories.map(cat => (
+          <li><a href={cat.href}>{cat.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://www.ustipcaku.cz" class="btn btn-accent">Koupit víno</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.getElementById('nav');
+  hamburger?.addEventListener('click', () => {
+    nav?.classList.toggle('open');
+    hamburger.classList.toggle('active');
+  });
+</script>
+
+<style>
+  .header {
+    background: #fff;
+    border-bottom: 2px solid var(--color-primary);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    gap: 1.5rem;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-list a {
+    display: block;
+    padding: 0.4rem 0.75rem;
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .nav-list a:hover {
+    background: var(--color-primary);
+    color: #fff;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--color-text);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+
+    .header-actions .btn {
+      display: none;
+    }
+
+    .nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-bottom: 2px solid var(--color-primary);
+      padding: 1rem;
+    }
+
+    .nav.open {
+      display: block;
+    }
+
+    .nav-list {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .nav-list a {
+      padding: 0.75rem 1rem;
+    }
+  }
+</style>

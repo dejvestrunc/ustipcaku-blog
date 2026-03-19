@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export function getStaticPaths() {
+  const categories = {
+    'bile-vino': 'Bílé víno',
+    'cervene-vino': 'Červené víno',
+    'rose': 'Rosé',
+    'sumive': 'Frizzante a šumivé',
+    'parovani-s-jidlem': 'Párování s jídlem',
+    'vinarske-regiony': 'Vinařské regiony',
+    'tipy-a-triky': 'Tipy a triky',
+  };
+  return Object.entries(categories).map(([category, label]) => ({
+    params: { category },
+    props: { categoryLabel: label },
+  }));
+}
+
+const { category } = Astro.params;
+const { categoryLabel } = Astro.props;
+
+const articles = (await getCollection('articles'))
+  .filter(a => a.data.category === category)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title={categoryLabel}>
+  <section class="hero">
+    <div class="container">
+      <h1>{categoryLabel}</h1>
+      <p><a href="/">← Všechny články</a></p>
+    </div>
+  </section>
+
+  <section class="articles container">
+    {articles.length > 0 ? (
+      <div class="articles-grid">
+        {articles.map(article => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            date={article.data.date}
+            category={article.data.category}
+            categoryLabel={article.data.categoryLabel}
+            slug={article.id}
+            image={article.data.image}
+          />
+        ))}
+      </div>
+    ) : (
+      <p class="no-articles">V této kategorii zatím nejsou žádné články.</p>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+  }
+
+  .hero a:hover {
+    color: #fff;
+  }
+
+  .articles {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .no-articles {
+    text-align: center;
+    color: var(--color-text-light);
+    padding: 4rem 0;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

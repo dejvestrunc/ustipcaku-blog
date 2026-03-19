@@ -1,0 +1,55 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-links">
+      <a href="https://www.ustipcaku.cz">E-shop</a>
+      <a href="https://www.ustipcaku.cz/degustace-ve-sklipku/">Degustace ve sklepě</a>
+      <a href="https://www.ustipcaku.cz/ubytovani-nad-sklepem/">Ubytování nad sklepem</a>
+    </div>
+    <p class="footer-copy">&copy; {currentYear} U Štipčáků. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 4rem;
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-links a {
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+  }
+
+  .footer-links a:hover {
+    opacity: 1;
+    color: var(--color-accent);
+  }
+
+  .footer-copy {
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+</style>

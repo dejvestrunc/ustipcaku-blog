@@ -1,0 +1,54 @@
+---
+interface Props {
+  links: { title: string; url: string }[];
+}
+
+const { links } = Astro.props;
+---
+
+{links.length > 0 && (
+  <aside class="product-cta">
+    <h3>Ochutnejte naše vína</h3>
+    <ul>
+      {links.map(link => (
+        <li>
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            {link.title} &rarr;
+          </a>
+        </li>
+      ))}
+    </ul>
+    <a href="https://www.ustipcaku.cz" class="btn btn-accent" target="_blank" rel="noopener noreferrer">
+      Celý sortiment
+    </a>
+  </aside>
+)}
+
+<style>
+  .product-cta {
+    background: var(--color-bg-light);
+    border-left: 4px solid var(--color-accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .product-cta h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+  }
+
+  .product-cta ul {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+
+  .product-cta li {
+    padding: 0.4rem 0;
+  }
+
+  .product-cta li a {
+    font-weight: 600;
+  }
+</style>
