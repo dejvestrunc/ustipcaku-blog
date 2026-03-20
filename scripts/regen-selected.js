@@ -12,20 +12,8 @@ if (!FAL_KEY) { console.error('FAL_KEY not set'); process.exit(1); }
 
 const claude = new Anthropic();
 
-// Sharp-composed articles (from commit bf2f5a1)
-const sharpComposed = [
-  'dub-a-bila-vina-jak-dubovani-meni-moravske-vino',
-  'frankovka-kralovna-moravskych-cervenych',
-  'frizzante-lehce-sumive-vino-bez-praskani-korku',
-  'jak-parovat-moravsky-ryzlink-s-jidlem',
-  'malolakticka-fermentace-tajemstvi-kremovych-bilych-vin',
-  'moravske-sumive-vino-od-frizzante-po-sekty-metodou-klasik',
-  'palava-vinarska-oblast',
-  'pruvodce-bilymi-viny-od-ryzlinku-po-chardonnay',
-];
-
-// 15 newest articles by date
-const newest15 = [
+// 10 newest articles by date
+const toRegenerate = [
   'mlade-vino-z-moravy-tradice-cerstve-chuti-nove-urody',
   'dub-a-bila-vina-jak-dubovani-meni-moravske-vino',
   'znojemska-vinarska-podoblast-prestizni-region-jizni-moravy',
@@ -36,15 +24,7 @@ const newest15 = [
   'rose-neni-jen-letni-vino',
   'co-je-to-terroir',
   'sumive-vino-vs-sekt-vs-prosecco',
-  'vino-a-cokolada-neobvykle-parovani',
-  'vinarske-stezky-jizni-moravy',
-  'moravske-rose-pruvodce-vyberem-kvalitniho-ruzoveho-vina',
-  'jak-spravne-skladovat-vino-doma',
-  'frizzante-lehce-sumive-vino-bez-praskani-korku',
 ];
-
-// Merge and deduplicate
-const toRegenerate = [...new Set([...sharpComposed, ...newest15])];
 
 const compositions = [
   'wide landscape panorama of Moravian vineyard hills',
@@ -83,18 +63,23 @@ Začátek článku: ${content.substring(0, 600)}
 VIZUÁLNÍ KOMPOZICE (použij jako inspiraci, přizpůsob obsahu článku):
 ${compositionHint}
 
+OBSAH (NEJDŮLEŽITĚJŠÍ):
+- Obrázek musí co nejvěrněji ilustrovat téma článku — co se v něm popisuje, o čem pojednává
+- Hlavní motiv obrázku = hlavní téma článku (odrůda, proces, region, jídlo, technika...)
+- Folklórní prvky slouží POUZE k dokreslení atmosféry, nejsou hlavní téma
+
 STYL (POVINNÝ):
-- Styl: digitální malba / ilustrace inspirovaná moravským folklórem
-- Teplé, bohaté barvy (vínová, zlatá, okrová, tmavě zelená)
-- Jemné folklorní ornamenty nebo vzory v pozadí nebo okrajích (výšivka, květinové motivy)
-- Atmosféra: nostalgická, poetická, jako z moravské pohádky
-- Textura: viditelné tahy štětce, akvarel nebo olejové barvy
-- NIKDY neopakuj stejnou kompozici — každý obrázek musí být vizuálně unikátní
+- Styl: naivní malba / lidová ilustrace, jako ručně malovaný obrázek na keramice nebo dřevěné desce
+- Barvy: tlumené, zemité, pastelové — jako vybledlá freska nebo akvarel
+- Viditelné tahy štětce, nedokonalosti, trochu „neumělé"
+- Folklórní dokreslení: v pozadí nebo po okrajích jemné prvky moravského folklóru (výšivkové vzory, postavy v krojích, malovaný sklípek, cimbál) — ale NIKDY jako hlavní motiv
+- Fantazijní/pohádkové prvky jsou OK — má to být zábavné a recesní
 
 ZAKÁZÁNO:
 - Žádné lahve s etiketami, žádná loga, žádný text, žádná písmenka
-- Žádné fotorealistické fotografie — vždy malovaný/ilustrovaný styl
-- Nepoužívej "photograph" nebo "photo" v promptu
+- NIKDY nesmí vypadat jako fotka — VŽDY jasně malovaný/kreslený styl
+- Nepoužívej slova "photograph", "photo", "realistic", "photorealistic", "4k", "8k"
+- Žádné přesycené HDR barvy
 
 Vrať POUZE prompt v angličtině, nic jiného.`
     }],

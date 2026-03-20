@@ -54,18 +54,23 @@ Začátek článku: ${content.substring(0, 600)}
 VIZUÁLNÍ KOMPOZICE (použij jako inspiraci, přizpůsob obsahu článku):
 ${compositionHint}
 
+OBSAH (NEJDŮLEŽITĚJŠÍ):
+- Obrázek musí co nejvěrněji ilustrovat téma článku — co se v něm popisuje, o čem pojednává
+- Hlavní motiv obrázku = hlavní téma článku (odrůda, proces, region, jídlo, technika...)
+- Folklórní prvky slouží POUZE k dokreslení atmosféry, nejsou hlavní téma
+
 STYL (POVINNÝ):
-- Styl: digitální malba / ilustrace inspirovaná moravským folklórem
-- Teplé, bohaté barvy (vínová, zlatá, okrová, tmavě zelená)
-- Jemné folklorní ornamenty nebo vzory v pozadí nebo okrajích (výšivka, květinové motivy)
-- Atmosféra: nostalgická, poetická, jako z moravské pohádky
-- Textura: viditelné tahy štětce, akvarel nebo olejové barvy
-- NIKDY neopakuj stejnou kompozici — každý obrázek musí být vizuálně unikátní
+- Styl: naivní malba / lidová ilustrace, jako ručně malovaný obrázek na keramice nebo dřevěné desce
+- Barvy: tlumené, zemité, pastelové — jako vybledlá freska nebo akvarel
+- Viditelné tahy štětce, nedokonalosti, trochu „neumělé"
+- Folklórní dokreslení: v pozadí nebo po okrajích jemné prvky moravského folklóru (výšivkové vzory, postavy v krojích, malovaný sklípek, cimbál) — ale NIKDY jako hlavní motiv
+- Fantazijní/pohádkové prvky jsou OK — má to být zábavné a recesní
 
 ZAKÁZÁNO:
 - Žádné lahve s etiketami, žádná loga, žádný text, žádná písmenka
-- Žádné fotorealistické fotografie — vždy malovaný/ilustrovaný styl
-- Nepoužívej "photograph" nebo "photo" v promptu
+- NIKDY nesmí vypadat jako fotka — VŽDY jasně malovaný/kreslený styl
+- Nepoužívej slova "photograph", "photo", "realistic", "photorealistic", "4k", "8k"
+- Žádné přesycené HDR barvy
 
 Vrať POUZE prompt v angličtině, nic jiného.`
   }],
