@@ -4,17 +4,53 @@ const currentYear = new Date().getFullYear();
 
 <footer class="footer">
   <div class="container footer-inner">
-    <div class="footer-links">
-      <a href="https://www.ustipcaku.cz" target="_blank" rel="noopener noreferrer">E-shop</a>
-      <a href="https://www.ustipcaku.cz/degustace-ve-sklipku/" target="_blank" rel="noopener noreferrer">Degustace ve sklepě</a>
-      <a href="https://www.ustipcaku.cz/ubytovani-nad-sklepem/" target="_blank" rel="noopener noreferrer">Ubytování nad sklepem</a>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3 class="footer-heading">Vinný sklep U Štipčáků</h3>
+        <p class="footer-desc">Rodinné vinařství ve Vlkošských búdách u Kyjova. Víno z Kyjovska oceněné zlatem na Vinalies Internationales v Paříži.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Nabízíme</h3>
+        <ul class="footer-list">
+          <li><a href="https://www.ustipcaku.cz" target="_blank" rel="noopener noreferrer">E-shop s vínem</a></li>
+          <li><a href="/degustace-vin-u-stipcaku-od-prvniho-dousku-po-posledni-kapku">Degustace ve sklepě</a></li>
+          <li><a href="/ubytovani-ve-vinnem-sklepe-jak-si-uzit-moravu-jako-vinar">Ubytování nad sklepem</a></li>
+          <li><a href="/vinny-sklep-u-stipcaku-tradice-rodina-a-vino-ze-slovacka">O vinařství</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Kontakt</h3>
+        <ul class="footer-list footer-contact">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Vlkošské búdy (Achtele)<br>Vlkoš u Kyjova
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+420776062459">+420 776 062 459</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:ustipcaku@gmail.com">ustipcaku@gmail.com</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            <a href="https://www.facebook.com/ustipcaku" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <p class="footer-copy">&copy; {currentYear} U Štipčáků. Všechna práva vyhrazena.</p>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; {currentYear} Vinný sklep U Štipčáků. Všechna práva vyhrazena.</p>
+    </div>
   </div>
 </footer>
 
 <script>
-  document.querySelectorAll('.footer-links a').forEach(link => {
+  document.querySelectorAll('.footer a').forEach(link => {
     link.addEventListener('click', () => {
       if (typeof mixpanel !== 'undefined') {
         mixpanel.track('Footer Link Clicked', {
@@ -30,39 +66,89 @@ const currentYear = new Date().getFullYear();
   .footer {
     background: var(--color-primary);
     color: #fff;
-    padding: 2rem 0;
+    padding: 3rem 0 1.5rem;
     margin-top: 4rem;
   }
 
-  .footer-inner {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.95;
+  }
+
+  .footer-desc {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
+    gap: 0.5rem;
   }
 
-  .footer-links {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .footer-links a {
+  .footer-list a {
     color: #fff;
-    font-weight: 600;
-    opacity: 0.9;
+    opacity: 0.85;
     transition: opacity 0.2s;
+    font-size: 0.9rem;
   }
 
-  .footer-links a:hover {
+  .footer-list a:hover {
     opacity: 1;
     color: var(--color-accent);
   }
 
-  .footer-copy {
-    font-size: 0.85rem;
+  .footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    line-height: 1.5;
+  }
+
+  .footer-contact svg {
+    flex-shrink: 0;
+    margin-top: 0.2rem;
     opacity: 0.7;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 1.25rem;
+    text-align: center;
+  }
+
+  .footer-copy {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      text-align: center;
+    }
+
+    .footer-contact li {
+      justify-content: center;
+    }
   }
 </style>
