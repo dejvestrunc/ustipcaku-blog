@@ -17,25 +17,25 @@ image: "https://images.unsplash.com/photo-1606767351797-1664b860ae5a?w=1200&h=72
 
 ## Začněte lehkými víny
 
-Pokud s červeným vínem teprve začínáte, nesahejte hned po těžkém Cabernetu. Začněte s lehčími odrůdami:
+Pokud s červeným vínem teprve začínáte, nesahejte hned po těžkém Cabernet Sauvignon. Začněte s lehčími odrůdami:
 
-- **Modrý Portugal** — lehké, ovocné, nenáročné
+- **Portugalské modré** — lehké, ovocné, nenáročné
 - **Zweigeltrebe** — středně plné, s tóny třešní
 - **Svatovavřinecké** — klasika českého vinařství
 
 ## Co jsou taniny?
 
-Taniny jsou přírodní látky obsažené ve slupkách hroznů. Způsobují ten svíravý, sušící pocit v ústech. Čím víc taninů, tím „tvrdší" víno působí.
+Taniny jsou přírodní látky obsažené ve slupkách hroznů. Způsobují ten svíravý, sušící pocit v ústech. Čím více taninů, tím „tvrdší" víno působí.
 
 ### Škála taninů
 
-1. **Nízké taniny:** Modrý Portugal, Gamay
+1. **Nízké taniny:** Portugalské modré, Gamay
 2. **Střední taniny:** Frankovka, Zweigeltrebe
 3. **Vysoké taniny:** Cabernet Sauvignon, Tannat
 
 ## Správná teplota servírování
 
-Červené víno se nepije při pokojové teplotě! To je mýtus ze středověku, kdy pokojová teplota byla 16 °C.
+Červené víno se nepije při pokojové teplotě! Toto doporučení pochází z dob, kdy se v místnostech topilo jinak než dnes a pokojová teplota byla kolem 16 °C.
 
 - **Lehká červená:** 14–16 °C
 - **Střední červená:** 16–18 °C
@@ -46,5 +46,3 @@ Taniny jsou přírodní látky obsažené ve slupkách hroznů. Způsobují ten 
 Mladá, ovocná vína dekantovat nemusíte. Starší ročníky nebo tanická vína ale z dekantace profitují — vzduch zjemní taniny a otevře aroma.
 
 > Pravidlo: Pokud víno stojí přes 300 Kč, dejte mu alespoň 30 minut v dekantéru.
-
-Přijďte ochutnat naše červená vína U Štipčáků a najděte svého favorita!

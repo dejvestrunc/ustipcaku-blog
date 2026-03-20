@@ -21,7 +21,7 @@ Jižní Morava nabízí přes 1 200 km značených vinařských stezek. Ať už 
 
 Síť stezek se dělí na 10 okruhů, každý pojmenovaný podle místní vinařské tradice:
 
-### Mikulovská vinařská stezka (83 km)
+### Mikulovská vinařská stezka (40 km)
 Perla celé sítě. Projíždíte pod Pálavou, kolem Novomlýnských nádrží a přes historická vinařská města.
 
 **Zastávky k ochutnávce:**
@@ -29,15 +29,15 @@ Perla celé sítě. Projíždíte pod Pálavou, kolem Novomlýnských nádrží 
 - Pavlov — sklepní ulička
 - Dolní Dunajovice — rodinná vinařství
 
-### Velkopavlovická vinařská stezka (110 km)
-Nejdelší okruh vedoucí přes srdce moravského vinařství.
+### Velkopavlovická vinařská stezka (57 km)
+Okruh vedoucí přes srdce moravského vinařství s bohatou tradicí.
 
 **Zastávky:**
 - Velké Pavlovice — festival burčáku
 - Bořetice — slavná sklepní ulička Plže
 - Kobylí — tradiční vinobraní
 
-### Podluží (115 km)
+### Slovácká vinařská stezka (67 km)
 Folklorní kraj, kde se tradice vinařství mísí s lidovou kulturou.
 
 ## Praktické tipy
@@ -48,5 +48,3 @@ Folklorní kraj, kde se tradice vinařství mísí s lidovou kulturou.
 4. **Degustace:** Domluvte si předem, hlavně o víkendech
 
 > Kombinace kola a vína vyžaduje zodpovědnost. Ochutnávejte střídmě, nebo si zajistěte řidiče!
-
-Přijďte na degustaci k nám U Štipčáků — jsme přímo na vinařské stezce!

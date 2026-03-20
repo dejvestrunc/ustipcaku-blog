@@ -1,5 +1,5 @@
 ---
-title: "Slovácko — vinařská podoblast plná překvapení"
+title: "Slovácko – vinařská podoblast plná překvapení"
 description: "Slovácko je největší vinařská podoblast na Moravě. Objevte místní odrůdy, tradice a vinaře."
 date: 2026-02-27
 category: "vinarske-regiony"
@@ -21,19 +21,19 @@ Slovácko je největší vinařská podoblast České republiky. Rozkládá se o
 
 - **Rozloha:** Přes 4 000 ha vinic
 - **Klima:** Teplejší, s vlivem panonského klimatu
-- **Půdy:** Pestré — od písčitých po těžké hlinité
+- **Půdy:** Pestré – od písčitých po těžké hlinité
 
 ## Typické odrůdy
 
 ### Bílé
-- **Ryzlink vlašský** — nejrozšířenější odrůda
-- **Müller Thurgau** — svěží, jednoduchá vína
-- **Tramín červený** — aromatický, kořenitý
+- **Ryzlink vlašský** – nejrozšířenější odrůda
+- **Müller Thurgau** – svěží, jednoduchá vína
+- **Tramín červený** – aromatický, kořenitý
 
 ### Modré
-- **Frankovka** — hlavní červená odrůda
-- **Svatovavřinecké** — tradiční moravská odrůda
-- **André** — česká odrůda pro plnější červená
+- **Frankovka** – hlavní červená odrůda
+- **Svatovavřinecké** – tradiční moravská odrůda
+- **André** – česká odrůda pro plnější červená vína
 
 ## Vinařské obce
 
@@ -41,12 +41,12 @@ Slovácko je největší vinařská podoblast České republiky. Rozkládá se o
 Historické vinařské město s dlouhou tradicí. Známé především kvalitní Frankovkou.
 
 ### Strážnice
-Folklor a víno ruku v ruce. Tradiční vinné búdy a sklepy.
+Folklor a víno jdou ruku v ruce. Tradiční vinné búdy a sklepy.
 
 ### Mutěnice
 Jedna z největších vinařských obcí. Přes 100 vinařů na jednom místě.
 
-### Petrov — Plže
+### Petrov – Plže
 Unikátní sklepní ulička s lisovnami vytesanými do vápencového kopce. Památkově chráněné území.
 
 ## Slovácké tradice

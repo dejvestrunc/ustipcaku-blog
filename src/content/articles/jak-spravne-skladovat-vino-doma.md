@@ -28,7 +28,7 @@ Koupili jste si pár lahví dobrého vína a chcete ho uschovat na správný mom
 ## Ideální podmínky
 
 | Parametr | Ideální hodnota |
-|---|---|
+|----------|-----------------|
 | Teplota | 10–15 °C |
 | Vlhkost | 60–80 % |
 | Světlo | Tma |
@@ -52,9 +52,7 @@ Koupili jste si pár lahví dobrého vína a chcete ho uschovat na správný mom
 
 - **Bílé víno:** 3–5 dní v lednici
 - **Červené víno:** 3–5 dní při pokojové teplotě
-- **Šumivé:** 1–2 dny se zátkou na sekt
+- **Šumivé:** 1–2 dny se speciální zátkou
 - **Fortifikované (portské):** 2–4 týdny
 
 > Tip: Investujte do vakuové zátky — stojí pár stokorun a prodlouží životnost otevřeného vína o dny.
-
-Nakupte si zásobu vín U Štipčáků a založte si vlastní malou sbírku!

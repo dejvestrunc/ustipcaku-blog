@@ -1,5 +1,5 @@
 ---
-title: "Víno a zdraví — mýty a fakta"
+title: "Víno a zdraví - mýty a fakta"
 description: "Je víno zdravé? Co říká věda o resveratrolu, antioxidantech a konzumaci vína?"
 date: 2026-03-03
 category: "tipy-a-triky"
@@ -15,7 +15,7 @@ image: "https://images.unsplash.com/photo-1588585902923-7a6e2c392912?w=1200&h=72
 
 „Sklenka červeného denně je zdravá." Slyšeli jste to mnohokrát. Ale co na to říká současná věda?
 
-## Resveratrol — zázračná látka?
+## Resveratrol - zázračná látka?
 
 Resveratrol je antioxidant obsažený ve slupkách modrých hroznů. Studie naznačují pozitivní účinky:
 
@@ -29,23 +29,23 @@ Množství resveratrolu v jedné sklenici vína je velmi malé. Abyste získali 
 
 ## Francouzský paradox
 
-V 90. letech vědci zaznamenali, že Francouzi mají navzdory stravě bohaté na tuky nízký výskyt srdečních chorob. Připsali to konzumaci červeného vína.
+V 90. letech vědci zaznamenali, že Francouzi mají navzdory stravě bohaté na nasycené tuky nízký výskyt srdečních chorob. Připsali to konzumaci červeného vína.
 
-Novější výzkumy ale ukazují, že roli hraje celkový životní styl — středomořská strava, sociální aspekt stolování, méně stresu.
+Novější výzkumy ale ukazují, že roli hraje celkový životní styl - středomořská strava, sociální aspekt stolování, méně stresu.
 
 ## Co říká současná věda
 
 Většina odborníků se shoduje:
 
-1. **Mírná konzumace** (1–2 sklenky) není pro zdravé dospělé škodlivá
+1. **Mírná konzumace** (1-2 sklenky) není pro zdravé dospělé škodlivá
 2. **Žádné množství alkoholu** není prokazatelně zdraví prospěšné
-3. **Benefity** připisované vínu mohou pocházet z hroznů samotných (džus má podobné účinky)
+3. **Antioxidanty** připisované vínu pocházejí z hroznů samotných (100% hroznová šťáva má podobné účinky)
 4. **Rizika** pravidelné konzumace alkoholu jsou dobře zdokumentovaná
 
 ## Náš přístup
 
 Víno je kulturní a gastronomický zážitek. Pijte ho pro radost, ne jako lék. A pijte ho zodpovědně.
 
-> Kvalita nad kvantitou — jedna sklenka výborného vína přinese víc radosti než láhev průměrného.
+> Kvalita nad kvantitou - jedna sklenka výborného vína přinese víc radosti než láhev průměrného.
 
-Vyberte si kvalitní víno U Štipčáků — protože na kvalitě záleží!
+Vyberte si kvalitní víno U Štipčáků - protože na kvalitě záleží!

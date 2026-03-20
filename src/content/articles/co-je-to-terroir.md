@@ -13,7 +13,7 @@ productLinks:
 image: "https://images.unsplash.com/photo-1502285254372-2cb4d1b0993b?w=1200&h=720&fit=crop&q=80"
 ---
 
-Slovo „terroir" (čtěte terroár) slyšíte u vína neustále. Ale co to vlastně znamená?
+Slovo „terroir" (čtěte terruár) slyšíte u vína neustále. Ale co to vlastně znamená?
 
 ## Definice terroir
 
@@ -22,26 +22,31 @@ Terroir je francouzský pojem, který zahrnuje všechny přírodní faktory ovli
 - **Půda** — vápenec, hlína, písek, štěrk
 - **Klima** — teplota, srážky, sluneční svit
 - **Nadmořská výška** — ovlivňuje zrání hroznů
-- **Orientace svahu** — jižní svahy dostávají víc slunce
+- **Orientace svahu** — jižní svahy dostávají více slunce
 - **Mikroklima** — místní specifika (blízkost řeky, lesa)
+
+Někteří odborníci k terroir řadí i lidský faktor — způsob práce ve vinici a vinifikace.
 
 ## Moravský terroir
 
-Jižní Morava má unikátní terroir díky:
+Jižní Morava má jedinečný terroir díky:
 
-### Pálavské kopce
-Vápencové půdy dávají vínům výraznou mineralitu. Ryzlink z Pálavy chutná úplně jinak než Ryzlink z Velkopavlovicka.
+### Znojemská podoblast
+Vápencové půdy dávají vínům výraznou mineralitu. Ryzlink rýnský odtud má charakteristickou kostru a dlouhý závěr.
 
 ### Velkopavlovická podoblast
-Těžší hlinité půdy produkují plnější, ovocnější vína. Ideální pro červené odrůdy.
+Těžší hlinité půdy produkují plnější, ovocnější vína. Ideální pro červené odrůdy jako Frankovka nebo Svatovavřinecké.
 
 ### Slovácká podoblast
-Písčité půdy a teplejší klima. Vína jsou přístupnější, měkčí.
+Písčité půdy a teplejší klima. Vína jsou přístupnější a měkčí, s výrazným ovocným charakterem.
+
+### Mikulovská podoblast
+Rozmanité půdní typy od vápence po spraš vytvářejí pestrou paletu vinařských stylů.
 
 ## Proč na terroir záleží
 
 > Stejná odrůda vysazená na dvou různých místech dá dvě různá vína. To je síla terroir.
 
-Vinař může terroir podpořit, nebo potlačit. Moderní vinařství se snaží terroir respektovat — minimální zásahy ve vinici i ve sklepě, aby víno mluvilo za své místo.
+Vinař může terroir podpořit, nebo potlačit. Moderní vinařství se snaží terroir respektovat — minimální zásahy ve vinici i ve sklepě, aby víno mluvilo za své místo původu.
 
-U Štipčáků se snažíme, aby naše vína odrážela charakter moravské krajiny. Ochutnejte a poznejte terroir jižní Moravy!
+Terroir není jen marketingový pojem. Je to skutečná chuťová mapa, kterou můžete objevovat sklenici po sklenici.

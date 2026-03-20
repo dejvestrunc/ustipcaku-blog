@@ -31,7 +31,7 @@ Dva ročníky stejného vína od stejného vinaře mohou chutnat úplně jinak. 
 
 ## Chyba 3: Kupovat jen „známé" odrůdy
 
-Chardonnay a Cabernet znáte, ale co Neuburské? Rothmüller? Aurelius? Moravské vinařství nabízí spoustu unikátních odrůd, které jinde nenajdete.
+Chardonnay a Cabernet Sauvignon znáte, ale co Neuburské bílé? Rathay? Aurelius? Moravské vinařství nabízí spoustu unikátních odrůd, které jinde nenajdete.
 
 **Jak na to:** Při každém nákupu zkuste alespoň jednu odrůdu, kterou neznáte.
 
@@ -50,8 +50,8 @@ Těžké červené k lehké rybě nebo sladké víno k hlavnímu chodu — klasi
 Víno z hypermarketu ležící pod zářivkami při 25 °C není v nejlepší kondici.
 
 **Kde kupovat:**
-- Přímo od vinaře (eshop, sklep)
+- Přímo od vinaře (e-shop, sklep)
 - Specializované vinotéky
-- Online eshopy s dobrou logistikou
+- Online obchody s dobrou logistikou
 
-Nakupte přímo od vinaře — v eshopu U Štipčáků máte jistotu čerstvosti a kvality!
+Nejlepší je nakupovat přímo od vinařů nebo v prověřených vinotékách — máte tak jistotu čerstvosti a kvality!

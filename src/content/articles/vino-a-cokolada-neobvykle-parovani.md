@@ -1,5 +1,5 @@
 ---
-title: "Víno a čokoláda — neobvyklé párování, které funguje"
+title: "Víno a čokoláda - neobvyklé párování, které funguje"
 description: "Čokoláda a víno se mohou skvěle doplňovat. Klíčem je vybrat správnou kombinaci podle intenzity a sladkosti."
 date: 2026-03-13
 category: "parovani-s-jidlem"
@@ -19,7 +19,7 @@ image: "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?w=1200&h=72
 
 **Víno musí být alespoň tak sladké jako čokoláda.** Suché červené k mléčné čokoládě nefunguje — víno bude chutnat kysele a hořce.
 
-## Hořká čokoláda (70 %+)
+## Hořká čokoláda (70+ %)
 
 Hořká čokoláda s vysokým obsahem kakaa se nejlépe hodí k:
 

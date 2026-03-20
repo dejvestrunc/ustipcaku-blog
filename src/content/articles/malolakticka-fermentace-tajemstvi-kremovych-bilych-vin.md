@@ -15,11 +15,11 @@ productLinks:
     url: "https://www.ustipcaku.cz/devin/"
 ---
 
-Pokud jste někdy při degustaci zaznamenali, že bílé víno chutná trochu jinak než obvykle, možná jste narazili na víno, které prošlo malolaktickou fermentací. Tento vinařský proces, často zkracovaný jako "malo", dokáže zcela proměnit charakter vína – ze svěžího a křehkého může vzniknout kulaté a krémové. Na Moravě se s touto technikou setkáváme především u prémiových bílých vín, kde vinaři hledají větší komplexnost a elegantnější strukturu.
+Pokud jste někdy při degustaci zaznamenali, že bílé víno chutná trochu jinak než obvykle, možná jste narazili na víno, které prošlo malolaktickou fermentací. Tento vinařský proces, často zkracovaný jako „malo", dokáže zcela proměnit charakter vína – ze svěžího a křehkého může vzniknout kulaté a krémové. Na Moravě se s touto technikou setkáváme především u prémiových bílých vín, kde vinaři hledají větší komplexnost a elegantnější strukturu.
 
 ## Co je malolaktická fermentace
 
-Malolaktická fermentace není skutečná fermentace v pravém slova smyslu, ale bakteriální přeměna. Během tohoto procesu bakterie *Lactobacillus* a další mléčné bakterie přeměňují ostrou jablečnou kyselinu na jemnější kyselinu mléčnou. Výsledkem je snížení celkové kyselosti vína a vznik charakteristických máslovitých tónů.
+Malolaktická fermentace není skutečná fermentace v pravém slova smyslu, ale bakteriální přeměna. Během tohoto procesu bakterie *Oenococcus oeni* a další mléčné bakterie přeměňují ostrou jablečnou kyselinu na jemnější kyselinu mléčnou. Výsledkem je snížení celkové kyselosti vína a vznik charakteristických máslovitých tónů.
 
 Zatímco u červených vín probíhá malo téměř vždy, u bílých je to otázka stylistické volby vinaře. Ne každé bílé víno tím totiž získá – některé odrůdy potřebují svou přirozenou kyselost zachovat.
 
@@ -29,9 +29,9 @@ Moravští vinaři využívají malolaktickou fermentaci především u odrůd, 
 
 ## Vliv na chuťový profil bílých vín
 
-### Textury a struktura
+### Textura a struktura
 
-Po malolaktické fermentaci získává víno plnější tělo a kulatější dojem v ústech. Zmizí ta ostrá, řezavá kyselost, kterou některé degustátory označují za "zelenou". Místo toho se objevuje krémovitá textura připomínající máslo nebo jogurt.
+Po malolaktické fermentaci získává víno plnější tělo a kulatější dojem v ústech. Zmizí ta ostrá, řezavá kyselost, kterou některé degustátory označují za „zelenou". Místo toho se objevuje krémovitá textura připomínající máslo nebo jogurt.
 
 ### Aromatické změny
 
@@ -39,17 +39,17 @@ Kromě strukturálních změn se mění i vůně vína. Typické jsou tóny čer
 
 ### Moravské příklady
 
-V moravském kontextu najdeme malo nejčastěji u prémiových Chardonnay ze Znojemské oblasti nebo u výběrových Rulandských bílých z Mikulovska. Tato vína pak dokážou konkurovat i zahraničním vzorům a získat na mezinárodní úrovni.
+V moravském kontextu najdeme malo nejčastěji u prémiových Chardonnay ze Znojemské oblasti nebo u výběrových Rulandských bílých z Mikulovska. Tato vína pak dokážou konkurovat i zahraničním vzorům a získat uznání na mezinárodní úrovni.
 
 ## Technické aspekty procesu
 
 ### Kdy a jak probíhá
 
-Malolaktická fermentace může začít buď spontánně, nebo být záměrně iniciována přidáním bakteriálních kultur. Většinou probíhá po dokončení alkoholové fermentace, ideálně při teplotě kolem 18-20°C. Proces může trvat několik týdnů až měsíců.
+Malolaktická fermentace může začít buď spontánně, nebo být záměrně iniciována přidáním bakteriálních kultur. Většinou probíhá po dokončení alkoholové fermentace, ideálně při teplotě kolem 18–20 °C. Proces může trvat několik týdnů až měsíců.
 
 ### Kontrola procesu
 
-Zkušení vinaři průběh malo pečlivě monitorují pomocí chromatografických analýz, které sledují úbytek jablečné kyseliny. Důležité je včas proces zastavit, aby nedošlo k překyselení nebo vzniku nežádoucích tónů.
+Zkušení vinaři průběh malo pečlivě monitorují pomocí chromatografických analýz, které sledují úbytek jablečné kyseliny. Důležité je včas proces zastavit, aby nedošlo k nadměrnému snížení kyselosti nebo vzniku nežádoucích tónů.
 
 ## Rozpoznání vína po malo
 
@@ -59,7 +59,7 @@ Víno po malolaktické fermentaci poznáte především podle textury – je kul
 
 ### Co sledovat při nákupu
 
-Na etiketě vinaři málokdy uvádějí informaci o malo přímo, ale můžete se orientovat podle stylu vína. Pokud je bílé víno označeno jako "barrique" nebo "rezerva", pravděpodobně nějakou formu malo prošlo.
+Na etiketě vinaři málokdy uvádějí informaci o malo přímo, ale můžete se orientovat podle stylu vína. Pokud je bílé víno označeno jako „barrique" nebo „rezerva", pravděpodobně nějakou formu malo prošlo.
 
 ## Párování s jídlem
 

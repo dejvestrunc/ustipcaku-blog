@@ -1,6 +1,6 @@
 ---
-title: "Frankovka — královna moravských červených vín"
-description: "Frankovka je odrůda, která na Moravě našla svůj druhý domov. Proč si zaslouží víc pozornosti?"
+title: "Frankovka – královna moravských červených vín"
+description: "Frankovka je odrůda, která na Moravě našla svůj druhý domov. Proč si zaslouží více pozornosti?"
 date: 2026-03-10
 category: "cervene-vino"
 categoryLabel: "Červené víno"
@@ -23,7 +23,7 @@ Frankovka pochází pravděpodobně z Dolního Rakouska. Na Moravu se dostala v 
 
 ## Charakter vína
 
-Typická moravská Frankovka nabízí:
+Typická moravská frankovka nabízí:
 
 - **Barva:** hluboká rubínová až granátová
 - **Vůně:** třešně, ostružiny, černý pepř, kořenitost
@@ -32,7 +32,7 @@ Typická moravská Frankovka nabízí:
 
 ## Frankovka vs. světové odrůdy
 
-Pokud máte rádi Pinot Noir, ale hledáte víc struktury — zkuste Frankovku. Je to most mezi elegancí burgundského a silou bordeauxského stylu.
+Pokud máte rádi Pinot Noir, ale hledáte více struktury – zkuste frankovku. Je to most mezi elegancí burgundského a silou bordeauxského stylu.
 
 ### Srovnání
 
@@ -49,4 +49,4 @@ Pokud máte rádi Pinot Noir, ale hledáte víc struktury — zkuste Frankovku. 
 - **Dekantace:** Mladé ročníky 30 minut, starší 1 hodinu
 - **Jídlo:** Hovězí, zvěřina, zralé sýry, tmavá čokoláda
 
-Ochutnejte naši Frankovku U Štipčáků — je to víno, které vás přesvědčí o kvalitě moravských červených!
+Ochutnejte naši frankovku U Štipčáků – je to víno, které vás přesvědčí o kvalitě moravských červených!

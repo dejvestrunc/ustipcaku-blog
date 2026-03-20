@@ -1,6 +1,6 @@
 ---
 title: "Průvodce moravskými bílými víny"
-description: "Poznejte nejoblíbenější odrůdy bílých vín z jižní Moravy — od svěžího Veltlínského po aromatický Muškát."
+description: "Poznejte nejoblíbenější odrůdy bílých vín z jižní Moravy - od svěžího Veltlínského po aromatický Muškát."
 date: 2026-03-18
 category: "bile-vino"
 categoryLabel: "Bílé víno"
@@ -14,6 +14,8 @@ productLinks:
     url: "https://www.ustipcaku.cz/rulandske-bile-2024/"
 image: "https://images.unsplash.com/photo-1656235123277-9ac111857004?w=1200&h=720&fit=crop&q=80"
 ---
+
+# Průvodce moravskými bílými víny
 
 Jižní Morava je rájem bílých vín. Teplé klima, vápenité půdy a staletá tradice vinařství dávají zdejším bílým odrůdám nezaměnitelný charakter. Pojďme se podívat na ty nejzajímavější.
 
@@ -33,7 +35,7 @@ Muškát moravský je unikátní odrůda vyšlechtěná v Čejči. Intenzivně a
 
 ## Pálava — moravská perla
 
-Další česká odrůda, tentokrát pojmenovaná po Pálavských kopcích. Pálava je přirozeně polosladká, s vůní růží a meruněk. Skvěle se hodí k asijské kuchyni nebo jako aperitiv.
+Další česká odrůda, tentokrát pojmenovaná po Pálavských vrších. Pálava je přirozeně polosladká, s vůní růží a meruněk. Skvěle se hodí k asijské kuchyni nebo jako aperitiv.
 
 ## Ryzlink rýnský — šlechtic mezi víny
 
@@ -47,4 +49,4 @@ O Ryzlinku bychom mohli psát celé knihy. Na Moravě dosahuje výjimečné kval
 2. **Sklenice:** Použijte sklenici s užším kalichem
 3. **Čas:** Mladá bílá vína pijte do 2 let od sklizně
 
-Objevte moravská bílá vína U Štipčáků a nechte se překvapit jejich rozmanitostí!
+Objevte moravská bílá vína a nechte se překvapit jejich rozmanitostí!

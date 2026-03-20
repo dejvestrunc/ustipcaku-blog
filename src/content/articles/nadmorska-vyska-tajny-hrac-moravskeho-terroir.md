@@ -21,7 +21,7 @@ Když se řekne terroir, většina vinařů ihned myslí na půdu, klima a expoz
 
 ### Teplotní gradienty a jejich vliv
 
-S každými 100 metry výšky klesá průměrná teplota přibližně o 0,6°C. V praxi to znamená, že zatímco ve Velkých Pavlovicích na 180 metrech můžeme sklízet Zweigeltreben už v polovině září, v Bzeneckých kopcích na 350 metrech se stejná odrůda dozrává až o dva týdny později. Tato diferenciace není jen technická záležitost – vytváří naprosto odlišné profily vína.
+S každými 100 metry výšky klesá průměrná teplota přibližně o 0,6°C. V praxi to znamená, že zatímco ve Velkých Pavlovicích na 180 metrech můžeme sklízet Zweigelt už v polovině září, v Bzeneckých kopcích na 350 metrech se stejná odrůda dozrává až o dva týdny později. Tato diferenciace není jen technická záležitost – vytváří naprosto odlišné profily vína.
 
 ### Délka vegetačního období
 
@@ -65,4 +65,4 @@ V každém výškovém pásmu sledujte jiné ukazatele zralosti. V nízkých pol
 
 Klimatické změny posouvají optimální pásma pro vinohradnictví stále výše. Zatímco dříve byly vysoké polohy považované za marginální, dnes zde vznikají jedny z nejzajímavějších moravských vín. Jejich svěžest a mineralita dokonale odpovídá moderním trendům.
 
-Pokud chcete poznat, jak nadmořská výška ovlivňuje chuť moravských vín, navštivte náš eshop na ustipcaku.cz. Naše vína pocházejí z různých výškových pásem a každé láhev vypráví příběh svého terroir – od teplých údolí až po chladné moravské vrcholky.
+Pokud chcete poznat, jak nadmořská výška ovlivňuje chuť moravských vín, navštivte náš eshop na ustipcaku.cz. Naše vína pocházejí z různých výškových pásem a každá láhev vypráví příběh svého terroir – od teplých údolí až po chladné moravské vrcholky.

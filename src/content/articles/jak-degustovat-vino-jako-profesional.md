@@ -15,55 +15,55 @@ productLinks:
 image: "https://images.unsplash.com/photo-1772891753024-5d78af4ff483?w=1200&h=720&fit=crop&q=80"
 ---
 
-Profesionální degustace není žádná věda — je to dovednost, kterou se může naučit každý. Stačí vědět, na co se zaměřit.
+Profesionální degustace není žádná věda — je to dovednost, kterou si může osvojit každý. Stačí vědět, na co se zaměřit.
 
 ## Krok 1: Vizuální hodnocení
 
-Nakloňte sklenici nad bílým podkladem (ubrousek stačí) a pozorujte:
+Nakloňte sklenici nad bílým podkladem (stačí i ubrousek) a pozorujte:
 
-- **Čirost:** Je víno čiré, nebo zakalené?
+- **Čirost:** Je víno průzračné, nebo zakalené?
 - **Barva:** Světlá, sytá, s jakými odlesky?
-- **Slzy (stékání):** Pomalé stékání = vyšší alkohol/cukr
+- **Slzy (stékání):** Pomalé stékání naznačuje vyšší obsah alkoholu nebo zbytkového cukru
 
 ### Co barva prozradí
 
-| Barva bílého | Věk |
+| Barva bílého vína | Věk |
 |---|---|
 | Zelenkavá | Velmi mladé |
 | Světle žlutá | Mladé |
 | Zlatavá | Zralé |
-| Jantarová | Staré / oxidativní |
+| Jantarová | Staré / oxidované |
 
 ## Krok 2: Vůně (nos)
 
-1. **První nos:** Přivonějte bez kroužení — první dojmy
-2. **Zakroužte:** Roztočte víno ve sklenici (uvolní aromata)
-3. **Druhý nos:** Ponořte nos hlouběji — hledejte detaily
+1. **První nos:** Přivonějte bez kroužení — zachyťte první dojmy
+2. **Zakroužte:** Roztočte víno ve sklenici, čímž uvolníte aromata
+3. **Druhý nos:** Ponořte nos hlouběji do sklenice a hledejte detaily
 
-### Aroma kategorie
-- **Primární:** Z odrůdy (ovoce, květiny)
-- **Sekundární:** Z kvašení (droždí, máslo)
-- **Terciární:** Ze zrání (vanilka, tabák, kůže)
+### Kategorie aromatů
+- **Primární:** Pocházejí z odrůdy (ovoce, květiny)
+- **Sekundární:** Vznikají při kvašení (droždí, máslo)
+- **Terciární:** Vyvíjejí se při zrání (vanilka, tabák, kůže)
 
 ## Krok 3: Chuť
 
 Naberte malý doušek a nechte víno projít celými ústy.
 
 Hodnoťte:
-- **Sladkost** — na špičce jazyka
-- **Kyselost** — po stranách jazyka
-- **Taniny** — svíravost na dásních (červená)
+- **Sladkost** — vnímá se na špičce jazyka
+- **Kyselost** — cítíte ji po stranách jazyka
+- **Taniny** — způsobují svíravost na dásních (u červených vín)
 - **Tělo** — váha vína v ústech (lehké vs. plné)
 - **Závěr** — jak dlouho chuť přetrvává
 
-## Krok 4: Závěr
+## Krok 4: Vyhodnocení
 
-Po spolknutí (nebo vyplivnutí — na degustacích je to normální) zhodnoťte:
+Po spolknutí (nebo vyplivnutí — na degustacích je to běžné) zhodnoťte:
 
 - Jak dlouho chuť přetrvává?
-- Jaké chutě se objeví v závěru?
+- Jaké chutě se objevují v závěru?
 - Je víno vyvážené?
 
-> Tip: Veďte si degustační deník. Zapisujte si, co jste ochutnali a co vás zaujalo. Za rok budete překvapeni, jak se váš vkus vyvinul.
+> **Tip:** Veďte si degustační deník. Zapisujte si, co jste ochutnali a co vás zaujalo. Za rok budete překvapeni, jak se váš vkus rozvinul.
 
-Přijďte na degustaci k nám U Štipčáků — rádi vás provedeme!
+Přijďte na degustaci k nám do vinařství — rádi vás celým procesem provedeme!

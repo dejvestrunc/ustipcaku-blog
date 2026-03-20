@@ -21,11 +21,11 @@ Existují tři metody výroby:
 
 1. **Krátká macerace** — modrý hrozen se nechá krátce na slupkách (2–24 hodin)
 2. **Saignée** — část moštu se odtáhne z červeného kvašení
-3. **Mísení** — bílé + červené (povoleno jen u šumivých)
+3. **Mísení** — bílé + červené (povoleno jen u šumivých vín)
 
 Na Moravě se nejčastěji používá krátká macerace, což dává svěží, ovocná rosé.
 
-## Rosé na podzim a zimu
+## Rosé na podzim a v zimě
 
 Plnější rosé z odrůd jako Merlot nebo Cabernet se krásně hodí k:
 
@@ -36,6 +36,6 @@ Plnější rosé z odrůd jako Merlot nebo Cabernet se krásně hodí k:
 
 ## Moravské rosé
 
-České rosé zažívá boom. Vinaři experimentují s různými odrůdami a styly — od bone-dry minerálních po sladší ovocná. U Štipčáků najdete rosé, které vás přesvědčí, že tenhle styl vína si zaslouží víc než jen letní terasu.
+České rosé zažívá boom. Vinaři experimentují s různými odrůdami a styly — od bone-dry minerálních po ovocnější polosuché. Moravská rosé dokážou překvapit svou komplexností a elegancí.
 
-Zkuste ho k nedělnímu obědu — budete překvapeni!
+Zkuste ho k nedělnímu obědu — tento styl vína si rozhodně zaslouží víc než jen letní terasu.

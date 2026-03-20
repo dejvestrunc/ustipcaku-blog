@@ -1,5 +1,5 @@
 ---
-title: "Barevná paleta moravských bílých vín: od průzračné po zlatou"
+title: "Barevná paleta moravských bílých vín - od průzračné po zlatou"
 description: "Objevte fascinující škálu barev moravských bílých vín. Každý odstín vypovídá příběh o odrůdě a způsobu zpracování. Tajemství barev vína."
 date: 2025-09-24
 category: "bile-vino"
@@ -27,21 +27,21 @@ Mnozí si myslí, že bílé víno vzniká z bílých hroznů. Není to tak jedn
 
 ### Průzračně bledá až světle žlutá
 
-Takovou barvu najdeme u mladých, čerstvých vín typu Grüner Veltliner nebo Sauvignon Blanc. Tyto víno jsou zpracovávána za nízkých teplot, rychle lisovaná a fermentovaná v nerezových tancích. Moravští vinaři takto zpracovávají především vína určená k rychlé spotřebě, která zdůrazňují svěžest a čistotu odrůdového charakteru.
+Takovou barvu najdeme u mladých, čerstvých vín typu Grüner Veltliner nebo Sauvignon Blanc. Tato vína jsou zpracovávána za nízkých teplot, rychle lisovaná a fermentovaná v nerezových tancích. Moravští vinaři takto zpracovávají především vína určená k rychlé spotřebě, která zdůrazňují svěžest a čistotu odrůdového charakteru.
 
 ### Slámově žlutá
 
-Nejčastější odstín moravských bílých vín reprezentuje odrůdy jako Riesling, Müller Thurgau nebo Veltlínské zelené. Tato barva vzniká přirozeným zráním ve skleněných nebo nerezových nádobách. Víno už má za sebou malolaktickou fermentaci a několik měsíců kontaktu s kvasničními sedlinami.
+Nejčastější odstín moravských bílých vín reprezentují odrůdy jako Riesling, Müller Thurgau nebo Veltlínské zelené. Tato barva vzniká přirozeným zráním ve skleněných nebo nerezových nádobách. Víno už má za sebou malolaktickou fermentaci a několik měsíců kontaktu s kvasničními sedlinami.
 
 ### Zlatožlutá až zlatavá
 
-Intenzivnější zlatavé odstíny charakterizují Chardonnay nebo Rulandské bílé zrálé v dubových sudech. Moravská Chardonnay z oblasti Velké Pavlovice nebo Mikulova často dosahují této krásné barvy díky kombinaci odrůdového charakteru a vlivu dubového zrání.
+Intenzivnější zlatavé odstíny charakterizují Chardonnay nebo Rulandské bílé zralé v dubových sudech. Moravská Chardonnay z oblasti Velké Pavlovice nebo Mikulova často dosahují této krásné barvy díky kombinaci odrůdového charakteru a vlivu dubového zrání.
 
 ## Co ovlivňuje intenzitu barvy
 
 ### Zrání v dubu
 
-Kontakt s dubovými břízkami nebo zrání v sudech dodává vínu nejen typické dubové tóny, ale také prohloubí barvu. Moravští vinaři používají jak francouzské, tak americké duby, každé s jiným vlivem na výslednou barvu.
+Kontakt s dubovými hoblinami nebo zrání v sudech dodává vínu nejen typické dubové tóny, ale také prohloubí barvu. Moravští vinaři používají jak francouzské, tak americké duby, každé s jiným vlivem na výslednou barvu.
 
 ### Kontakt s kožičkami
 
@@ -63,8 +63,6 @@ Kromě základního odstínu si všímejte čistoty a lesku. Kalné víno nebo v
 
 ## Praktické tipy pro degustaci podle barvy
 
-Barva vám prozradí mnoho ještě před prvním douškem. Bledá vína očekávejte svěží a lehká, zlatavá naopak komplexnější s vyšší koncentrací. U moravských vín si můžete být jisti kvalitou – naši vinaři zvládají celou škálu stylů od minerálních Rieslingů po bohaté dubové Chardonnay.
+Barva vám prozradí mnoho ještě před prvním douškem. U bledých vín očekávejte svěžest a lehkost, u zlatavých naopak komplexnost s vyšší koncentrací. U moravských vín si můžete být jisti kvalitou – naši vinaři zvládají celou škálu stylů od minerálních Rieslingů po bohaté dubové Chardonnay.
 
 Při nákupu věřte svým očím. Víno s nezdravou, matnou nebo příliš hnědavou barvou raději nechte být. Kvalitní moravské bílé víno má vždy čistou, lákavou barvu odpovídající svému stylu.
-
-Objevte rozmanitost barev moravských bílých vín v našem eshopu na ustipcaku.cz, kde najdete pečlivě vybraná vína reprezentující celé spektrum stylů a barevných odstínů našeho regionu.

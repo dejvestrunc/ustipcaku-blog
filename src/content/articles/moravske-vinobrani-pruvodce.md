@@ -20,7 +20,7 @@ Vinobraní patří k největším slavnostem jižní Moravy. Každý rok v zář
 ## Největší vinobraní
 
 ### Znojemské historické vinobraní
-Největší vinobraní v ČR. Historický průvod, stovky stánků, živá hudba. Koná se v září.
+Největší vinobraní v České republice. Historický průvod, stovky stánků, živá hudba. Koná se v září.
 
 ### Pálavské vinobraní (Mikulov)
 Menší, ale kouzelnější. Pod zámkem, s výhledem na Pálavu.
@@ -29,17 +29,17 @@ Menší, ale kouzelnější. Pod zámkem, s výhledem na Pálavu.
 Tradiční slavnost s dlouhou historií. Silná folklorní tradice.
 
 ### Velké Bílovice
-Největší vinařská obec v ČR. Vinobraní tu má opravdu autentickou atmosféru.
+Největší vinařská obec v České republice. Vinobraní tu má opravdu autentickou atmosféru.
 
 ## Co ochutnat
 
 ### Burčák
-Částečně zkvašený hroznový mošt. Dostupný jen v září a říjnu. Sladký, ovocný, zákeřně alkoholický (kolem 4–6 %).
+Částečně zkvašený hroznový mošt. Dostupný jen v září a říjnu. Sladký, ovocný, zákeřně alkoholický (kolem 4–8 %).
 
 **Pozor:** Burčák stále kvasí — nedá se skladovat. Kupujte čerstvý a pijte tentýž den.
 
 ### Mladé víno
-Víno z aktuální sklizně, čerstvé a ovocné. Svatomartinské víno (11. 11.) je speciální kategorie.
+Víno z aktuální sklizně, čerstvé a ovocné. Svatomartinské víno (11. listopadu) je speciální kategorie.
 
 ### Lokální speciality
 - Cibulačka s vínem
@@ -48,10 +48,10 @@ Víno z aktuální sklizně, čerstvé a ovocné. Svatomartinské víno (11. 11.
 
 ## Praktické tipy
 
-1. **Doprava:** Jedete-li autem, určete řidiče. Lépe — jeďte vlakem
-2. **Ubytování:** Rezervujte měsíce dopředu
-3. **Hotovost:** Mnoho stánků bere jen cash
-4. **Oblečení:** Pohodlné boty, je se dost nachodí
-5. **Sklenice:** Kupte si na místě — slouží jako suvenýr
+1. **Doprava:** Jedete-li autem, určete řidiče. Lépe — jeďte vlakem.
+2. **Ubytování:** Rezervujte měsíce dopředu.
+3. **Hotovost:** Mnoho stánků bere jen hotovost.
+4. **Oblečení:** Pohodlné boty, je se dost nachodí.
+5. **Sklenice:** Kupte si na místě — slouží jako suvenýr.
 
 Až budete na vinobraní, zastavte se i u nás U Štipčáků na degustaci!

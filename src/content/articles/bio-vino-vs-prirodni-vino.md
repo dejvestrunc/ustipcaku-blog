@@ -1,5 +1,5 @@
 ---
-title: "Bio víno vs. přírodní víno — jaký je rozdíl?"
+title: "Bio víno vs. přírodní víno - jaký je rozdíl?"
 description: "Bio a přírodní víno nejsou totéž. Vysvětlujeme rozdíly v přístupu k vinici i sklepu."
 date: 2026-03-05
 category: "tipy-a-triky"
@@ -13,7 +13,7 @@ productLinks:
 image: "https://images.unsplash.com/photo-1536420095395-a592ce76a37e?w=1200&h=720&fit=crop&q=80"
 ---
 
-„Bio" a „natural" jsou dnes módní slova ve světě vína. Ale znamenají totéž? Rozhodně ne.
+"Bio" a "natural" jsou dnes módní slova ve světě vína. Ale znamenají totéž? Rozhodně ne.
 
 ## Bio víno (organické)
 
@@ -56,6 +56,4 @@ Nemá oficiální certifikaci, ale existují neformální pravidla:
 
 ## Co je lepší?
 
-Ani jedno není objektivně „lepší". Bio je konzistentnější, přírodní je zajímavější, ale riskantnější. Nejdůležitější je kvalita vinaře, ne nálepka na lahvi.
-
-U Štipčáků se snažíme pracovat s respektem k přírodě. Ochutnejte naše vína a udělejte si vlastní názor!
+Ani jedno není objektivně "lepší". Bio je konzistentnější, přírodní je zajímavější, ale riskantnější. Nejdůležitější je kvalita vinaře, ne nálepka na lahvi.

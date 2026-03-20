@@ -13,6 +13,8 @@ productLinks:
 image: "https://images.unsplash.com/photo-1512594282804-b5f400408c9d?w=1200&h=720&fit=crop&q=80"
 ---
 
+# Jaké víno k sýrovému fondue
+
 Sýrové fondue je zimní klasika. A správné víno k němu udělá z dobrého jídla nezapomenutelný zážitek.
 
 ## Víno DO fondue
@@ -42,9 +44,9 @@ K fondue se tradičně pije stejné víno, jako jste dali do hrnce. Ale můžete
 
 ## Recept na jednoduché fondue
 
-1. Nastrouhat 200 g Gruyère + 200 g Emenálu
-2. Obalovat sýr v lžíci kukuřičného škrobu
-3. Zahřát 200 ml bílého vína v hrnci
+1. Nastrouhat 200 g Gruyère + 200 g Emmentalu
+2. Obalit sýr v lžíce kukuřičného škrobu
+3. Zahřát 200 ml bílého vína v hrnci na mírném ohni
 4. Postupně přidávat sýr za stálého míchání
 5. Dochutit muškátovým oříškem a pepřem
 

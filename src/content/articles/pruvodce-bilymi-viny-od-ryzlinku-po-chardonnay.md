@@ -1,5 +1,5 @@
 ---
-title: "Průvodce bílými víny: Od Ryzlinku po Chardonnay"
+title: "Průvodce bílými víny - Od Ryzlinku po Chardonnay"
 description: "Objevte rozmanitost bílých vín - od minerálních Ryzlinků po bohaté Chardonnay. Kompletní průvodce moravskými bílými víny a styly vinifikace."
 date: 2026-02-23
 category: "bile-vino"
@@ -15,7 +15,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
 ---
 
-Bílá vína patří mezi nejoblíbenější a nejuniverzálnější víno na světě, přesto si mnozí milovníci vína neuvědomují, jak obrovská rozmanitost se pod tímto pojmem skrývá. Od křehkých minerálních Ryzlinků až po bohaté dubem vychované Chardonnay, každá odrůda nabízí jedinečný zážitek. Moravské vinařství má v oblasti bílých vín co nabídnout – od tradičních odrůd po moderní styly vinifikace.
+Bílá vína patří mezi nejoblíbenější a nejuniverzálnější nápoje na světě, přesto si mnozí milovníci vína neuvědomují, jak obrovská rozmanitost se pod tímto pojmem skrývá. Od křehkých minerálních Ryzlinků až po bohaté dubem vychované Chardonnay, každá odrůda nabízí jedinečný zážitek. Moravské vinařství má v oblasti bílých vín bohatou tradici – od klasických odrůd po moderní styly vinifikace.
 
 ## Základní styly bílých vín
 
@@ -58,7 +58,7 @@ Bílá vína jsou citlivější na světlo a tepelné výkyvy než červená. Id
 Moravští vinaři stále častěji experimentují s autochtonními odrůdami jako Aurelius nebo kříženci jako Hibernal. Tyto odrůdy nabízejí nové chuťové profily a často lepší odolnost vůči klimatickým změnám.
 
 ### Vliv klimatu na styl
-Oteplování klimatu mění charakter moravských bílých vín. Tradiční kyselé, minerální styly ustupují plnějším, alkoholičtějším vínům. Vinaři reagují změnou vinifikačních postupů – ranější sklizní, použitím různých kmenů kvasinek či mlékokyseljě fermentací.
+Oteplování klimatu mění charakter moravských bílých vín. Tradiční kyselé, minerální styly ustupují plnějším, alkoholičtějším vínům. Vinaři reagují změnou vinifikačních postupů – ranější sklizní, použitím různých kmenů kvasinek či mléčnokyseljě fermentací.
 
 Bílé víno nabízí nekonečné možnosti objevování. Každá odrůda, každý vinař, každý ročník přináší něco nového. Experimentujte s různými styly a nenechte se omezit předsudky – možná objevíte svou novou oblíbenou kombinaci.
 

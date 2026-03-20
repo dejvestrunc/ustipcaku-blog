@@ -19,8 +19,8 @@ Grilujete a nevíte, jaké víno otevřít? Záleží hlavně na tom, co je na r
 
 Klasika grilování vyžaduje víno s charakterem:
 
-- **Frankovka** — šťavnaté taniny doplní šťavnatý steak
-- **Cabernet Sauvignon** — pro ty, kdo chtějí sílu
+- **Frankovka** — výrazné taniny a plnost doplní šťavnatý steak
+- **Cabernet Sauvignon** — pro ty, kdo chtějí sílu a strukturu
 - **Zweigeltrebe** — kompromis mezi elegancí a plností
 
 ### Podle stupně propečení
@@ -30,11 +30,11 @@ Klasika grilování vyžaduje víno s charakterem:
 
 ## Kuřecí a krůtí
 
-Drůbež je neutrálnější, takže máte víc možností:
+Drůbež je neutrálnější, takže máte více možností:
 
-- **Bílé víno:** Veltlínské zelené, Chardonnay
-- **Rosé:** Universální volba k drůbeži na grilu
-- **Lehké červené:** Modrý Portugal
+- **Bílá vína:** Veltlínské zelené, Chardonnay
+- **Rosé:** Univerzální volba k drůbeži na grilu
+- **Lehká červená:** Modrý Portugal
 
 ## Ryba z grilu
 
@@ -58,5 +58,3 @@ Víno je skvělý základ pro marinády:
 2. **Bílá marináda:** 150 ml Ryzlinku + med + hořčice + tymián
 
 > Pravidlo: Víno, které dáte do marinády, by mělo být stejné kvality jako to, které budete pít. Špatné víno = špatná marináda.
-
-Vyberte si víno ke grilování v eshopu U Štipčáků!
