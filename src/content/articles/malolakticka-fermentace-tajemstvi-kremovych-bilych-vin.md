@@ -1,6 +1,6 @@
 ---
 title: "Malolaktická fermentace: Tajemství krémových bílých vín"
-description: "Objevte, jak malolaktická fermentace mění charakter bílých vín. Vše o procesu "malo" a jeho využití u moravských prémiových vín."
+description: "Objevte, jak malolaktická fermentace mění charakter bílých vín. Vše o procesu malo a jeho využití u moravských prémiových vín."
 date: 2025-10-19
 category: "bile-vino"
 categoryLabel: "Bílé víno"
