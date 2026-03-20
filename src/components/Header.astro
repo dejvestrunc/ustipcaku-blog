@@ -23,7 +23,7 @@ const categories = [
     </nav>
 
     <div class="header-actions">
-      <a href="https://www.ustipcaku.cz" class="btn btn-accent">Koupit víno</a>
+      <a href="https://www.ustipcaku.cz" class="btn btn-accent" target="_blank" rel="noopener noreferrer">Koupit víno</a>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span>
         <span></span>
@@ -39,6 +39,32 @@ const categories = [
   hamburger?.addEventListener('click', () => {
     nav?.classList.toggle('open');
     hamburger.classList.toggle('active');
+    if (typeof mixpanel !== 'undefined') {
+      mixpanel.track('Mobile Menu Toggled', {
+        action: hamburger.classList.contains('active') ? 'open' : 'close',
+      });
+    }
+  });
+
+  // Track nav category clicks
+  document.querySelectorAll('.nav-list a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Nav Category Clicked', {
+          label: link.textContent?.trim(),
+          href: link.getAttribute('href'),
+        });
+      }
+    });
+  });
+
+  // Track "Koupit víno" CTA
+  document.querySelector('.header-actions .btn-accent')?.addEventListener('click', () => {
+    if (typeof mixpanel !== 'undefined') {
+      mixpanel.track('Buy Wine CTA Clicked', {
+        location: 'header',
+      });
+    }
   });
 </script>
 

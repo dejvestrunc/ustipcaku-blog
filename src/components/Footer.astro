@@ -5,13 +5,26 @@ const currentYear = new Date().getFullYear();
 <footer class="footer">
   <div class="container footer-inner">
     <div class="footer-links">
-      <a href="https://www.ustipcaku.cz">E-shop</a>
-      <a href="https://www.ustipcaku.cz/degustace-ve-sklipku/">Degustace ve sklepě</a>
-      <a href="https://www.ustipcaku.cz/ubytovani-nad-sklepem/">Ubytování nad sklepem</a>
+      <a href="https://www.ustipcaku.cz" target="_blank" rel="noopener noreferrer">E-shop</a>
+      <a href="https://www.ustipcaku.cz/degustace-ve-sklipku/" target="_blank" rel="noopener noreferrer">Degustace ve sklepě</a>
+      <a href="https://www.ustipcaku.cz/ubytovani-nad-sklepem/" target="_blank" rel="noopener noreferrer">Ubytování nad sklepem</a>
     </div>
     <p class="footer-copy">&copy; {currentYear} U Štipčáků. Všechna práva vyhrazena.</p>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll('.footer-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Footer Link Clicked', {
+          label: link.textContent?.trim(),
+          href: link.getAttribute('href'),
+        });
+      }
+    });
+  });
+</script>
 
 <style>
   .footer {
