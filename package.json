@@ -6,11 +6,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "generate": "node scripts/generate-article.js"
+    "generate": "node scripts/generate-article.js",
+    "review": "node scripts/review-articles.js",
+    "test:e2e": "npx playwright test",
+    "test:e2e:ui": "npx playwright test --ui"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@astrojs/sitemap": "^3.7.1",
     "astro": "^5.7.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
   }
 }

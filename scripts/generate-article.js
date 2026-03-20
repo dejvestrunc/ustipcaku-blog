@@ -254,12 +254,75 @@ ${articleContent.substring(0, 500)}`,
     console.log(`Článek "${titleLine}" už existuje, přidávám datum...`);
     const uniqueFilename = `${slugify(titleLine)}-${date}.md`;
     const uniqueFilepath = join(ARTICLES_DIR, uniqueFilename);
-    writeArticle(uniqueFilepath, titleLine, descLine, date, category, tags, image, productLinksYaml, articleContent);
-    return { filepath: uniqueFilepath, filename: uniqueFilename, title: titleLine };
+    const reviewedContent = await reviewArticle(client, titleLine, descLine, category.label, image, articleContent);
+    writeArticle(uniqueFilepath, reviewedContent.title, reviewedContent.description, date, category, tags, image, productLinksYaml, reviewedContent.content);
+    return { filepath: uniqueFilepath, filename: uniqueFilename, title: reviewedContent.title };
   }
 
-  writeArticle(filepath, titleLine, descLine, date, category, tags, image, productLinksYaml, articleContent);
-  return { filepath, filename, title: titleLine };
+  // Review article before saving
+  const reviewedContent = await reviewArticle(client, titleLine, descLine, category.label, image, articleContent);
+
+  writeArticle(filepath, reviewedContent.title, reviewedContent.description, date, category, tags, image, productLinksYaml, reviewedContent.content);
+  return { filepath, filename, title: reviewedContent.title };
+}
+
+async function reviewArticle(client, title, description, categoryLabel, imageUrl, content) {
+  console.log('Spouštím review článku...');
+
+  const reviewPrompt = `Zkontroluj tento český článek o víně pro vinařský blog. Proveď tyto kontroly:
+
+1. **Gramatika a pravopis**: Oprav všechny gramatické chyby, překlepy a špatnou diakritiku v češtině.
+2. **Kontext a fakta**: Ověř, že vinařské informace jsou věcně správné (odrůdy, regiony, techniky).
+3. **Kvalita textu**: Odstraň generické fráze, klišé a opakování. Text musí znít autenticky.
+4. **YAML bezpečnost**: Zkontroluj, že title a description neobsahují znaky, které by rozbily YAML frontmatter (zejména uvozovky " uvnitř textu — nahraď je).
+5. **Relevance obrázku**: Obrázek je z Unsplash s URL: ${imageUrl}
+   - Kategorie článku: ${categoryLabel}
+   - Zhodnoť, zda tematicky sedí k článku o víně v dané kategorii.
+
+Titulek: ${title}
+Popis: ${description}
+
+Článek:
+${content}
+
+Vrať PŘESNĚ v tomto formátu:
+IMAGE_OK: true/false
+IMAGE_NOTE: (krátká poznámka proč obrázek sedí/nesedí)
+TITLE: (opravený titulek, nebo původní pokud je OK)
+DESC: (opravený popis, nebo původní pokud je OK)
+CONTENT_START
+(celý opravený text článku v Markdownu)
+CONTENT_END`;
+
+  const reviewMessage = await client.messages.create({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 3000,
+    messages: [{ role: 'user', content: reviewPrompt }],
+    system: 'Jsi zkušený český korektor a vinařský expert. Opravuj pečlivě gramatiku, fakta a styl. Vracíš opravený text v požadovaném formátu.',
+  });
+
+  const reviewText = reviewMessage.content[0].text;
+
+  const imageOk = reviewText.match(/IMAGE_OK:\s*(true|false)/)?.[1] === 'true';
+  const imageNote = reviewText.match(/IMAGE_NOTE:\s*(.+)/)?.[1]?.trim() || '';
+  const reviewedTitle = reviewText.match(/TITLE:\s*(.+)/)?.[1]?.trim() || title;
+  const reviewedDesc = reviewText.match(/DESC:\s*(.+)/)?.[1]?.trim() || description;
+  const contentMatch = reviewText.match(/CONTENT_START\n([\s\S]*?)\nCONTENT_END/);
+  const reviewedContent = contentMatch?.[1]?.trim() || content;
+
+  if (!imageOk) {
+    console.warn(`⚠ Obrázek nemusí sedět k článku: ${imageNote}`);
+  } else {
+    console.log(`✓ Obrázek OK: ${imageNote}`);
+  }
+
+  console.log('✓ Review dokončeno');
+
+  // Sanitize title and description for YAML safety
+  const safeTitle = reviewedTitle.replace(/"/g, "'");
+  const safeDesc = reviewedDesc.replace(/"/g, "'");
+
+  return { title: safeTitle, description: safeDesc, content: reviewedContent, imageOk, imageNote };
 }
 
 function writeArticle(filepath, title, description, date, category, tags, image, productLinksYaml, content) {
