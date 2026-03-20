@@ -5,7 +5,7 @@ date: 2026-03-11
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["frizzante", "lehce šumivé víno", "moravské víno", "italské víno"]
-image: "https://images.unsplash.com/photo-1592483648228-b35146a4330c?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/frizzante-lehce-sumive-vino-bez-praskani-korku.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

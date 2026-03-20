@@ -2,8 +2,8 @@ name: Publish Wine Article
 
 on:
   schedule:
-    # Every 3 days at 8:00 UTC (10:00 CET)
-    - cron: '0 8 */3 * *'
+    # Every Monday at 18:00 UTC (20:00 CET) - article gets random publish date within the week
+    - cron: '0 18 * * 1'
   workflow_dispatch: # Manual trigger
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "Lumír (AI Wine Blogger)"
           git config user.email "lumir@ustipcaku.cz"
-          git add src/content/articles/
+          git add src/content/articles/ public/images/articles/
           NEW_FILE=$(git diff --cached --name-only | head -1 | xargs basename 2>/dev/null || echo "new-article")
           git commit -m "feat: new wine article - $NEW_FILE" || echo "No changes to commit"
           git push

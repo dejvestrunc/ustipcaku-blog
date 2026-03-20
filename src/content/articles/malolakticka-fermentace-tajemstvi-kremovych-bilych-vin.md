@@ -5,7 +5,7 @@ date: 2025-10-19
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["malolaktická fermentace", "bílé víno", "vinařské techniky", "moravská vína"]
-image: "https://images.unsplash.com/photo-1598306442928-4d90f32c6866?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/malolakticka-fermentace-tajemstvi-kremovych-bilych-vin.jpg"
 productLinks:
   - title: "Neuburské + Aurelius 2024"
     url: "https://www.ustipcaku.cz/neuburske-aurelius-2024/"

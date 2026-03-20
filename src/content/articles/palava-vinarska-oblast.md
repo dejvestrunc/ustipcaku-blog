@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"
   - title: "Rulandské šedé 2024"
     url: "https://www.ustipcaku.cz/rulandske-sede-2024/"
-image: "https://images.unsplash.com/photo-1765192681431-c91428e3cb27?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/palava-vinarska-oblast.jpg"
 ---
 
 Pálavské kopce jsou ikonickou siluetou moravského vinařství. Pod vápencovými útesy se rozprostírají vinice, které dávají jedny z nejcennějších českých vín.

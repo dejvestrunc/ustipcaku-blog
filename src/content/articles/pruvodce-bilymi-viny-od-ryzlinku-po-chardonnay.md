@@ -5,7 +5,7 @@ date: 2026-02-23
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["bílá vína", "Ryzlink rýnský", "Chardonnay", "moravské víno"]
-image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/pruvodce-bilymi-viny-od-ryzlinku-po-chardonnay.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

@@ -5,7 +5,7 @@ date: 2025-12-23
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "moravské víno", "sekt", "frizzante"]
-image: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-sumive-vino-od-frizzante-po-sekty-metodou-klasik.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

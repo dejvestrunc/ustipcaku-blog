@@ -5,7 +5,7 @@ date: 2026-03-20
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["dubování vína", "bílá vína", "moravské víno", "vinařské techniky"]
-image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/dub-a-bila-vina-jak-dubovani-meni-moravske-vino.jpg"
 productLinks:
   - title: "Veltlínské zelené 2022"
     url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"

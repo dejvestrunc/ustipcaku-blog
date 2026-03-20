@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/ryzlink-vlassky-2024/"
   - title: "Ryzlink Rýnský 2022"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2022-zralo-v-sudu/"
-image: "https://images.unsplash.com/photo-1604909052868-dd2ef1e53daa?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-parovat-moravsky-ryzlink-s-jidlem.jpg"
 ---
 
 Ryzlink rýnský je jedním z nejušlechtilejších bílých vín, které na jižní Moravě nacházejí ideální podmínky pro svůj růst. Jeho charakteristická mineralita, jemná kyselinka a květinové aroma z něj dělají výborného společníka k celé řadě pokrmů.
