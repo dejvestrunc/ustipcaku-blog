@@ -17,7 +17,7 @@ productLinks:
 image: "/images/articles/slamove-vino-a-pet-nat-kdyz-tradice-potka-experiment.jpg"
 ---
 
-V moravském vinařství existuje napětí, které mě jako Lumíra fascinuje. Na jedné straně stojí staletá tradice — sklepy, bečky, osvědčené odrůdy, postupy předávané z generace na generaci. Na druhé straně je touha experimentovat, zkoušet nové věci, posouvat hranice. A vinařství U Štipčáků ve Vlkošských búdách u Kyjova je místem, kde se tyto dva světy setkávají s pozoruhodným výsledkem.
+V moravském vinařství existuje fascinující napětí. Na jedné straně stojí staletá tradice — sklepy, bečky, osvědčené odrůdy, postupy předávané z generace na generaci. Na druhé straně je touha experimentovat, zkoušet nové věci, posouvat hranice. A vinařství U Štipčáků ve Vlkošských búdách u Kyjova je místem, kde se tyto dva světy setkávají s pozoruhodným výsledkem.
 
 Dnes se podíváme na tři netradiční vinařské přístupy, které v portfoliu U Štipčáků najdete: slamové víno, PET-NAT a šumivá vína vyrobená méthode champenoise. Tři různé technologie, tři různé filozofie — a všechny pod jednou střechou malého rodinného vinařství na Kyjovsku.
 
@@ -110,5 +110,3 @@ A pokud budete mít štěstí a na degustaci ve Vlkošských búdách bude k och
 Vše najdete na e-shopu [ustipcaku.cz](https://www.ustipcaku.cz) nebo přímo ve sklepě na Vlkošských búdách u Kyjova. Stačí zavolat, domluvit se a přijet.
 
 Na zdraví — a nebojte se experimentovat!
-
-*Lumír*

@@ -1,7 +1,7 @@
 ---
 title: "Vinný sklep U Štipčáků — tradice, rodina a víno ze Slovácka"
 description: "Poznejte rodinné vinařství U Štipčáků ve Vlkoši u Kyjova. Příběh rodiny, historický sklep a vína oceněná zlatem v Paříži."
-date: 2025-11-08
+date: 2026-01-08
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["vinařství", "slovácko", "vlkoš", "kyjovsko", "rodinné vinařství", "tradice"]
@@ -17,7 +17,7 @@ productLinks:
 image: "/images/articles/vinny-sklep-u-stipcaku-tradice-rodina-a-vino-ze-slovacka.jpg"
 ---
 
-Jsou místa, která vás vtáhnou hned, jak na ně vstoupíte. Místa, kde cítíte, že tu nejde jen o obchod, ale o životní příběh. Vinný sklep U Štipčáků ve Vlkoši u Kyjova je přesně takovým místem. Když jsem tam poprvé zavítal — jako Lumír, váš virtuální průvodce světem moravského vína — okamžitě jsem pochopil, proč se sem lidé vracejí. Není to jen o vínu. Je to o rodině, tradici a neopakovatelném kouzlu Slovácka.
+Jsou místa, která vás vtáhnou hned, jak na ně vstoupíte. Místa, kde cítíte, že tu nejde jen o obchod, ale o životní příběh. Vinný sklep U Štipčáků ve Vlkoši u Kyjova je přesně takovým místem. Kdo sem jednou zavítá, pochopí, proč se sem lidé vracejí. Není to jen o vínu. Je to o rodině, tradici a neopakovatelném kouzlu Slovácka.
 
 ## Vlkošské búdy: Sklepní ulička, kde čas plyne jinak
 
@@ -72,5 +72,3 @@ Vinný sklep U Štipčáků najdete ve Vlkošských búdách, asi kilometr od ob
 A pokud nemáte možnost přijet osobně? Nevadí — vína U Štipčáků si můžete objednat online a nechat si kousek Slovácka přivézt až domů. Doporučuji začít s Ryzlinkem rýnským nebo Pálavou — obě vína vám dají jasnou představu o tom, co Kyjovsko dokáže nabídnout.
 
 Na zdraví a na shledanou ve Vlkoši!
-
-*Lumír*

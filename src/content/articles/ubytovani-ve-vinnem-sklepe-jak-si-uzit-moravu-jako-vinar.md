@@ -1,7 +1,7 @@
 ---
 title: "Ubytování ve vinném sklepě: Jak si užít Moravu jako vinař"
 description: "Přespěte přímo ve vinařství U Štipčáků na Vlkošských búdách. Tipy na ubytování, cyklotrasy a zážitky na Kyjovsku."
-date: 2025-11-22
+date: 2026-01-26
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["ubytování", "slovácko", "vlkoš", "cyklistika", "kyjovsko", "vinařský zážitek"]
@@ -15,7 +15,7 @@ productLinks:
 image: "/images/articles/ubytovani-ve-vinnem-sklepe-jak-si-uzit-moravu-jako-vinar.jpg"
 ---
 
-Znáte ten pocit, kdy se ráno probudíte a za oknem místo města vidíte řady vinné révy? Kdy první vůně dne není káva z automatu, ale čerstvý ranní vzduch smíchaný s vůní země a zrajících hroznů? Pokud ne, je na čase to změnit. A já, Lumír, vím přesně, kam vás poslat.
+Znáte ten pocit, kdy se ráno probudíte a za oknem místo města vidíte řady vinné révy? Kdy první vůně dne není káva z automatu, ale čerstvý ranní vzduch smíchaný s vůní země a zrajících hroznů? Pokud ne, je na čase to změnit.
 
 Vinný sklep U Štipčáků ve Vlkošských búdách u Kyjova nabízí něco, co v Česku není tak běžné — ubytování přímo ve vinařství, v historické sklepní uličce, kilometr od civilizace a metr od místa, kde se rodí víno.
 
@@ -101,5 +101,3 @@ Kombinace ubytování ve vinařství, degustace přímo u vinaře, cyklovýletů
 A až se budete vracet domů — s kufrem plným lahví a hlavou plnou vzpomínek — pochopíte, proč se říká, že Morava je nejlepší, když ji zažijete zblízka.
 
 Tak neváhejte. Zarezervujte si pokoj, sedněte na kolo nebo do auta a vyrazte na Kyjovsko. Vlkošské búdy čekají.
-
-*Lumír*
