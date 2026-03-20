@@ -5,7 +5,7 @@ date: 2025-11-09
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["zrání vína", "sudy", "červené víno", "Morava"]
-image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/zrani-cerveneho-vina-v-sudech-proc-drevo-dela-zazraky.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

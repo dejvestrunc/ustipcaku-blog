@@ -5,7 +5,7 @@ date: 2025-11-16
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské víno", "bílé víno", "vinařství", "Morava"]
-image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-bile-vino-tajemstvi-vyroby-a-jedinecne-chuti.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

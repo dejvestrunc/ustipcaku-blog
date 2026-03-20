@@ -5,7 +5,7 @@ date: 2025-10-06
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["vinařské degustace", "ochutnávka vína", "horizontální degustace", "vertikální degustace"]
-image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/vinarske-degustace-objevte-nuance-a-rozdily-ve-vine.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

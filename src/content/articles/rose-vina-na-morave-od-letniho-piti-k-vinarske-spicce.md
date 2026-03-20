@@ -5,7 +5,7 @@ date: 2025-12-01
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé vína", "moravská vína", "vinařství", "sklizeň hroznů"]
-image: "https://images.unsplash.com/photo-1556012018-50c5c0da73bf?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/rose-vina-na-morave-od-letniho-piti-k-vinarske-spicce.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

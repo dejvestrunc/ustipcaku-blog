@@ -5,7 +5,7 @@ date: 2025-12-17
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["znojemský region", "moravské vinařství", "chvalovsko", "skryté vinice"]
-image: "https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/znojemsky-region-skryte-vinarske-poklady-moravy.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

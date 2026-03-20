@@ -5,7 +5,7 @@ date: 2025-11-30
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "zimní degustace", "frizzante", "sekty"]
-image: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/zimni-degustace-sumivych-vin-objevte-jejich-skryte-kvality.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

@@ -5,7 +5,7 @@ date: 2025-12-27
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["moravské rosé", "růžové víno", "moravské víno", "revoluce rosé"]
-image: "https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-rose-od-sladkeho-pitka-k-elegantnim-vinum.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

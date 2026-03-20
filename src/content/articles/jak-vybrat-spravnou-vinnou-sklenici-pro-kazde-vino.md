@@ -5,7 +5,7 @@ date: 2025-10-24
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["vinné sklenice", "degustace vína", "výběr sklenic", "vinařství"]
-image: "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-vybrat-spravnou-vinnou-sklenici-pro-kazde-vino.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

@@ -5,7 +5,7 @@ date: 2025-12-14
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["otevřené víno", "skladování vína", "trvanlivost vína", "vinařské tipy"]
-image: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-dlouho-vydrzi-otevrene-vino-pruvodce-skladovanim.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

@@ -5,7 +5,7 @@ date: 2026-02-19
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "moravské víno", "výroba vína", "macerace"]
-image: "https://images.unsplash.com/photo-1606767351797-1664b860ae5a?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/cervena-vina-tajemstvi-vyroby-a-moravske-kvality.jpg"
 productLinks:
   - title: "Merlot 2022"
     url: "https://www.ustipcaku.cz/merlot-2022/"

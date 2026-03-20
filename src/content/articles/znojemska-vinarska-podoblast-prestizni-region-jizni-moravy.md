@@ -5,7 +5,7 @@ date: 2026-03-19
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["znojemská podoblast", "jižní morava", "vinařství", "moravská vína"]
-image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/znojemska-vinarska-podoblast-prestizni-region-jizni-moravy.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

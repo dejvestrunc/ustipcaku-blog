@@ -5,7 +5,7 @@ date: 2026-02-27
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["otevírání vína", "výběr vývrtky", "sommelier tipy", "domácí vinařství"]
-image: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-otevrit-vino-bez-komplikaci-profesionalni-triky.jpg"
 productLinks:
   - title: "Neuburské + Aurelius 2024"
     url: "https://www.ustipcaku.cz/neuburske-aurelius-2024/"

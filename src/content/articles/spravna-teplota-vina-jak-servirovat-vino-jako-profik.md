@@ -5,7 +5,7 @@ date: 2025-09-27
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["teplota vína", "servírování vína", "vinařské tipy", "degustace"]
-image: "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/spravna-teplota-vina-jak-servirovat-vino-jako-profik.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

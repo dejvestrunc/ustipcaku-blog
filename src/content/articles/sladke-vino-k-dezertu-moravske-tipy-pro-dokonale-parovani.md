@@ -5,7 +5,7 @@ date: 2026-02-11
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["sladké víno", "párování vína", "moravské víno", "dezerty"]
-image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/sladke-vino-k-dezertu-moravske-tipy-pro-dokonale-parovani.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

@@ -10,7 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-rose-2019/"
   - title: "Frizzante 2023 polosuché"
     url: "https://www.ustipcaku.cz/frizzante-2023/"
-image: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/rose-neni-jen-letni-vino.jpg"
 ---
 
 Rosé má nálepku letního vína na terasu. Je to nespravedlivé — kvalitní rosé je univerzální víno, které zvládne i těžší pokrmy a chladnější měsíce.

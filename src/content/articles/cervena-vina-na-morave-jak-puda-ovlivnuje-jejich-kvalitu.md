@@ -5,7 +5,7 @@ date: 2025-12-06
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["moravská červená vína", "terroir", "půda a víno", "moravské vinice"]
-image: "https://images.unsplash.com/photo-1586370434639-0fe43b2d32e6?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/cervena-vina-na-morave-jak-puda-ovlivnuje-jejich-kvalitu.jpg"
 productLinks:
   - title: "Cabernet Moravia 2022"
     url: "https://www.ustipcaku.cz/cabernet-moravia-2022/"

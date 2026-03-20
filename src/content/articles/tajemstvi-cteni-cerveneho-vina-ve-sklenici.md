@@ -5,7 +5,7 @@ date: 2025-12-31
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "degustace vína", "vinařství", "sommeliér"]
-image: "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/tajemstvi-cteni-cerveneho-vina-ve-sklenici.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

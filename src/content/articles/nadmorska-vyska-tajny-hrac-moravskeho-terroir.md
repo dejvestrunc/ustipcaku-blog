@@ -5,7 +5,7 @@ date: 2025-10-01
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["terroir", "nadmořská výška", "moravská vína", "vinařství"]
-image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/nadmorska-vyska-tajny-hrac-moravskeho-terroir.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

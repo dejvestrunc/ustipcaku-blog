@@ -5,7 +5,7 @@ date: 2025-10-14
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "moravská vína", "vinařství", "růžové víno"]
-image: "https://images.unsplash.com/photo-1560148218-1a83060f7b32?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-rose-od-experimentu-k-vinarske-spicce.jpg"
 productLinks:
   - title: "Frankovka rosé 2019"
     url: "https://www.ustipcaku.cz/frankovka-rose-2019/"

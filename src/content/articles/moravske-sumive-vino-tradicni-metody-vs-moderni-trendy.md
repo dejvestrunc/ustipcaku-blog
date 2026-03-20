@@ -5,7 +5,7 @@ date: 2025-11-04
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "moravské vinařství", "tradiční metoda", "charmat"]
-image: "https://images.unsplash.com/photo-1592483648228-b35146a4330c?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-sumive-vino-tradicni-metody-vs-moderni-trendy.jpg"
 productLinks:
   - title: "Pét-Nat"
     url: "https://www.ustipcaku.cz/pet-nat/"

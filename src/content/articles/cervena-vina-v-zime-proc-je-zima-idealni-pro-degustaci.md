@@ -5,7 +5,7 @@ date: 2025-10-16
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "zimní degustace", "párování vín", "vinařství"]
-image: "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/cervena-vina-v-zime-proc-je-zima-idealni-pro-degustaci.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

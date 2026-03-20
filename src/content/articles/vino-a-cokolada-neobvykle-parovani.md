@@ -10,7 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-2022/"
   - title: "Merlot 2022"
     url: "https://www.ustipcaku.cz/merlot-2022/"
-image: "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/vino-a-cokolada-neobvykle-parovani.jpg"
 ---
 
 Čokoláda a víno — dva životní požitky, které se mohou buď úžasně doplňovat, nebo vzájemně ničit. Záleží na tom, jak je spárujete.

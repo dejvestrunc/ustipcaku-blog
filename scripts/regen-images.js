@@ -1,5 +1,5 @@
-import sharp from 'sharp';
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import Anthropic from '@anthropic-ai/sdk';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -7,112 +7,129 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = join(__dirname, '..', 'src', 'content', 'articles');
 const IMAGES_DIR = join(__dirname, '..', 'public', 'images', 'articles');
 
-// Articles clearly about specific wines -> matching eshop product URLs
-const articlesToFix = [
-  { file: 'frankovka-kralovna-moravskych-cervenych.md', productUrl: 'https://www.ustipcaku.cz/frankovka-2022/' },
-  { file: 'jak-parovat-moravsky-ryzlink-s-jidlem.md', productUrl: 'https://www.ustipcaku.cz/ryzlink-rynsky-2023/' },
-  { file: 'palava-vinarska-oblast.md', productUrl: 'https://www.ustipcaku.cz/palava-2024/' },
-  { file: 'frizzante-lehce-sumive-vino-bez-praskani-korku.md', productUrl: 'https://www.ustipcaku.cz/frizzante-2024/' },
-  { file: 'pruvodce-bilymi-viny-od-ryzlinku-po-chardonnay.md', productUrl: 'https://www.ustipcaku.cz/chardonnay-2023/' },
-  { file: 'moravske-sumive-vino-od-frizzante-po-sekty-metodou-klasik.md', productUrl: 'https://www.ustipcaku.cz/pet-nat/' },
-  { file: 'dub-a-bila-vina-jak-dubovani-meni-moravske-vino.md', productUrl: 'https://www.ustipcaku.cz/veltlinske-zelene-2022-2/' },
-  { file: 'malolakticka-fermentace-tajemstvi-kremovych-bilych-vin.md', productUrl: 'https://www.ustipcaku.cz/rulandske-bile-2024/' },
-];
+const FAL_KEY = process.env.FAL_KEY;
+if (!FAL_KEY) { console.error('FAL_KEY not set'); process.exit(1); }
 
-async function fetchProductImageUrl(productPageUrl) {
-  const res = await fetch(productPageUrl);
-  if (!res.ok) return null;
-  const html = await res.text();
-  const match = html.match(/https:\/\/cdn\.myshoptet\.com\/usr\/www\.ustipcaku\.cz\/user\/shop\/big\/[^"'\s?]+\.(png|jpg|jpeg)/i);
-  return match ? match[0] : null;
+const claude = new Anthropic();
+
+async function generateImagePrompt(title, category, content) {
+  const msg = await claude.messages.create({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 300,
+    messages: [{
+      role: 'user',
+      content: `Na základě tohoto článku o víně vytvoř prompt pro AI generování fotky (Flux model).
+Fotka bude hlavní obrázek článku na vinařském blogu.
+
+Titulek: ${title}
+Kategorie: ${category}
+Začátek článku: ${content.substring(0, 600)}
+
+Pravidla:
+- Prompt v angličtině
+- Popisuj scénu, náladu, světlo, kompozici
+- Žádné lahve s etiketami, žádná loga, žádný text
+- Může obsahovat: sklenice vína, vinice, sklep, jídlo, hrozny, sudy, krajinu
+- Styl: profesionální editorial/food photography, moody, shallow depth of field
+- Vždy přidej "4k quality, professional editorial photography"
+
+Vrať POUZE prompt, nic jiného.`
+    }],
+    system: 'Jsi expert na AI image generation prompty. Vracíš pouze prompt, bez komentáře.',
+  });
+
+  return msg.content[0].text.trim();
 }
 
-async function composeProductImage(productImageUrl, slug) {
-  if (!existsSync(IMAGES_DIR)) mkdirSync(IMAGES_DIR, { recursive: true });
+async function falGenerate(prompt) {
+  const resp = await fetch('https://queue.fal.run/fal-ai/flux-pro/v1.1', {
+    method: 'POST',
+    headers: { 'Authorization': `Key ${FAL_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt, image_size: 'landscape_16_9', num_images: 1 }),
+  });
+  const data = await resp.json();
+  const reqId = data.request_id;
+  if (!reqId) throw new Error(`fal.ai error: ${JSON.stringify(data)}`);
 
-  const res = await fetch(productImageUrl);
-  if (!res.ok) return null;
-  const imageBuffer = Buffer.from(await res.arrayBuffer());
+  for (let i = 0; i < 60; i++) {
+    await new Promise(r => setTimeout(r, 5000));
+    const res = await fetch(`https://queue.fal.run/fal-ai/flux-pro/requests/${reqId}`, {
+      headers: { 'Authorization': `Key ${FAL_KEY}` },
+    });
+    const result = await res.json();
+    if (result.images?.[0]?.url) return result.images[0].url;
+    if (result.status !== 'IN_QUEUE' && result.status !== 'IN_PROGRESS' && !result.detail?.includes('still in progress')) {
+      throw new Error(`fal.ai failed: ${JSON.stringify(result)}`);
+    }
+  }
+  throw new Error('fal.ai timeout');
+}
 
-  const trimmed = await sharp(imageBuffer).trim({ threshold: 20 }).toBuffer();
-
-  const resized = await sharp(trimmed)
-    .resize({ width: 360, height: 560, fit: 'inside', withoutEnlargement: true })
-    .png().toBuffer();
-
-  const meta = await sharp(resized).metadata();
-
-  const shadow = await sharp(resized)
-    .modulate({ brightness: 0 })
-    .blur(12)
-    .ensureAlpha(0.4)
-    .toBuffer();
-
-  const offsetX = Math.round((1200 - meta.width) / 2);
-  const offsetY = Math.round((720 - meta.height) / 2) - 10;
-
-  const bgSvg = `<svg width="1200" height="720" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#1a0a0e"/>
-        <stop offset="40%" style="stop-color:#2d1018"/>
-        <stop offset="100%" style="stop-color:#0d0508"/>
-      </linearGradient>
-      <radialGradient id="glow" cx="50%" cy="50%" r="45%">
-        <stop offset="0%" style="stop-color:#722F37;stop-opacity:0.25"/>
-        <stop offset="100%" style="stop-color:#1a0a0e;stop-opacity:0"/>
-      </radialGradient>
-    </defs>
-    <rect width="1200" height="720" fill="url(#bg)"/>
-    <rect width="1200" height="720" fill="url(#glow)"/>
-    <line x1="0" y1="700" x2="1200" y2="700" stroke="#722F37" stroke-width="2" opacity="0.3"/>
-    <text x="1100" y="690" font-family="Georgia, serif" font-size="14" fill="#a88" opacity="0.4" text-anchor="end">ustipcaku.cz</text>
-  </svg>`;
-
-  const outputPath = join(IMAGES_DIR, `${slug}.jpg`);
-  await sharp(Buffer.from(bgSvg))
-    .composite([
-      { input: shadow, left: offsetX + 8, top: offsetY + 8 },
-      { input: resized, left: offsetX, top: offsetY },
-    ])
-    .jpeg({ quality: 85 })
-    .toFile(outputPath);
-
-  return `/images/articles/${slug}.jpg`;
+async function downloadImage(url, outputPath) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Download failed: ${res.status}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  writeFileSync(outputPath, buf);
 }
 
 async function main() {
-  let fixed = 0;
-  for (const { file, productUrl } of articlesToFix) {
-    const slug = file.replace('.md', '');
-    console.log(`\n--- ${file} ---`);
+  if (!existsSync(IMAGES_DIR)) mkdirSync(IMAGES_DIR, { recursive: true });
 
-    const productImageUrl = await fetchProductImageUrl(productUrl);
-    if (!productImageUrl) {
-      console.log('  ✗ Produktová fotka nenalezena');
+  const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.md'));
+  console.log(`Nalezeno ${files.length} článků\n`);
+
+  let generated = 0;
+  let failed = 0;
+
+  for (const file of files) {
+    const slug = file.replace('.md', '');
+    const content = readFileSync(join(ARTICLES_DIR, file), 'utf8');
+    const titleMatch = content.match(/^title:\s*"(.+)"/m);
+    const catMatch = content.match(/^categoryLabel:\s*"(.+)"/m);
+    const title = titleMatch?.[1] || slug;
+    const category = catMatch?.[1] || 'Víno';
+
+    // Skip already regenerated
+    const currentImage = content.match(/^image:\s*"([^"]+)"/m)?.[1] || '';
+    if (currentImage.startsWith('/images/articles/')) {
+      console.log(`\n[skip] ${title} — already done`);
+      generated++;
       continue;
     }
-    console.log(`  Fotka: ${productImageUrl}`);
+
+    console.log(`\n[${generated + failed + 1}/${files.length}] ${title}`);
 
     try {
-      const imagePath = await composeProductImage(productImageUrl, slug);
-      if (!imagePath) { console.log('  ✗ Kompozice selhala'); continue; }
+      // Step 1: Claude generates image prompt from article context
+      console.log('  Generating prompt...');
+      const prompt = await generateImagePrompt(title, category, content);
+      console.log(`  Prompt: ${prompt.substring(0, 100)}...`);
 
-      // Update article frontmatter
-      const articlePath = join(ARTICLES_DIR, file);
-      let content = readFileSync(articlePath, 'utf8');
-      content = content.replace(/^image:\s*"[^"]+"/m, `image: "${imagePath}"`);
-      writeFileSync(articlePath, content, 'utf8');
+      // Step 2: fal.ai generates the image
+      console.log('  Generating image...');
+      const imageUrl = await falGenerate(prompt);
 
-      console.log(`  ✓ Obrázek: ${imagePath}`);
-      fixed++;
+      // Step 3: Download and save
+      const outputPath = join(IMAGES_DIR, `${slug}.jpg`);
+      await downloadImage(imageUrl, outputPath);
+      const imagePath = `/images/articles/${slug}.jpg`;
+
+      // Step 4: Update article frontmatter
+      const updated = content.replace(/^image:\s*"[^"]+"/m, `image: "${imagePath}"`);
+      writeFileSync(join(ARTICLES_DIR, file), updated, 'utf8');
+
+      console.log(`  ✓ ${imagePath}`);
+      generated++;
+
     } catch (err) {
-      console.log(`  ✗ Chyba: ${err.message}`);
+      console.error(`  ✗ ${err.message}`);
+      failed++;
     }
   }
 
   console.log(`\n========================================`);
-  console.log(`Pregenerováno: ${fixed}/${articlesToFix.length}`);
+  console.log(`Vygenerováno: ${generated}/${files.length}`);
+  console.log(`Selhalo: ${failed}`);
 }
 
-main().catch(console.error);
+main().catch(err => { console.error('Fatal:', err); process.exit(1); });

@@ -5,7 +5,7 @@ date: 2025-12-11
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské bílé víno", "víno Morava", "české víno", "bílé víno"]
-image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-bile-vino-od-mineralnich-po-medove-chute.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

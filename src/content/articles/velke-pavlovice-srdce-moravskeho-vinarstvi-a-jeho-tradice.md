@@ -5,7 +5,7 @@ date: 2026-02-07
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["Velké Pavlovice", "moravské víno", "vinařství", "vinařská oblast"]
-image: "https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/velke-pavlovice-srdce-moravskeho-vinarstvi-a-jeho-tradice.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

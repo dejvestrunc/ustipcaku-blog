@@ -5,7 +5,7 @@ date: 2026-03-18
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "antokyaniny", "vinařství", "výroba vína"]
-image: "https://images.unsplash.com/photo-1586370434639-0fe43b2d32e6?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-vznika-barva-cervenych-vin-tajemstvi-antokyaninu.jpg"
 productLinks:
   - title: "Cabernet Moravia 2022"
     url: "https://www.ustipcaku.cz/cabernet-moravia-2022/"

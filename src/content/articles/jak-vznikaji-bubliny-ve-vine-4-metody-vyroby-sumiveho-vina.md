@@ -5,7 +5,7 @@ date: 2026-02-14
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "metody výroby", "tradiční metoda", "vinařství"]
-image: "https://images.unsplash.com/photo-1592483648228-b35146a4330c?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-vznikaji-bubliny-ve-vine-4-metody-vyroby-sumiveho-vina.jpg"
 productLinks:
   - title: "Pét-Nat"
     url: "https://www.ustipcaku.cz/pet-nat/"

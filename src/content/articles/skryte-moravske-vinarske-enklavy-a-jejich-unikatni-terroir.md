@@ -5,7 +5,7 @@ date: 2025-11-20
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské vinařství", "terroir", "netradiční vinařské regiony", "mikroklima"]
-image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/skryte-moravske-vinarske-enklavy-a-jejich-unikatni-terroir.jpg"
 productLinks:
   - title: "Tramín červený 2024"
     url: "https://www.ustipcaku.cz/tramin-cerveny-2024/"

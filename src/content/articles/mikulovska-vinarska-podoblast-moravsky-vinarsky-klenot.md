@@ -5,7 +5,7 @@ date: 2026-03-03
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["Mikulovská podoblast", "moravské víno", "vinařský region", "mikroklima"]
-image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/mikulovska-vinarska-podoblast-moravsky-vinarsky-klenot.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

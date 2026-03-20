@@ -5,7 +5,7 @@ date: 2026-01-14
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "párování vína", "zimní pokrmy", "gastronomie"]
-image: "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravska-vina-k-zimnim-pokrmum-idealni-parovani.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

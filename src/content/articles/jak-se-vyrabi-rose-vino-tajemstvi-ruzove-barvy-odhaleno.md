@@ -5,7 +5,7 @@ date: 2026-02-15
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "výroba vína", "růžové víno", "vinařství"]
-image: "https://images.unsplash.com/photo-1563223771-5fe4038fbfc9?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-se-vyrabi-rose-vino-tajemstvi-ruzove-barvy-odhaleno.jpg"
 productLinks:
   - title: "Frankovka rosé 2019"
     url: "https://www.ustipcaku.cz/frankovka-rose-2019/"

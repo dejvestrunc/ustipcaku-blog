@@ -5,7 +5,7 @@ date: 2026-01-23
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé vína", "růžové víno", "historie vína", "Provence"]
-image: "https://images.unsplash.com/photo-1560148218-1a83060f7b32?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/rose-vina-od-antiky-k-modernimu-boomu-ruzovych-vin.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

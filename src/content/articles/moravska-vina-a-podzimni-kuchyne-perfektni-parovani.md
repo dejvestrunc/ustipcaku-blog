@@ -5,7 +5,7 @@ date: 2026-03-05
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "párování vína", "podzimní kuchyně", "food pairing"]
-image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravska-vina-a-podzimni-kuchyne-perfektni-parovani.jpg"
 productLinks:
   - title: "Veltlínské zelené 2022"
     url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"

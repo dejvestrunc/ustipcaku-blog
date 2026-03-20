@@ -5,7 +5,7 @@ date: 2025-10-28
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské vinařství", "vinařské podoblasti", "terroir", "znojemská podoblast"]
-image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-vinarske-podoblasti-pruvodce-terroir-moravy.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

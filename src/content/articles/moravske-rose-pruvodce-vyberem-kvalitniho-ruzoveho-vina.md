@@ -5,7 +5,7 @@ date: 2026-03-12
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["moravské rosé", "růžové víno", "výběr vína", "moravské víno"]
-image: "https://images.unsplash.com/photo-1560148218-1a83060f7b32?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-rose-pruvodce-vyberem-kvalitniho-ruzoveho-vina.jpg"
 productLinks:
   - title: "Frizzante 2023"
     url: "https://www.ustipcaku.cz/frizzante-2023/"

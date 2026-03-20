@@ -5,7 +5,7 @@ date: 2026-03-22
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["mladé víno", "moravská vína", "vinařství", "nová úroda"]
-image: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/mlade-vino-z-moravy-tradice-cerstve-chuti-nove-urody.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

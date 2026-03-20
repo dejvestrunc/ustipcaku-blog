@@ -5,7 +5,7 @@ date: 2025-11-26
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["minerální vína", "párování vín", "moravské víno", "vinařství"]
-image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/mineralni-vina-netradicni-parovani-ktere-prekvapi.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

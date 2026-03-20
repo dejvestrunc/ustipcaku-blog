@@ -5,7 +5,7 @@ date: 2025-11-17
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["chlazení vína", "servírování vína", "vinařské tipy", "letní pití"]
-image: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-rychle-ochladit-vino-bez-lednicky-7-osvedcenych-triku.jpg"
 productLinks:
   - title: "Neuburské + Aurelius 2024"
     url: "https://www.ustipcaku.cz/neuburske-aurelius-2024/"

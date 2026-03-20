@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/cabernet-moravia-2022/"
   - title: "Hibernal Slámovka 2021"
     url: "https://www.ustipcaku.cz/hibernal-slamovka-2021/"
-image: "https://images.unsplash.com/photo-1738544475553-4475fb29b9a4?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-spravne-skladovat-vino-doma.jpg"
 ---
 
 Koupili jste si pár lahví dobrého vína a chcete ho uschovat na správný moment? Správné skladování je klíč.

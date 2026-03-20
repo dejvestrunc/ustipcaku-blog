@@ -5,7 +5,7 @@ date: 2026-01-05
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské víno", "terroir", "bílé víno", "půda"]
-image: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-puda-ovlivnuje-chut-moravskych-bilych-vin.jpg"
 productLinks:
   - title: "Veltlínské zelené 2022"
     url: "https://www.ustipcaku.cz/veltlinske-zelene-2022-2/"

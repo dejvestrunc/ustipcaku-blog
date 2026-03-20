@@ -5,7 +5,7 @@ date: 2025-11-08
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "moravské víno", "trvanlivost vína", "zrání vína"]
-image: "https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/moravske-rose-jak-dlouho-vydrzi-a-kdy-je-nejlepsi-pit.jpg"
 productLinks:
   - title: "Frizzante 2024"
     url: "https://www.ustipcaku.cz/frizzante-2024/"

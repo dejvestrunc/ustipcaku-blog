@@ -12,7 +12,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frizzante-2023/"
   - title: "PET-NAT Ryzlink Vlašský 2020"
     url: "https://www.ustipcaku.cz/pet-nat/"
-image: "https://images.unsplash.com/photo-1514242879996-d7b3bb2dd531?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/sumive-vino-vs-sekt-vs-prosecco.jpg"
 ---
 
 Všechno bublá, ale ne všechno je šampaňské. Pojďme si ujasnit pojmy.

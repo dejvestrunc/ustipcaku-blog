@@ -5,7 +5,7 @@ date: 2026-01-12
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské mikroregiony", "terroir", "Hustopečsko", "moravská vína"]
-image: "https://images.unsplash.com/photo-1598306442928-4d90f32c6866?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/skryte-moravske-mikroregiony-klenotky-mimo-hlavni-trasu.jpg"
 productLinks:
   - title: "Frankovka 2022+2023"
     url: "https://www.ustipcaku.cz/frankovka-2022/"

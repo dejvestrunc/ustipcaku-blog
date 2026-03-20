@@ -5,7 +5,7 @@ date: 2026-01-08
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["provzdušnění vína", "degustace vína", "oxidace vína", "vinařské tipy"]
-image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-spravne-provzdusnit-vino-a-odhalit-jeho-chute.jpg"
 productLinks:
   - title: "Ryzlink rýnský 2023"
     url: "https://www.ustipcaku.cz/ryzlink-rynsky-2023/"

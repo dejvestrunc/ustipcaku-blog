@@ -5,7 +5,7 @@ date: 2026-02-03
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["vyladění vína", "sommelieři", "degustace vína", "vinařské techniky"]
-image: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/jak-vyladit-vino-ve-sklenici-triky-sommelieru.jpg"
 productLinks:
   - title: "Pálava 2024"
     url: "https://www.ustipcaku.cz/palava-2024/"

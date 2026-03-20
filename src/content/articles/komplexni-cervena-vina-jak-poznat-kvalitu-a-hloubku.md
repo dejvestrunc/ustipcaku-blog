@@ -5,7 +5,7 @@ date: 2026-01-26
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "komplexnost vína", "jižní Morava", "kvalita vína"]
-image: "https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/komplexni-cervena-vina-jak-poznat-kvalitu-a-hloubku.jpg"
 productLinks:
   - title: "Dornfelder 2022+2023"
     url: "https://www.ustipcaku.cz/dornfelder-2022-2023/"

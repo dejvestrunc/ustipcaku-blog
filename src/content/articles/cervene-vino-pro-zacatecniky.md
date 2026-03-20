@@ -10,7 +10,7 @@ productLinks:
     url: "https://www.ustipcaku.cz/frankovka-2022/"
   - title: "Dornfelder 2022+2023"
     url: "https://www.ustipcaku.cz/dornfelder-2022-2023/"
-image: "https://images.unsplash.com/photo-1606767351797-1664b860ae5a?w=1200&h=720&fit=crop&q=80"
+image: "/images/articles/cervene-vino-pro-zacatecniky.jpg"
 ---
 
 Červené víno může být na první ochutnání trochu záhadné. Taniny, tělo, délka — co to všechno znamená? Nebojte se, projdeme si to krok za krokem.
