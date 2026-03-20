@@ -2,16 +2,14 @@
 import BaseLayout from './BaseLayout.astro';
 import CategoryBadge from '../components/CategoryBadge.astro';
 import ProductCTA from '../components/ProductCTA.astro';
-import ArticleCard from '../components/ArticleCard.astro';
-import InfiniteScroll from '../components/InfiniteScroll.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   article: CollectionEntry<'articles'>;
-  remainingArticles: CollectionEntry<'articles'>[];
+  renderedArticles: { entry: CollectionEntry<'articles'>; Content: any }[];
 }
 
-const { article, remainingArticles } = Astro.props;
+const { article, renderedArticles } = Astro.props;
 const { title, description, date, category, categoryLabel, tags, productLinks, image } = article.data;
 
 const formattedDate = date.toLocaleDateString('cs-CZ', {
@@ -22,7 +20,8 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
 ---
 
 <BaseLayout title={title} description={description} image={image} article={{ publishedDate: date.toISOString(), category, tags }}>
-  <article class="article container">
+  <!-- Primary article -->
+  <article class="article-full container" data-slug={article.id} data-title={title}>
     <header class="article-header">
       <div class="article-meta">
         <CategoryBadge category={category} label={categoryLabel} />
@@ -53,33 +52,157 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     )}
   </article>
 
-  {remainingArticles.length > 0 && (
-    <section class="more-articles container">
-      <h2>Další články</h2>
-      <InfiniteScroll batchSize={6}>
-        <div class="articles-grid">
-          {remainingArticles.map(a => (
-            <ArticleCard
-              title={a.data.title}
-              description={a.data.description}
-              date={a.data.date}
-              category={a.data.category}
-              categoryLabel={a.data.categoryLabel}
-              slug={a.id}
-              image={a.data.image}
-            />
-          ))}
+  <!-- Remaining articles, hidden initially, revealed by infinite scroll -->
+  {renderedArticles.map(({ entry, Content }) => {
+    const d = entry.data;
+    const fDate = d.date.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' });
+    return (
+      <article class="article-full article-next container" data-slug={entry.id} data-title={d.title}>
+        <hr class="article-divider" />
+        <header class="article-header">
+          <div class="article-meta">
+            <CategoryBadge category={d.category} label={d.categoryLabel} />
+            <time datetime={d.date.toISOString()}>{fDate}</time>
+          </div>
+          <h1><a href={`/clanky/${entry.id}`}>{d.title}</a></h1>
+          <p class="article-description">{d.description}</p>
+        </header>
+
+        {d.image && (
+          <img src={d.image} alt={d.title} class="article-hero" loading="lazy" />
+        )}
+
+        <div class="article-content">
+          <Content />
         </div>
-      </InfiniteScroll>
-    </section>
-  )}
+
+        {d.productLinks && d.productLinks.length > 0 && (
+          <ProductCTA links={d.productLinks} />
+        )}
+
+        {d.tags && d.tags.length > 0 && (
+          <div class="article-tags">
+            {d.tags.map((tag: string) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </article>
+    );
+  })}
+
+  <div class="article-scroll-sentinel" aria-hidden="true"></div>
+  <div class="article-scroll-loader" aria-hidden="true">
+    <div class="spinner"></div>
+  </div>
+  <div class="article-scroll-end" aria-hidden="true">
+    <p>Žádné další články</p>
+  </div>
 </BaseLayout>
 
+<script>
+  function initArticleScroll() {
+    const articles = document.querySelectorAll('.article-next');
+    const sentinel = document.querySelector('.article-scroll-sentinel');
+    const loader = document.querySelector('.article-scroll-loader');
+    const end = document.querySelector('.article-scroll-end');
+
+    if (!sentinel || !loader || !end || articles.length === 0) {
+      if (end) (end as HTMLElement).style.display = 'block';
+      return;
+    }
+
+    const allArticles = Array.from(articles);
+    let shown = 0;
+
+    // Hide all next articles
+    allArticles.forEach(a => {
+      (a as HTMLElement).style.display = 'none';
+    });
+
+    function showNext() {
+      if (shown >= allArticles.length) {
+        (loader as HTMLElement).style.display = 'none';
+        (end as HTMLElement).style.display = 'block';
+        observer.disconnect();
+        return;
+      }
+
+      const article = allArticles[shown] as HTMLElement;
+      article.style.display = '';
+      article.style.animation = 'fadeInUp 0.4s ease forwards';
+      shown++;
+
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Next Article Loaded', {
+          title: article.getAttribute('data-title'),
+          slug: article.getAttribute('data-slug'),
+          position: shown,
+        });
+      }
+
+      if (shown >= allArticles.length) {
+        (loader as HTMLElement).style.display = 'none';
+        (end as HTMLElement).style.display = 'block';
+        observer.disconnect();
+      }
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          (loader as HTMLElement).style.display = 'flex';
+          setTimeout(() => {
+            showNext();
+            if (shown < allArticles.length) {
+              (loader as HTMLElement).style.display = 'none';
+            }
+          }, 300);
+        }
+      },
+      { rootMargin: '400px' }
+    );
+
+    observer.observe(sentinel);
+
+    // Update URL as articles scroll into view
+    const urlObserver = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const slug = (entry.target as HTMLElement).getAttribute('data-slug');
+            const title = (entry.target as HTMLElement).getAttribute('data-title');
+            if (slug && title) {
+              const url = `/clanky/${slug}`;
+              history.replaceState(null, '', url);
+              document.title = `${title} | Blog U Štipčáků`;
+            }
+          }
+        });
+      },
+      { rootMargin: '-40% 0px -40% 0px' }
+    );
+
+    // Observe all articles including the primary one
+    document.querySelectorAll('.article-full').forEach(a => urlObserver.observe(a));
+  }
+
+  initArticleScroll();
+  document.addEventListener('astro:after-swap', initArticleScroll);
+</script>
+
 <style>
-  .article {
+  .article-full {
     max-width: 800px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .article-divider {
+    border: none;
+    border-top: 3px solid var(--color-primary);
+    margin-bottom: 2rem;
+    opacity: 0.3;
   }
 
   .article-header {
@@ -99,6 +222,14 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     font-size: 2.25rem;
     margin-bottom: 0.75rem;
     color: var(--color-primary);
+  }
+
+  .article-header h1 a {
+    color: var(--color-primary);
+  }
+
+  .article-header h1 a:hover {
+    text-decoration: underline;
   }
 
   .article-description {
@@ -171,32 +302,52 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     color: var(--color-text-light);
   }
 
-  .more-articles {
-    max-width: var(--max-width);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-top: 2px solid var(--color-border);
+  .article-scroll-sentinel {
+    height: 1px;
+    width: 100%;
   }
 
-  .more-articles h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--color-primary);
+  .article-scroll-loader {
+    display: none;
+    justify-content: center;
+    padding: 2rem 0;
   }
 
-  .articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--color-border);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  .article-scroll-end {
+    display: none;
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @media (max-width: 600px) {
     .article-header h1 {
       font-size: 1.75rem;
-    }
-
-    .articles-grid {
-      grid-template-columns: 1fr;
     }
   }
 </style>

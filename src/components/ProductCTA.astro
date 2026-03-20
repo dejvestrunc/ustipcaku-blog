@@ -18,11 +18,34 @@ const { links } = Astro.props;
         </li>
       ))}
     </ul>
-    <a href="https://www.ustipcaku.cz" class="btn btn-accent" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.ustipcaku.cz" class="btn btn-accent cta-catalog" target="_blank" rel="noopener noreferrer">
       Celý sortiment
     </a>
   </aside>
 )}
+
+<script>
+  // Track individual product link clicks
+  document.querySelectorAll('.product-cta li a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Product Link Clicked', {
+          product: link.textContent?.replace('→', '').trim(),
+          href: link.getAttribute('href'),
+        });
+      }
+    });
+  });
+
+  // Track "Celý sortiment" button
+  document.querySelector('.cta-catalog')?.addEventListener('click', () => {
+    if (typeof mixpanel !== 'undefined') {
+      mixpanel.track('Full Catalog Clicked', {
+        location: 'article_cta',
+      });
+    }
+  });
+</script>
 
 <style>
   .product-cta {

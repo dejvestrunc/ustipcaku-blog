@@ -39,6 +39,7 @@ const { batchSize = 12 } = Astro.props;
       if (allItems.length === 0) return;
 
       let shown = 0;
+      let batchNumber = 0;
 
       // Hide all items initially
       allItems.forEach(item => {
@@ -60,6 +61,16 @@ const { batchSize = 12 } = Astro.props;
         });
 
         shown += nextBatch.length;
+        batchNumber++;
+
+        if (typeof mixpanel !== 'undefined') {
+          mixpanel.track('Articles Batch Loaded', {
+            batch_number: batchNumber,
+            items_in_batch: nextBatch.length,
+            total_shown: shown,
+            total_available: allItems.length,
+          });
+        }
 
         if (shown >= allItems.length) {
           (loader as HTMLElement).style.display = 'none';

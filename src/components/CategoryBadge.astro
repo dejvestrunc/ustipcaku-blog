@@ -7,7 +7,20 @@ interface Props {
 const { category, label } = Astro.props;
 ---
 
-<a href={`/kategorie/${category}`} class="badge">{label}</a>
+<a href={`/kategorie/${category}`} class="badge" data-track-category={label}>{label}</a>
+
+<script>
+  document.querySelectorAll('.badge').forEach(badge => {
+    badge.addEventListener('click', () => {
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Category Badge Clicked', {
+          category: badge.getAttribute('data-track-category'),
+          href: badge.getAttribute('href'),
+        });
+      }
+    });
+  });
+</script>
 
 <style>
   .badge {

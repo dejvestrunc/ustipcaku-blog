@@ -20,7 +20,7 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
 });
 ---
 
-<article class="card">
+<article class="card" data-track-title={title} data-track-category={categoryLabel} data-track-slug={slug}>
   <a href={`/clanky/${slug}`} class="card-image-link">
     {image ? (
       <img src={image} alt={title} class="card-image" loading="lazy" />
@@ -42,6 +42,22 @@ const formattedDate = date.toLocaleDateString('cs-CZ', {
     <a href={`/clanky/${slug}`} class="card-link">Číst článek &rarr;</a>
   </div>
 </article>
+
+<script>
+  document.querySelectorAll('.card').forEach(card => {
+    card.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (typeof mixpanel !== 'undefined') {
+          mixpanel.track('Article Clicked', {
+            title: card.getAttribute('data-track-title'),
+            category: card.getAttribute('data-track-category'),
+            slug: card.getAttribute('data-track-slug'),
+          });
+        }
+      });
+    });
+  });
+</script>
 
 <style>
   .card {

@@ -47,6 +47,19 @@ const articles = (await getCollection('articles'))
   </section>
 </BaseLayout>
 
+<script>
+  document.querySelectorAll('.category-filters .filter').forEach(filter => {
+    filter.addEventListener('click', () => {
+      if (typeof mixpanel !== 'undefined') {
+        mixpanel.track('Category Filter Clicked', {
+          label: filter.textContent?.trim(),
+          href: filter.getAttribute('href'),
+        });
+      }
+    });
+  });
+</script>
+
 <style>
   .hero {
     background: var(--color-primary);

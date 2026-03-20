@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -12,26 +12,60 @@ if (!FAL_KEY) { console.error('FAL_KEY not set'); process.exit(1); }
 
 const claude = new Anthropic();
 
-async function generateImagePrompt(title, category, content, index, total) {
-  // Rotate visual compositions to ensure variety
-  const compositions = [
-    'wide landscape panorama of Moravian vineyard hills',
-    'close-up macro of grape clusters with morning dew',
-    'old wine cellar with oak barrels and candlelight',
-    'bird-eye view of vineyard rows creating geometric patterns',
-    'rustic still life with wine, bread, cheese on wooden table',
-    'grape harvest scene with wicker baskets and hands picking grapes',
-    'sunset over South Moravian countryside with vineyard silhouettes',
-    'ancient wine press or traditional winemaking tools',
-    'wine glass reflection with vineyard landscape visible through it',
-    'Moravian village street with traditional wine cellars (sklípky)',
-    'grapevine tendrils and leaves in dramatic backlight',
-    'rolling hills with patchwork of vineyards in autumn colors',
-    'underground barrel cellar with arched stone ceiling',
-    'dew-covered spider web between grapevines at dawn',
-    'traditional Moravian folk pottery filled with wine',
-    'aerial view of winding path through vineyard terraces',
-  ];
+// Sharp-composed articles (from commit bf2f5a1)
+const sharpComposed = [
+  'dub-a-bila-vina-jak-dubovani-meni-moravske-vino',
+  'frankovka-kralovna-moravskych-cervenych',
+  'frizzante-lehce-sumive-vino-bez-praskani-korku',
+  'jak-parovat-moravsky-ryzlink-s-jidlem',
+  'malolakticka-fermentace-tajemstvi-kremovych-bilych-vin',
+  'moravske-sumive-vino-od-frizzante-po-sekty-metodou-klasik',
+  'palava-vinarska-oblast',
+  'pruvodce-bilymi-viny-od-ryzlinku-po-chardonnay',
+];
+
+// 15 newest articles by date
+const newest15 = [
+  'mlade-vino-z-moravy-tradice-cerstve-chuti-nove-urody',
+  'dub-a-bila-vina-jak-dubovani-meni-moravske-vino',
+  'znojemska-vinarska-podoblast-prestizni-region-jizni-moravy',
+  'jak-parovat-moravsky-ryzlink-s-jidlem',
+  'pruvodce-moravskymi-bilymi-viny',
+  'jak-vznika-barva-cervenych-vin-tajemstvi-antokyaninu',
+  'cervene-vino-pro-zacatecniky',
+  'rose-neni-jen-letni-vino',
+  'co-je-to-terroir',
+  'sumive-vino-vs-sekt-vs-prosecco',
+  'vino-a-cokolada-neobvykle-parovani',
+  'vinarske-stezky-jizni-moravy',
+  'moravske-rose-pruvodce-vyberem-kvalitniho-ruzoveho-vina',
+  'jak-spravne-skladovat-vino-doma',
+  'frizzante-lehce-sumive-vino-bez-praskani-korku',
+];
+
+// Merge and deduplicate
+const toRegenerate = [...new Set([...sharpComposed, ...newest15])];
+
+const compositions = [
+  'wide landscape panorama of Moravian vineyard hills',
+  'close-up macro of grape clusters with morning dew',
+  'old wine cellar with oak barrels and candlelight',
+  'bird-eye view of vineyard rows creating geometric patterns',
+  'rustic still life with wine, bread, cheese on wooden table',
+  'grape harvest scene with wicker baskets and hands picking grapes',
+  'sunset over South Moravian countryside with vineyard silhouettes',
+  'ancient wine press or traditional winemaking tools',
+  'wine glass reflection with vineyard landscape visible through it',
+  'Moravian village street with traditional wine cellars (sklípky)',
+  'grapevine tendrils and leaves in dramatic backlight',
+  'rolling hills with patchwork of vineyards in autumn colors',
+  'underground barrel cellar with arched stone ceiling',
+  'dew-covered spider web between grapevines at dawn',
+  'traditional Moravian folk pottery filled with wine',
+  'aerial view of winding path through vineyard terraces',
+];
+
+async function generateImagePrompt(title, category, content, index) {
   const compositionHint = compositions[index % compositions.length];
 
   const msg = await claude.messages.create({
@@ -104,50 +138,39 @@ async function downloadImage(url, outputPath) {
 async function main() {
   if (!existsSync(IMAGES_DIR)) mkdirSync(IMAGES_DIR, { recursive: true });
 
-  const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.md'));
-  console.log(`Nalezeno ${files.length} článků\n`);
+  console.log(`Regenerace ${toRegenerate.length} článků\n`);
 
   let generated = 0;
   let failed = 0;
 
-  for (const file of files) {
-    const slug = file.replace('.md', '');
-    const content = readFileSync(join(ARTICLES_DIR, file), 'utf8');
-    const titleMatch = content.match(/^title:\s*"(.+)"/m);
-    const catMatch = content.match(/^categoryLabel:\s*"(.+)"/m);
-    const title = titleMatch?.[1] || slug;
-    const category = catMatch?.[1] || 'Víno';
+  for (let idx = 0; idx < toRegenerate.length; idx++) {
+    const slug = toRegenerate[idx];
+    const file = `${slug}.md`;
+    const filePath = join(ARTICLES_DIR, file);
 
-    // Skip already regenerated
-    const currentImage = content.match(/^image:\s*"([^"]+)"/m)?.[1] || '';
-    if (currentImage.startsWith('/images/articles/')) {
-      console.log(`\n[skip] ${title} — already done`);
-      generated++;
+    if (!existsSync(filePath)) {
+      console.log(`\n[skip] ${slug} — soubor neexistuje`);
       continue;
     }
 
-    console.log(`\n[${generated + failed + 1}/${files.length}] ${title}`);
+    const content = readFileSync(filePath, 'utf8');
+    const title = content.match(/^title:\s*"(.+)"/m)?.[1] || slug;
+    const category = content.match(/^categoryLabel:\s*"(.+)"/m)?.[1] || 'Víno';
+
+    console.log(`\n[${idx + 1}/${toRegenerate.length}] ${title}`);
 
     try {
-      // Step 1: Claude generates image prompt from article context
       console.log('  Generating prompt...');
-      const prompt = await generateImagePrompt(title, category, content);
-      console.log(`  Prompt: ${prompt.substring(0, 100)}...`);
+      const prompt = await generateImagePrompt(title, category, content, idx);
+      console.log(`  Prompt: ${prompt.substring(0, 120)}...`);
 
-      // Step 2: fal.ai generates the image
       console.log('  Generating image...');
       const imageUrl = await falGenerate(prompt);
 
-      // Step 3: Download and save
       const outputPath = join(IMAGES_DIR, `${slug}.jpg`);
       await downloadImage(imageUrl, outputPath);
-      const imagePath = `/images/articles/${slug}.jpg`;
 
-      // Step 4: Update article frontmatter
-      const updated = content.replace(/^image:\s*"[^"]+"/m, `image: "${imagePath}"`);
-      writeFileSync(join(ARTICLES_DIR, file), updated, 'utf8');
-
-      console.log(`  ✓ ${imagePath}`);
+      console.log(`  ✓ /images/articles/${slug}.jpg`);
       generated++;
 
     } catch (err) {
@@ -157,7 +180,7 @@ async function main() {
   }
 
   console.log(`\n========================================`);
-  console.log(`Vygenerováno: ${generated}/${files.length}`);
+  console.log(`Vygenerováno: ${generated}/${toRegenerate.length}`);
   console.log(`Selhalo: ${failed}`);
 }
 

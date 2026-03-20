@@ -16,8 +16,27 @@ const { Content } = await render(article);
 const allArticles = (await getCollection('articles'))
   .filter(a => a.id !== article.id)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Pre-render all remaining articles
+const renderedArticles = await Promise.all(
+  allArticles.map(async (a) => {
+    const { Content: ArticleContent } = await render(a);
+    return { entry: a, Content: ArticleContent };
+  })
+);
 ---
 
-<ArticleLayout article={article} remainingArticles={allArticles}>
+<ArticleLayout article={article} renderedArticles={renderedArticles}>
   <Content />
 </ArticleLayout>
+
+<script define:vars={{ articleTitle: article.data.title, articleCategory: article.data.categoryLabel, articleSlug: article.id, articleTags: article.data.tags || [] }}>
+  if (typeof mixpanel !== 'undefined') {
+    mixpanel.track('Article Viewed', {
+      title: articleTitle,
+      category: articleCategory,
+      slug: articleSlug,
+      tags: articleTags,
+    });
+  }
+</script>
