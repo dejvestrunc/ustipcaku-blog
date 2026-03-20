@@ -73,16 +73,15 @@ const products = {
 // Unsplash wine-related photo IDs per category
 const unsplashPhotos = {
   'bile-vino': [
-    'photo-1558642452-9d2a7deb7f62', 'photo-1566995541428-f4e827cb1381',
-    'photo-1474722883778-792e7990302f', 'photo-1584916520452-6tried58b9a2',
-    'photo-1543418001-81c75d1dc606', 'photo-1560148271-00b5e5850291',
-    'photo-1598306442928-4d90f32c6866', 'photo-1596142813803-cd83e507eb6c',
+    'photo-1558642452-9d2a7deb7f62',
+    'photo-1474722883778-792e7990302f',
+    'photo-1598306442928-4d90f32c6866',
   ],
   'cervene-vino': [
     'photo-1606767351797-1664b860ae5a', 'photo-1510812431401-41d2bd2722f3',
     'photo-1553361371-9b22f78e8b1d', 'photo-1586370434639-0fe43b2d32e6',
     'photo-1567696911980-2eed69a46042', 'photo-1578911373434-0cb395d2cbfb',
-    'photo-1516594915697-87eb3b1c14ea', 'photo-1599735706163-e2c98a98a66a',
+    'photo-1516594915697-87eb3b1c14ea',
   ],
   'rose': [
     'photo-1558001373-7b93ee48ffa0', 'photo-1560148218-1a83060f7b32',
@@ -90,22 +89,22 @@ const unsplashPhotos = {
   ],
   'sumive': [
     'photo-1547595628-c61a29f496f0', 'photo-1571115177098-24ec42ed204d',
-    'photo-1570275239925-4af0aa93a758', 'photo-1592483648228-b35146a4330c',
+    'photo-1592483648228-b35146a4330c',
   ],
   'parovani-s-jidlem': [
     'photo-1414235077428-338989a2e8c0', 'photo-1504674900247-0877df9cc836',
-    'photo-1466637574441-749b8f19452f', 'photo-1515778767554-42f3e87edd2f',
-    'photo-1559847844-5315695dadae', 'photo-1600891964599-f94d51f0f27e',
+    'photo-1466637574441-749b8f19452f',
+    'photo-1559847844-5315695dadae',
   ],
   'vinarske-regiony': [
     'photo-1506377247377-2a5b3b417ebb', 'photo-1464638681273-0962e9b53566',
-    'photo-1560493676-04071c5f467b', 'photo-1596142813803-cd83e507eb6c',
-    'photo-1507434965515-61970f2bd7c6', 'photo-1573062337052-bfbaa78a7f2a',
+    'photo-1560493676-04071c5f467b',
+    'photo-1507434965515-61970f2bd7c6',
   ],
   'tipy-a-triky': [
     'photo-1528823872057-9c018a7a7553', 'photo-1586370434639-0fe43b2d32e6',
-    'photo-1569919659476-f0852f9fcc05', 'photo-1574180045827-681f8a1a9622',
-    'photo-1513618827061-226c02a08f7e', 'photo-1574071318508-1cdbab80d002',
+    'photo-1574180045827-681f8a1a9622',
+    'photo-1574071318508-1cdbab80d002',
   ],
 };
 
@@ -118,10 +117,25 @@ function getRandomItems(arr, count) {
   return shuffled.slice(0, count);
 }
 
-function getRandomPhoto(categorySlug) {
-  const photos = unsplashPhotos[categorySlug] || unsplashPhotos['tipy-a-triky'];
-  const photo = photos[Math.floor(Math.random() * photos.length)];
-  return `https://images.unsplash.com/${photo}?w=1200&h=720&fit=crop&q=80`;
+async function getValidPhoto(categorySlug) {
+  const photos = [...(unsplashPhotos[categorySlug] || unsplashPhotos['tipy-a-triky'])];
+  const shuffled = photos.sort(() => Math.random() - 0.5);
+
+  for (let attempt = 0; attempt < Math.min(shuffled.length, 10); attempt++) {
+    const url = `https://images.unsplash.com/${shuffled[attempt]}?w=1200&h=720&fit=crop&q=80`;
+    try {
+      const res = await fetch(url, { method: 'HEAD' });
+      if (res.ok) {
+        console.log(`Obrázek OK (pokus ${attempt + 1}): ${shuffled[attempt]}`);
+        return url;
+      }
+      console.warn(`Obrázek ${shuffled[attempt]} vrátil ${res.status}, zkouším další...`);
+    } catch (err) {
+      console.warn(`Obrázek ${shuffled[attempt]} selhal: ${err.message}, zkouším další...`);
+    }
+  }
+
+  return null;
 }
 
 function slugify(text) {
@@ -150,7 +164,14 @@ async function generateArticle() {
   const client = new Anthropic();
   const category = getRandomCategory();
   const date = todayISO();
-  const image = getRandomPhoto(category.slug);
+  const image = await getValidPhoto(category.slug);
+
+  if (!image) {
+    const errorMsg = `[${date}] Nepodařilo se najít funkční obrázek pro kategorii "${category.label}" po 10 pokusech. Článek nebyl publikován.`;
+    console.error(errorMsg);
+    throw new Error(errorMsg);
+  }
+
   const categoryProducts = products[category.slug] || products['tipy-a-triky'];
   const selectedProducts = getRandomItems(categoryProducts, Math.min(3, categoryProducts.length));
   const existingTitles = getExistingTitles();
