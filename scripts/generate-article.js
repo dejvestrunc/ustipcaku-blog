@@ -117,27 +117,37 @@ function getExistingTitles() {
 async function generateImagePrompt(client, title, categoryLabel, articleContent) {
   const msg = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
-    max_tokens: 300,
+    max_tokens: 400,
     messages: [{
       role: 'user',
       content: `Na základě tohoto článku o víně vytvoř prompt pro AI generování fotky (Flux model).
-Fotka bude hlavní obrázek článku na vinařském blogu.
+Fotka bude hlavní obrázek článku na vinařském blogu z jižní Moravy.
 
 Titulek: ${title}
 Kategorie: ${categoryLabel}
 Začátek článku: ${articleContent.substring(0, 600)}
 
-Pravidla:
-- Prompt v angličtině
-- Popisuj scénu, náladu, světlo, kompozici
-- Žádné lahve s etiketami, žádná loga, žádný text
-- Může obsahovat: sklenice vína, vinice, sklep, jídlo, hrozny, sudy, krajinu
-- Styl: profesionální editorial/food photography, moody, shallow depth of field
-- Vždy přidej "4k quality, professional editorial photography"
+OBSAH (NEJDŮLEŽITĚJŠÍ):
+- Obrázek musí co nejvěrněji ilustrovat téma článku — co se v něm popisuje, o čem pojednává
+- Hlavní motiv obrázku = hlavní téma článku (odrůda, proces, region, jídlo, technika...)
+- Folklórní prvky slouží POUZE k dokreslení atmosféry, nejsou hlavní téma
 
-Vrať POUZE prompt, nic jiného.`
+STYL (POVINNÝ):
+- Styl: naivní malba / lidová ilustrace, jako ručně malovaný obrázek na keramice nebo dřevěné desce
+- Barvy: tlumené, zemité, pastelové — jako vybledlá freska nebo akvarel
+- Viditelné tahy štětce, nedokonalosti, trochu „neumělé"
+- Folklórní dokreslení: v pozadí nebo po okrajích jemné prvky moravského folklóru (výšivkové vzory, postavy v krojích, malovaný sklípek, cimbál) — ale NIKDY jako hlavní motiv
+- Fantazijní/pohádkové prvky jsou OK — má to být zábavné a recesní
+
+ZAKÁZÁNO:
+- Žádné lahve s etiketami, žádná loga, žádný text, žádná písmenka
+- NIKDY nesmí vypadat jako fotka — VŽDY jasně malovaný/kreslený styl
+- Nepoužívej slova "photograph", "photo", "realistic", "photorealistic", "4k", "8k"
+- Žádné přesycené HDR barvy
+
+Vrať POUZE prompt v angličtině, nic jiného.`
     }],
-    system: 'Jsi expert na AI image generation prompty. Vracíš pouze prompt, bez komentáře.',
+    system: 'Jsi expert na AI image generation prompty pro ilustrovaný/malířský styl s folklórními prvky. Vracíš pouze prompt, bez komentáře.',
   });
   return msg.content[0].text.trim();
 }
