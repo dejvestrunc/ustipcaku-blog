@@ -1,7 +1,7 @@
 ---
 title: "Víno a zdraví - mýty a fakta"
 description: "Je víno zdravé? Co říká věda o resveratrolu, antioxidantech a konzumaci vína?"
-date: 2026-03-03
+date: 2025-12-18
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["zdraví", "resveratrol", "mýty", "věda"]

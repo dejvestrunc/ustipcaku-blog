@@ -1,7 +1,7 @@
 ---
 title: "Moravské bílé víno: Od minerálních po medové chutě"
 description: "Objevte komplexnost moravských bílých vín. Od křehkých minerálních tónů po bohaté medové nuance - proč jsou moravská vína tak výjimečná?"
-date: 2025-12-11
+date: 2025-08-31
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské bílé víno", "víno Morava", "české víno", "bílé víno"]

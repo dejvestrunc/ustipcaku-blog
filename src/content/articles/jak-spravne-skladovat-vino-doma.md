@@ -1,7 +1,7 @@
 ---
 title: "Jak správně skladovat víno doma"
 description: "Nemáte sklep? Nevadí. Ukážeme vám, jak víno správně skladovat i v bytě, aby si zachovalo kvalitu."
-date: 2026-03-11
+date: 2026-01-23
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["skladování", "tipy", "teplota", "domácnost"]

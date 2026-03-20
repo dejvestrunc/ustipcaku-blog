@@ -1,7 +1,7 @@
 ---
 title: "Jak vybrat správnou vinnou sklenici pro každé víno"
 description: "Objevte, jak dramaticky ovlivní správná volba vinné sklenice váš degustační zážitek. Průvodce výběrem sklenic pro různé typy vín."
-date: 2025-10-24
+date: 2025-07-14
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["vinné sklenice", "degustace vína", "výběr sklenic", "vinařství"]

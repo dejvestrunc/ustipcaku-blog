@@ -1,7 +1,7 @@
 ---
 title: "Minerální vína - Netradiční párování, které překvapí"
 description: "Objevte moravská vína s minerálním charakterem a naučte se je párovat s pokrmy netradičně. Tipy pro překvapivé kombinace."
-date: 2025-11-26
+date: 2025-08-16
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["minerální vína", "párování vín", "moravské víno", "vinařství"]

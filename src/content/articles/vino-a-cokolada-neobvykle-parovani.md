@@ -1,7 +1,7 @@
 ---
 title: "Víno a čokoláda - neobvyklé párování, které funguje"
 description: "Čokoláda a víno se mohou skvěle doplňovat. Klíčem je vybrat správnou kombinaci podle intenzity a sladkosti."
-date: 2026-03-13
+date: 2026-02-06
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["párování", "čokoláda", "dezerty", "tipy"]

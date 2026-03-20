@@ -1,7 +1,7 @@
 ---
 title: "Vinařské stezky jižní Moravy — kam na výlet za vínem"
 description: "Průvodce nejkrásnějšími vinařskými stezkami na jižní Moravě. Trasy na kolo i pěšky s ochutnávkami po cestě."
-date: 2026-03-12
+date: 2026-01-31
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["vinařské stezky", "morava", "výlety", "cyklistika"]

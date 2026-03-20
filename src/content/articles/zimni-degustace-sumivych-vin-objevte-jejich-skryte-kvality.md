@@ -1,7 +1,7 @@
 ---
 title: "Zimní degustace šumivých vín: Objevte jejich skryté kvality"
 description: "Podzim a zima nabízí jedinečnou možnost vychutnat si šumivá vína jinak. Objevte komplexnost frizzante a sektů v chladnějších měsících."
-date: 2025-11-30
+date: 2025-08-21
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "zimní degustace", "frizzante", "sekty"]

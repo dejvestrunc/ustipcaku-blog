@@ -1,7 +1,7 @@
 ---
 title: "Jak vzniká barva červených vín? Tajemství antokyaninů"
 description: "Odkryjte tajemství barev červených vín. Jak vinař pracuje s antokyaniny a proč mají různá červená vína odlišné chutě? Poznatky moravského vinaře."
-date: 2026-03-18
+date: 2026-02-27
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "antokyaniny", "vinařství", "výroba vína"]

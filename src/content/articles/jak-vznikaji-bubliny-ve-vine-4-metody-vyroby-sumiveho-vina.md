@@ -1,7 +1,7 @@
 ---
 title: "Jak vznikají bubliny ve víně? 4 metody výroby šumivého vína"
 description: "Objevte tajemství výroby šumivých vín! Od prestižní tradiční metody po moderní techniky - jak vznikají bubliny a proč se liší kvalita i cena."
-date: 2026-02-14
+date: 2025-11-01
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "metody výroby", "tradiční metoda", "vinařství"]

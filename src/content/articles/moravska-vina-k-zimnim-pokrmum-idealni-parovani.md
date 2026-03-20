@@ -1,7 +1,7 @@
 ---
 title: "Moravská vína k zimním pokrmům: Ideální párování"
 description: "Objevte, která moravská vína nejlépe doplní zimní pokrmy. Tipy na párování komplexních vín s teplými polévkami a sezónními specialitami."
-date: 2026-01-14
+date: 2025-10-08
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "párování vína", "zimní pokrmy", "gastronomie"]

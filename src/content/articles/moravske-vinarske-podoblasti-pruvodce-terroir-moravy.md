@@ -1,7 +1,7 @@
 ---
 title: "Moravské vinařské podoblasti: Průvodce terroir Moravy"
 description: "Objevte 4 moravské vinařské podoblasti a jejich unikátní terroir. Porovnání charakteristik, půd a klimatu očima vinaře z Velkých Pavlovic."
-date: 2025-10-28
+date: 2025-07-17
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské vinařství", "vinařské podoblasti", "terroir", "znojemská podoblast"]

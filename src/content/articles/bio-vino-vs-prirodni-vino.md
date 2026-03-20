@@ -1,7 +1,7 @@
 ---
 title: "Bio víno vs. přírodní víno - jaký je rozdíl?"
 description: "Bio a přírodní víno nejsou totéž. Vysvětlujeme rozdíly v přístupu k vinici i sklepu."
-date: 2026-03-05
+date: 2025-12-28
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["bio", "přírodní víno", "ekologie", "vinařství"]

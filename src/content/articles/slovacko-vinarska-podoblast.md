@@ -1,7 +1,7 @@
 ---
 title: "Slovácko – vinařská podoblast plná překvapení"
 description: "Slovácko je největší vinařská podoblast na Moravě. Objevte místní odrůdy, tradice a vinaře."
-date: 2026-02-27
+date: 2025-11-27
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["slovácko", "vinařské regiony", "morava", "tradice"]

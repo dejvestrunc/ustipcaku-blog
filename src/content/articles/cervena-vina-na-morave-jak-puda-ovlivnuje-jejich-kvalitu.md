@@ -1,7 +1,7 @@
 ---
 title: "Červená vína na Moravě - Jak půda ovlivňuje jejich kvalitu"
 description: "Moravská červená vína zažívají rozkvět. Zjistěte, jak terroir a správná volba odrůd vytváří vína světové kvality na jižní Moravě."
-date: 2025-12-06
+date: 2025-08-27
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["moravská červená vína", "terroir", "půda a víno", "moravské vinice"]

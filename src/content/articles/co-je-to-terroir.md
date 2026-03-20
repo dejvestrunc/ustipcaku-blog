@@ -1,7 +1,7 @@
 ---
 title: "Co je to terroir a proč na něm záleží"
 description: "Terroir je víc než jen půda — je to souhra klimatu, polohy a lidské práce. Vysvětlujeme, co dělá moravské víno jedinečným."
-date: 2026-03-15
+date: 2026-02-16
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["terroir", "vinařství", "vzdělávání", "morava"]

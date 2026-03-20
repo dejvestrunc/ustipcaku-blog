@@ -1,7 +1,7 @@
 ---
 title: "Rosé vína na Moravě: Od letního pití k vinařské špičce"
 description: "Objevte, jak rosé vína prožívají na Moravě renesanci. Od jednoduchého letního pití k elegantním vínům konkurujícím té nejlepší produkci."
-date: 2025-12-01
+date: 2025-08-23
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé vína", "moravská vína", "vinařství", "sklizeň hroznů"]

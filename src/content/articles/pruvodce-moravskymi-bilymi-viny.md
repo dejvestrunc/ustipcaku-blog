@@ -1,7 +1,7 @@
 ---
 title: "Průvodce moravskými bílými víny"
 description: "Poznejte nejoblíbenější odrůdy bílých vín z jižní Moravy - od svěžího Veltlínského po aromatický Muškát."
-date: 2026-03-18
+date: 2026-03-04
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["bílé víno", "morava", "odrůdy", "průvodce"]

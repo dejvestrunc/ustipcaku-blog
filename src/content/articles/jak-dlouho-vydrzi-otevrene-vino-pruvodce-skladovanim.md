@@ -1,7 +1,7 @@
 ---
 title: "Jak dlouho vydrží otevřené víno? Průvodce skladováním"
 description: "Zjistěte, jak dlouho můžete skladovat otevřené víno v lednici a jak poznat, kdy už není k pití. Tipy od vinaře pro bílá i červená vína."
-date: 2025-12-14
+date: 2025-09-03
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["otevřené víno", "skladování vína", "trvanlivost vína", "vinařské tipy"]

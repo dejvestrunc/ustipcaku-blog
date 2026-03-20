@@ -1,7 +1,7 @@
 ---
 title: "Moravské vinobraní — průvodce pro návštěvníky"
 description: "Vše, co potřebujete vědět o moravském vinobraní: kdy jet, co ochutnat a jak se připravit na nezapomenutelný zážitek."
-date: 2026-03-04
+date: 2025-12-26
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["vinobraní", "festivaly", "morava", "tradice"]

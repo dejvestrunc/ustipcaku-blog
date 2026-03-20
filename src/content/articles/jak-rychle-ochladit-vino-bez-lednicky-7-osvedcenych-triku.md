@@ -1,7 +1,7 @@
 ---
 title: "Jak rychle ochladit víno bez ledničky: 7 osvědčených triků"
 description: "Objevte účinné způsoby, jak rychle ochladit víno bez ledničky. Vinařské tipy pro perfektní teplotu servírování za pár minut."
-date: 2025-11-17
+date: 2025-08-12
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["chlazení vína", "servírování vína", "vinařské tipy", "letní pití"]

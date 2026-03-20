@@ -1,7 +1,7 @@
 ---
 title: "Mikulovská vinařská podoblast - moravský vinařský klenot"
 description: "Objevte Mikulovskou vinařskou podoblast - jeden z nejvýznamnějších moravských regionů s unikátním mikroklimatem na 4300 ha vinic."
-date: 2026-03-03
+date: 2025-12-13
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["Mikulovská podoblast", "moravské víno", "vinařský region", "mikroklima"]

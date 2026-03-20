@@ -1,7 +1,7 @@
 ---
 title: "Skryté moravské mikroregiony: Klenotky mimo hlavní trasu"
 description: "Objevte fascinující moravské mikroregiony s unikátním terroir. Hustopečsko jako moravská Burgundie a další skryté vinařské klenoty."
-date: 2026-01-12
+date: 2025-10-06
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské mikroregiony", "terroir", "Hustopečsko", "moravská vína"]

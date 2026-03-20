@@ -1,7 +1,7 @@
 ---
 title: "Skryté moravské vinařské enklávy a jejich unikátní terroir"
 description: "Objevte netradiční moravské vinařské regiony s jedinečným mikroklima. Vizovické vrchy a další skryté enklávy nabízejí unikátní chutě."
-date: 2025-11-20
+date: 2025-08-14
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["moravské vinařství", "terroir", "netradiční vinařské regiony", "mikroklima"]

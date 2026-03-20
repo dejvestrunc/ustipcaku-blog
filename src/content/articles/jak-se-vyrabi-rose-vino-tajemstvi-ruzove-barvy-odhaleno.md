@@ -1,7 +1,7 @@
 ---
 title: "Jak se vyrábí rosé víno? Tajemství růžové barvy odhaleno"
 description: "Objevte skutečné metody výroby rosé vín. Není to jen smíchání červeného a bílého! Prozradíme vám sofistikované techniky a timing."
-date: 2026-02-15
+date: 2025-11-03
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "výroba vína", "růžové víno", "vinařství"]

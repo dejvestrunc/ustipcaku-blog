@@ -1,7 +1,7 @@
 ---
 title: "Jak správně provzdušnit víno a odhalit jeho chutě"
 description: "Objevte, kdy a jak provzdušnit víno pro maximální chuťový zážitek. Tipy pro červená i bílá vína, proces oxidace a správné techniky."
-date: 2026-01-08
+date: 2025-10-04
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["provzdušnění vína", "degustace vína", "oxidace vína", "vinařské tipy"]

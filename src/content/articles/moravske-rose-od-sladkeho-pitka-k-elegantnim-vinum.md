@@ -1,7 +1,7 @@
 ---
 title: "Moravské rosé: Od sladkého pítka k elegantním vínům"
 description: "Objevte revoluci moravského rosé! Od minerálních suchých vín po komplexní odrůdy s potenciálem zrání. Moravští vinaři přepisují pravidla."
-date: 2025-12-27
+date: 2025-09-22
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["moravské rosé", "růžové víno", "moravské víno", "revoluce rosé"]

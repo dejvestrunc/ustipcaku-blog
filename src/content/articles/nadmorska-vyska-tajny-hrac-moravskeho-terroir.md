@@ -1,7 +1,7 @@
 ---
 title: "Nadmořská výška: Tajný hráč moravského terroir"
 description: "Jak nadmořská výška od 150 do 500 m ovlivňuje charakter moravských vín? Objevte vliv teplotních gradientů na kvalitu a styl vašeho oblíbeného vína."
-date: 2025-10-01
+date: 2025-06-24
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["terroir", "nadmořská výška", "moravská vína", "vinařství"]

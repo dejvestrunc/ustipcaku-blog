@@ -1,7 +1,7 @@
 ---
 title: "Jak degustovat víno jako profesionál"
 description: "Naučte se základy profesionální degustace — od vizuální kontroly přes vůni až po chuť a závěr."
-date: 2026-03-02
+date: 2025-12-08
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["degustace", "vzdělávání", "techniky", "sommelier"]

@@ -1,7 +1,7 @@
 ---
 title: "Moravská vína k vánočním pokrmům: Dokonalé párování"
 description: "Objevte, jak moravská vína dokonale doplní vánoční pokrmy. Od kapra po cukroví - každé jídlo má svého ideálního vinného partnera."
-date: 2025-11-01
+date: 2025-07-22
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "vánoční pokrmy", "food pairing", "kapr"]

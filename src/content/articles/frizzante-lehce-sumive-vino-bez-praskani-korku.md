@@ -1,7 +1,7 @@
 ---
 title: "Frizzante - Lehce šumivé víno bez praskání korku"
 description: "Objevte frizzante - lehce šumivé víno s nízkým tlakem CO2. Italská specialita získává oblibu i na Moravě. Vše o rozdílech od klasického šumivého."
-date: 2026-03-11
+date: 2026-01-21
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["frizzante", "lehce šumivé víno", "moravské víno", "italské víno"]

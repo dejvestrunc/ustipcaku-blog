@@ -1,7 +1,7 @@
 ---
 title: "Víno k grilovanému masu — kompletní průvodce"
 description: "Grilování a víno patří k sobě. Poradíme, jaké víno vybrat ke steaku, kuřeti, rybě i zelenině z grilu."
-date: 2026-02-28
+date: 2025-12-01
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["grilování", "maso", "párování", "léto"]

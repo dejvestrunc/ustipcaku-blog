@@ -1,7 +1,7 @@
 ---
 title: "Jak půda ovlivňuje chuť moravských bílých vín"
 description: "Objevte, jak geologická rozmanitost Moravy vytváří minerální tóny a unikátní chutě bílých vín. Průvodce terroir a jeho vlivem na Ryzlink."
-date: 2026-01-05
+date: 2025-09-29
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské víno", "terroir", "bílé víno", "půda"]

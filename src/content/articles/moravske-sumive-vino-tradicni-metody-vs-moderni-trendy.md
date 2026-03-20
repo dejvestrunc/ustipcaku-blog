@@ -1,7 +1,7 @@
 ---
 title: "Moravské šumivé víno - Tradiční metody vs moderní trendy"
 description: "Objevte tajemství výroby šumivých vín na Moravě. Tradiční metoda, charmat proces a další způsoby tvorby bublin v moravském vinařství."
-date: 2025-11-04
+date: 2025-07-26
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "moravské vinařství", "tradiční metoda", "charmat"]

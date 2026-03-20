@@ -1,7 +1,7 @@
 ---
 title: "Znojemská vinařská podoblast: Prestižní region jižní Moravy"
 description: "Objevte jedinečné klimatické podmínky a tradici Znojemské vinařské podoblasti - jednoho z nejprestižnějších vinařských regionů jižní Moravy."
-date: 2026-03-19
+date: 2026-03-08
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["znojemská podoblast", "jižní morava", "vinařství", "moravská vína"]

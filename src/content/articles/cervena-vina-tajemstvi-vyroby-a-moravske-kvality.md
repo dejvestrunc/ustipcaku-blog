@@ -1,7 +1,7 @@
 ---
 title: "Červená vína: Tajemství výroby a moravské kvality"
 description: "Objevte fascinující svět červených vín - od specifického procesu výroby přes taniny až po moravské vzory světové úrovně. Vše o maceraci."
-date: 2026-02-19
+date: 2025-11-12
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "moravské víno", "výroba vína", "macerace"]

@@ -1,7 +1,7 @@
 ---
 title: "Zrání červeného vína v sudech: Proč dřevo dělá zázraky"
 description: "Objevte tajemství zrání červeného vína v sudech. Jak dřevo mění chuť vína a proč moravská červená vína díky sudům excelují."
-date: 2025-11-09
+date: 2025-08-03
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["zrání vína", "sudy", "červené víno", "Morava"]

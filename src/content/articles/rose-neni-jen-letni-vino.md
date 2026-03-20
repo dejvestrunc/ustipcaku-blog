@@ -1,7 +1,7 @@
 ---
 title: "Rosé není jen letní víno"
 description: "Zapomeňte na předsudky — rosé si zaslouží místo na stole po celý rok. Zjistěte, proč a s čím ho párovat."
-date: 2026-03-16
+date: 2026-02-18
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé", "celoroční", "párování", "trendy"]

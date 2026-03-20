@@ -1,7 +1,7 @@
 ---
 title: "Znojemský region - Skryté vinařské poklady Moravy"
 description: "Objevte zapomenuté vinařské kouty Znojemska - Chvalovsko, Dolní Dubňany a Hrádek. Autentické vinařství bez turistických davů a skvělé víno."
-date: 2025-12-17
+date: 2025-09-07
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["znojemský region", "moravské vinařství", "chvalovsko", "skryté vinice"]

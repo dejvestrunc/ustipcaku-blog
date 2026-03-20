@@ -1,7 +1,7 @@
 ---
 title: "Moravská šumivá vína: Výroba, odrůdy a metody"
 description: "Objevte tajemství moravských šumivých vín. Metody charmat vs tradiční způsob, nejlepší odrůdy jako Ryzlink rýnský a tipy pro degustaci sektu."
-date: 2026-01-17
+date: 2025-10-10
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["moravská vína", "šumivé víno", "sekt", "vinařství"]

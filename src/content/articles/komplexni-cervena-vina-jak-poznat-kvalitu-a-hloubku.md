@@ -1,7 +1,7 @@
 ---
 title: "Komplexní červená vína: Jak poznat kvalitu a hloubku"
 description: "Zjistěte, co dělá červené víno skutečně komplexním. Průvodce strukturou, péčí a rozpoznáváním kvalitních červených vín z jižní Moravy."
-date: 2026-01-26
+date: 2025-10-17
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "komplexnost vína", "jižní Morava", "kvalita vína"]

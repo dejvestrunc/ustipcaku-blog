@@ -1,7 +1,7 @@
 ---
 title: "Moravské bílé víno: Tajemství výroby a jedinečné chuti"
 description: "Objevte svět moravských bílých vín - od středověké tradice po moderní výrobu. Jedinečné chutě a aromata z Moravy."
-date: 2025-11-16
+date: 2025-08-08
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravské víno", "bílé víno", "vinařství", "Morava"]

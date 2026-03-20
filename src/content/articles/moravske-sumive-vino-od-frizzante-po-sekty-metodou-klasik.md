@@ -1,7 +1,7 @@
 ---
 title: "Moravské šumivé víno: Od frizzante po sekty metodou klasickou"
 description: "Moravští vinaři experimentují s šumivými víny od jemných frizzantů po sekty tradiční metodou. Objevte rozdíly a nové trendy."
-date: 2025-12-23
+date: 2025-09-17
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "moravské víno", "sekt", "frizzante"]

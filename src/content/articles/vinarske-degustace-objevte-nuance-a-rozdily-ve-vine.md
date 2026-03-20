@@ -1,7 +1,7 @@
 ---
 title: "Vinařské degustace: Objevte nuance a rozdíly ve víně"
 description: "Naučte se pořádat dokonalé vinařské degustace. Horizontální vs. vertikální degustace, tipy pro porovnávání vín a vytvoření nezapomenutelného zážitku."
-date: 2025-10-06
+date: 2025-06-29
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["vinařské degustace", "ochutnávka vína", "horizontální degustace", "vertikální degustace"]

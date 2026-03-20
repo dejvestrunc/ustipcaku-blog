@@ -1,7 +1,7 @@
 ---
 title: "Moravské rosé: Průvodce výběrem kvalitního růžového vína"
 description: "Objevte tajemství moravského rosé vína. Praktický průvodce výběrem kvalitního růžového vína od experta s tipy, na co si dát pozor."
-date: 2026-03-12
+date: 2026-01-28
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["moravské rosé", "růžové víno", "výběr vína", "moravské víno"]

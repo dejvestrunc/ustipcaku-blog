@@ -1,7 +1,7 @@
 ---
 title: "Červená vína v zimě - Proč je zima ideální pro degustaci"
 description: "Objevte, proč jsou chladné měsíce nejlepší dobou pro poznávání komplexních červených vín. Tipy pro zimní degustaci a párování s pokrmy."
-date: 2025-10-16
+date: 2025-07-07
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červená vína", "zimní degustace", "párování vín", "vinařství"]

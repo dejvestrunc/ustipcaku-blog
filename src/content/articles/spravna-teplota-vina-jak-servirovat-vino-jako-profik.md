@@ -1,7 +1,7 @@
 ---
 title: "Správná teplota vína: jak servírovat víno jako profík"
 description: "Naučte se servírovat víno při správné teplotě. Zjistěte, jak teplota ovlivňuje chuť a vůni vína a praktické tipy pro dosažení ideální teploty."
-date: 2025-09-27
+date: 2025-06-20
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["teplota vína", "servírování vína", "vinařské tipy", "degustace"]

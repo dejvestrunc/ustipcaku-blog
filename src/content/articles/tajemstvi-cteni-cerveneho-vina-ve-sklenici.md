@@ -1,7 +1,7 @@
 ---
 title: "Tajemství čtení červeného vína ve sklenici"
 description: "Naučte se číst signály červeného vína přímo ve sklenici. Odhalte kvalitu, věk a způsob výroby z jediného doušku jako zkušený sommeliér."
-date: 2025-12-31
+date: 2025-09-26
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "degustace vína", "vinařství", "sommeliér"]

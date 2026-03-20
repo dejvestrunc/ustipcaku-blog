@@ -1,7 +1,7 @@
 ---
 title: "Jak vyladit víno ve sklenici: Triky sommelierů"
 description: "Objevte osvědčené techniky sommelierů, jak přímo ve sklenici vyladit kyselé, drsné nebo nevyvážené víno. Praktické tipy pro každého vinaře."
-date: 2026-02-03
+date: 2025-10-21
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["vyladění vína", "sommelieři", "degustace vína", "vinařské techniky"]

@@ -1,7 +1,7 @@
 ---
 title: "Jak otevřít víno bez komplikací - Profesionální triky"
 description: "Až 15 % domácích pokusů o otevření vína skončí komplikací. Naučte se profesionální triky a vyberte správnou vývrtku pro domácí použití."
-date: 2026-02-27
+date: 2025-11-24
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["otevírání vína", "výběr vývrtky", "sommelier tipy", "domácí vinařství"]

@@ -1,7 +1,7 @@
 ---
 title: "Jaké víno k sýrovému fondue"
 description: "Sýrové fondue vyžaduje správné víno — jedno na vaření a jedno na pití. Poradíme s obojím."
-date: 2026-03-06
+date: 2026-01-05
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["fondue", "sýr", "párování", "zima"]

@@ -1,7 +1,7 @@
 ---
 title: "Jak číst etiketu na víně"
 description: "Etiketa vína obsahuje spoustu informací - pokud víte, kde hledat. Naučte se rozklíčovat kategorii, ročník a původ."
-date: 2026-03-09
+date: 2026-01-15
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["etiketa", "vzdělávání", "kategorie", "tipy"]

@@ -1,7 +1,7 @@
 ---
 title: "Moravské rosé: Jak dlouho vydrží a kdy je nejlepší pít"
 description: "Objevte pravdu o trvanlivosti moravských rosé vín. Zbořte mýty o rychlé spotřebě a dozvíte se, která rosé dokážou zrát roky."
-date: 2025-11-08
+date: 2025-07-29
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "moravské víno", "trvanlivost vína", "zrání vína"]

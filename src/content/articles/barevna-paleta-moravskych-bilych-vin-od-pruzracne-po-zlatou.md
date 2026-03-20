@@ -1,7 +1,7 @@
 ---
 title: "Barevná paleta moravských bílých vín - od průzračné po zlatou"
 description: "Objevte fascinující škálu barev moravských bílých vín. Každý odstín vypovídá příběh o odrůdě a způsobu zpracování. Tajemství barev vína."
-date: 2025-09-24
+date: 2025-06-15
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["moravská bílá vína", "barva vína", "odrůdy vín", "vinařství"]

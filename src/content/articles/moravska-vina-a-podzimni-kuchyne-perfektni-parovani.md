@@ -1,7 +1,7 @@
 ---
 title: "Moravská vína a podzimní kuchyně: Perfektní párování"
 description: "Objevte, jak správně spárovat moravská vína s podzimními pokrmy. Tipy pro kombinace s dýní, divočinou a houbami od vinařských expertů."
-date: 2026-03-05
+date: 2026-01-02
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "párování vína", "podzimní kuchyně", "food pairing"]

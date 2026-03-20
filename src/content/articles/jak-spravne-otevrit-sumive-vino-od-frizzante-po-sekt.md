@@ -1,7 +1,7 @@
 ---
 title: "Jak správně otevřit šumivé víno: od Frizzante po sekt"
 description: "Naučte se správnou techniku otevírání a degustace šumivých vín. Každý typ vyžaduje jiný přístup - od jemného Frizzante až po energický sekt."
-date: 2025-10-10
+date: 2025-07-01
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé víno", "frizzante", "sekt", "degustace"]

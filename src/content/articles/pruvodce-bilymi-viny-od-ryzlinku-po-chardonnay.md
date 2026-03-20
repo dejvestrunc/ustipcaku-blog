@@ -1,7 +1,7 @@
 ---
 title: "Průvodce bílými víny - Od Ryzlinku po Chardonnay"
 description: "Objevte rozmanitost bílých vín - od minerálních Ryzlinků po bohaté Chardonnay. Kompletní průvodce moravskými bílými víny a styly vinifikace."
-date: 2026-02-23
+date: 2025-11-17
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["bílá vína", "Ryzlink rýnský", "Chardonnay", "moravské víno"]

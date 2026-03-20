@@ -1,7 +1,7 @@
 ---
 title: "Červené víno pro začátečníky"
 description: "Nevíte, kde začít s červeným vínem? Přinášíme průvodce odrůdami, chutěmi a základy degustace pro nováčky."
-date: 2026-03-17
+date: 2026-02-23
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["červené víno", "začátečníci", "průvodce", "degustace"]

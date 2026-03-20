@@ -1,7 +1,7 @@
 ---
 title: "Frankovka – královna moravských červených vín"
 description: "Frankovka je odrůda, která na Moravě našla svůj druhý domov. Proč si zaslouží více pozornosti?"
-date: 2026-03-10
+date: 2026-01-18
 category: "cervene-vino"
 categoryLabel: "Červené víno"
 tags: ["frankovka", "červené víno", "morava", "odrůdy"]

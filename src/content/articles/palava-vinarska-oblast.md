@@ -1,7 +1,7 @@
 ---
 title: "Pálava — kde se rodí nejlepší moravská vína"
 description: "Pálavská podoblast je klenotem českého vinařství. Objevte, co dělá zdejší vína tak výjimečnými."
-date: 2026-03-08
+date: 2026-01-12
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["pálava", "vinařské regiony", "morava", "terroir"]

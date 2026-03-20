@@ -1,7 +1,7 @@
 ---
 title: "Dub a bílá vína: Jak dubování mění moravské víno"
 description: "Objevte, jak dubování ovlivňuje bílá moravská vína. Proč moderní vinaři používají dub u bílých odrůd a jak to mění jejich chuť a strukturu."
-date: 2026-03-20
+date: 2026-03-13
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["dubování vína", "bílá vína", "moravské víno", "vinařské techniky"]

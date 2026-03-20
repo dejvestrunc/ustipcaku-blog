@@ -1,7 +1,7 @@
 ---
 title: "Spontánní kvašení — co to je a proč ho děláme"
 description: "Spontánní kvašení je návrat ke kořenům vinařství. Žádné přidané kvasinky, jen příroda a trpělivost."
-date: 2026-03-07
+date: 2026-01-10
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["spontánní kvašení", "přírodní víno", "výroba", "kvasinky"]

@@ -1,7 +1,7 @@
 ---
 title: "Vinný kámen a kyselina vinná - Tajemství bílých vín"
 description: "Objevte, jak vinný kámen a kyselina vinná ovlivňují chuť a kvalitu bílých vín. Vše o jejich roli v Ryzlinku a Sauvignonu."
-date: 2026-01-31
+date: 2025-10-19
 category: "bile-vino"
 categoryLabel: "Bílé víno"
 tags: ["vinný kámen", "kyselina vinná", "bílé víno", "kvašení"]

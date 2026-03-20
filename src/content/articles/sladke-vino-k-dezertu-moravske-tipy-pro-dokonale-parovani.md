@@ -1,7 +1,7 @@
 ---
 title: "Sladké víno k dezertu: Moravské tipy pro dokonalé párování"
 description: "Objevte pravidla párování moravských vín se sladkými pokrmy. Zlaté pravidlo: víno musí být sladší než dezert. Tipy pro dokonalé sladké chvíle."
-date: 2026-02-11
+date: 2025-10-29
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["sladké víno", "párování vína", "moravské víno", "dezerty"]

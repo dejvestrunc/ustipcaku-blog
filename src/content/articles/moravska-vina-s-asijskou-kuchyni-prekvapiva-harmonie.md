@@ -1,7 +1,7 @@
 ---
 title: "Moravská vína s asijskou kuchyní: Překvapivá harmonie"
 description: "Objevte, jak moravská vína dokonale doplní asijské chutě. Naučte se základní principy párování bez potřeby saké či rýžového vína."
-date: 2025-12-20
+date: 2025-09-12
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["moravská vína", "asijská kuchyně", "párování vína", "gastronomie"]

@@ -1,7 +1,7 @@
 ---
 title: "Velké Pavlovice: Srdce moravského vinařství a jeho tradice"
 description: "Objevte Velké Pavlovice - vinařskou podoblast na úpatí Pavlovských vrchů. Ideální podmínky pro kvalitní moravská vína a staletí tradice."
-date: 2026-02-07
+date: 2025-10-24
 category: "vinarske-regiony"
 categoryLabel: "Vinařské regiony"
 tags: ["Velké Pavlovice", "moravské víno", "vinařství", "vinařská oblast"]

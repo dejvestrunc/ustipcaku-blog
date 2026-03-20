@@ -1,7 +1,7 @@
 ---
 title: "Rosé vína: Od antiky k modernímu boomu růžových vín"
 description: "Objevte fascinující historii rosé vín od antických Římanů po současnost. Růžová vína nejsou zředěná červená - mají vlastní pravidla a potenciál."
-date: 2026-01-23
+date: 2025-10-13
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé vína", "růžové víno", "historie vína", "Provence"]

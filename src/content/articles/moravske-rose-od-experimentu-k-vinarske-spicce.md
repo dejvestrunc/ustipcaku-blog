@@ -1,7 +1,7 @@
 ---
 title: "Moravské rosé - Od experimentu k vinařské špičce"
 description: "Objevte, jak se moravská rosé vína vyvinula z kuriozity ve světovou špičku. Moderní rosé vinařství s jedinečnou elegancí a vlastními pravidly."
-date: 2025-10-14
+date: 2025-07-03
 category: "rose"
 categoryLabel: "Rosé"
 tags: ["rosé víno", "moravská vína", "vinařství", "růžové víno"]

@@ -1,7 +1,7 @@
 ---
 title: "Jak párovat moravský Ryzlink s jídlem"
 description: "Ryzlink rýnský patří mezi krále moravských bílých vín. Podívejte se, s jakými pokrmy vynikne nejlépe a jak ho správně servírovat."
-date: 2026-03-19
+date: 2026-03-06
 category: "parovani-s-jidlem"
 categoryLabel: "Párování s jídlem"
 tags: ["bílé víno", "ryzlink", "párování s jídlem", "morava"]

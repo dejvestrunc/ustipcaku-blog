@@ -1,7 +1,7 @@
 ---
 title: "5 nejčastějších chyb při výběru vína"
 description: "Vyhněte se typickým chybám, které dělá většina lidí při nákupu vína. Od ceny po párování s jídlem."
-date: 2026-03-01
+date: 2025-12-05
 category: "tipy-a-triky"
 categoryLabel: "Tipy a triky"
 tags: ["tipy", "nákup", "chyby", "výběr"]

@@ -1,7 +1,7 @@
 ---
 title: "Šumivé víno vs. sekt vs. prosecco - jaký je rozdíl?"
 description: "Perlení je perlení, ne? Ve skutečnosti existují velké rozdíly v metodách výroby i chuti. Vysvětlujeme."
-date: 2026-03-14
+date: 2026-02-11
 category: "sumive"
 categoryLabel: "Frizzante a šumivé"
 tags: ["šumivé", "sekt", "prosecco", "metody výroby"]
